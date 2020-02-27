@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import './Nav.css';
 import './Social.css';
-// import './Glitch.css';
+import './Glitch.css';
 import Header from './components/Header.js';
 
 
