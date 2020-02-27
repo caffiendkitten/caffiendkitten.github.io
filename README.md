@@ -14,7 +14,8 @@ See it at <a href="https://caffiendkitten.github.io/myportfolio/">caffiendkitten
 <b>LinkedIn:</b>  www.linkedin.com/in/daneil-coulthard<br />
 <b>GitHub:</b> https://github.com/caffiendkitten<br />
 <b>Dev.to:</b> https://dev.to/caffiendkitten<br />
-<b>HackThebox:</b> https://bugcrowd.com/caffiendkitten<br />
+<b>Pentesterlab:</b> https://pentesterlab.com/profile/CaffiendKitten<br />
+<b>HackThebox:</b> https://www.hackthebox.eu/profile/67366<br />
 <b>HackerOne:</b> https://hackerone.com/caffiendkitten<br />
 <b>BugCrowd:</b> https://bugcrowd.com/caffiendkitten<br />
 
