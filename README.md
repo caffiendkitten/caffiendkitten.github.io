@@ -8,7 +8,7 @@ I take pride in being a self-starter/team player with good multitasking skills a
 I have project manager and team leader experience in directing all phases of complex projects while motivating and mentoring team members.
 
 This site will be built around my progress and my process of <br /> getting intoInfo Sec.<br /> 
-See it at <a href="https://caffiendkitten.github.io/myportfolio/">caffiendkitten.github.io/myportfolio/</a> </p>
+See it at <a href="https://caffiendkitten.github.io">caffiendkitten.github.io</a> </p>
 
 <p><b>Connect with me:</b><br />
 <b>LinkedIn:</b>  www.linkedin.com/in/daneil-coulthard<br />
