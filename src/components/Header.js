@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router,
-    Route,
-    Switch,
-    NavLink
-  } from "react-router-dom";
+        BrowserRouter as Router,
+        Route,
+        Switch,
+        NavLink
+    } from "react-router-dom";
 
 import Home from '../containers/Home.js'
 // import Contact from '../containers/Contact.js'
@@ -23,34 +23,34 @@ class Header extends Component {
     //     	var sidebarStatus = 'hidden';
     //   }
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             addClass: false,
-            navClass: "hide"
+            navClass: ""
         }
     }
 
     handleOpenNav = () => {
 
-        if(this.state.addClass === false) {
+        if(this.state.addClass === true ) {
+            this.setState({navClass: ""});
+            this.setState({addClass: false});
+            document.getElementById("mySidenav").style.width = "0";
+
+
+            document.getElementById('root').removeEventListener('click',this.handleOpenNav )
+            // document.getElementById('menu-icon').removeEventListener('click',this.handleOpenNav )
+        } else {
+
             this.setState({navClass: "active"});
             this.setState({addClass: true});
 
             document.getElementById("mySidenav").style.width = "250px";
             // document.getElementById("hamburger").style.backgroundColor = "#ffffff";
             document.getElementById('root').addEventListener('click',this.handleOpenNav )
-
-
-        } else {
-            this.setState({navClass: "hide"});
-            this.setState({addClass: false});
-
-            document.getElementById("mySidenav").style.width = "0";
-            // document.getElementByClassName("App").style.marginLeft = "0";
-            // document.getElementById("hamburger").style.backgroundColor = "#000000";
-            document.getElementById('root').removeEventListener('click',this.handleOpenNav )
-
+            // document.getElementById('menu-icon').addEventListener('click',this.handleOpenNav )
+            // document.getElementById('hamburger').getElementsByClassName('active').removeEventListener('click',this.handleOpenNav )
 
         }
     }   
@@ -72,7 +72,7 @@ class Header extends Component {
     render(){
         // let navClass = [""];
         // if(this.state.addClass) {
-        //     navClass.push('active');
+        //     this.setState({navClass: "active"});
         // }
         return <div className='navbar'>
             <img src="header.jpeg" alt="books used for ethical hacking education"/>

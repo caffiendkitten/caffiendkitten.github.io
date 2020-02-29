@@ -51,12 +51,12 @@
 }
 
 /* Show and hide side nav */
-.show-sidebar {
+.sidenav.show-sidebar {
 	/* left: 0px; */
 	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 	transition: all .5s;
 }
-.hide-sidebar {
+.sidenav.hide-sidebar {
 	/* left: -300px; */
 	clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 100%);
 	transition: all .5s;
@@ -65,7 +65,7 @@
 
  /* burger */
   #menu-icon {
-    z-index: 4;
+    z-index: 100;
 
     position: fixed;
     left: 20px;
@@ -85,7 +85,7 @@
 }
 
 #hamburger {
-  	background-color: #22313F;
+  background-color: #22313F;
 
 }
 
@@ -123,7 +123,7 @@
 	width: 40px;
 }
 
- #menu-icon #hamburger.active{
+#menu-icon #hamburger.active{
   background-color: rgba(255, 255, 255, 0);
   
 }
