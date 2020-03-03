@@ -91,7 +91,7 @@ class Header extends Component {
 
             <div className='navbar' id='navBar'>
                 
-            <Router >
+            <Router basename={process.env.PUBLIC_URL}>
                 <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
                 {/* <a href="#" className="closebtn"  onClick={this.handleCloseNav} >x</a> */}
                 {/* <div className="active" onClick={this.handleCloseNav} id="menu-icon">
