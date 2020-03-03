@@ -4,12 +4,11 @@ import Footer from "./Footer.js"
 
 const Projects = () => {
     return <div className="content">
-
         <h3>Academic Projects</h3>
 
         <div className="row">
             <div className="column side">
-            <p></p>
+                <p className="resourcesSide"></p>
             </div>
             
             <div className="column middle projects">
@@ -25,8 +24,8 @@ const Projects = () => {
                     <td className="projectLink">
                         <a href="https://github.com/caffiendkitten/codeProjects" target="_blank" rel="noopener noreferrer" >https://github.com/caffiendkitten/codeProjects</a><br />
                     </td>
-                    </tr>
-                    <tr>
+                </tr>
+                <tr>
                     <td className="projectInfo"  colSpan={2} >
                         <b>Password Manager (2019): </b><br />Built a password manager utilizing Cryptr AES-256-CRT encryption/decryption, BCrypt hashing of passwords, JavaScript and HTML for validations of user input, Ruby for backend Postgres database validations, and JWT HS256 signatures for user state validation.
                     </td>
@@ -38,8 +37,8 @@ const Projects = () => {
                         <a href="https://github.com/caffiendkitten/Final-Project-Backend" target="_blank" rel="noopener noreferrer" >Backend Repository</a><br />
                         <a href="https://github.com/caffiendkitten/Final-Project-Frontend" target="_blank" rel="noopener noreferrer" >Frontend Repository</a>
                     </td>
-                    </tr>
-                    <tr>
+                </tr>
+                <tr>
                     <td  colSpan={2}>
                         <b>Song Searcher/Saver with Location Searching (2019): </b><br />Built an application to search for artists and save songs via the Last FM API allowing users to see tour dates for a city via the Ticket Master API.
                     </td>
@@ -49,14 +48,14 @@ const Projects = () => {
                     <td  className="projectLink">
                         <a href="https://the-final-fm.herokuapp.com" target="_blank" rel="noopener noreferrer" >https://the-final-fm.herokuapp.com</a><br />
                     </td>
-                    </tr>
+                </tr>
                 </table>
 
 
             </div>
             
             <div className="column side">
-                <p></p>
+                <p className="resourcesSide"></p>
             </div>
 
         </div>

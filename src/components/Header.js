@@ -36,16 +36,13 @@ class Header extends Component {
             this.setState({navClass: ""});
             this.setState({addClass: false});
             // document.getElementById("mySidenav").style.width = "0";
-console.log("close")
     document.getElementById('overlay').classList.remove('is-visible');
     document.getElementById('sidenav').classList.remove('show-sidebar');
     // document.getElementById('sidenav a').classList.remove('show-sidebar');
-
         } else if(this.state.navClass === "" ) {
             this.setState({addClass: true});
             this.setState({navClass: "active"});
             // document.getElementById("mySidenav").style.width = "250px";
-console.log("open")
     document.getElementById('overlay').classList.add('is-visible');
     document.getElementById('sidenav').classList.add('show-sidebar');
     // document.getElementById('sidenav a').classList.add('show-sidebar');
@@ -55,12 +52,8 @@ console.log("open")
     handleOverlay = () => {
         this.setState({navClass: ""});
         this.setState({addClass: false});
-        // document.getElementById("mySidenav").style.width = "0";
         document.getElementById('sidenav').classList.remove('show-sidebar');
-console.log("Overlay:close")
-
         document.getElementById('overlay').classList.remove('is-visible')
-
     }
 
 
@@ -80,12 +73,6 @@ console.log("Overlay:close")
 
 
     render(){
-        // let navClass = [""];
-        // if(this.state.addClass) {
-        //     this.setState({navClass: "active"});
-        // }
-
-
         return <div id='body'>
     
             <div id="header">
@@ -95,9 +82,6 @@ console.log("Overlay:close")
                 <div onClick={this.handleNav} id="menu-icon" className="menu-icon">
                     <div className={this.state.navClass} id="hamburger"></div>
                 </div>
-
-                {/* <span className="navButton" onClick={this.handleOpenNav}><i className="fa fa-list" aria-hidden="true"></i></span> */}
-
 
                 {/* <div className="glitch" data-text="Caffiendkitten">Caffiendkitten</div>  */}
                 <h1>DaNeil Coulthard // CaffiendKitten</h1>
