@@ -13,8 +13,7 @@ import CTF from '../containers/CTF.js'
 import Projects from '../containers/Projects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
 import Resources from '../containers/Resources.js'
-// import Notfound from './notfound.js'  
-
+// import NotFound404 from '../404.html'
 
 class Header extends Component {
 
@@ -91,7 +90,7 @@ class Header extends Component {
 
             <div className='navbar' id='navBar'>
                 
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router >
                 <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
                 {/* <a href="#" className="closebtn"  onClick={this.handleCloseNav} >x</a> */}
                 {/* <div className="active" onClick={this.handleCloseNav} id="menu-icon">
@@ -114,6 +113,8 @@ class Header extends Component {
                 <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
                 <Route path ="/resources" exact render={() => <Resources  />} ></Route>
                 <Route component={Home}/>
+                {/* <Route path='*' component={NotFound404} /> */}
+
             </Switch>
             </Router>
             </div>
