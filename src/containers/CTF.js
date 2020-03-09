@@ -25,6 +25,7 @@ const CTF = () => {
                     <td className="projectLink">
                         <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
                         <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-2-1km8" target="_blank" rel="noopener noreferrer" >Exercise #2</a><br />
+                        <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-3-54b3" target="_blank" rel="noopener noreferrer" >Exercise #3</a><br />
                     </td>
                     </tr>
                     <tr>
