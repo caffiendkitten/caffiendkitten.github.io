@@ -3,7 +3,9 @@ import {
         BrowserRouter as Router,
         Route,
         Switch,
-        NavLink
+        NavLink,
+        Link,
+        HashRouter
     } from "react-router-dom";
 
 import Home from '../containers/Home.js'
@@ -90,7 +92,7 @@ class Header extends Component {
 
             <div className='navbar' id='navBar'>
                 
-            <Router >
+            {/* <Router >
                 <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
                 {/* <a href="#" className="closebtn"  onClick={this.handleCloseNav} >x</a> */}
                 {/* <div className="active" onClick={this.handleCloseNav} id="menu-icon">
@@ -98,7 +100,7 @@ class Header extends Component {
                 </div> 
                 */}
                 
-                    <NavLink to="/" activeClassName="active">Home</NavLink>
+                    {/* <NavLink to="/" activeClassName="active">Home</NavLink>
                     <NavLink to="/blogs" activeClassName="chosen">Blogs</NavLink>
                     <NavLink to="/ctf" activeClassName="chosen">CTF Work</NavLink>
                     <NavLink to="/projects" activeClassName="chosen">Projects</NavLink>
@@ -112,11 +114,57 @@ class Header extends Component {
                 <Route path ="/projects" exact render={() => <Projects  />} ></Route>
                 <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
                 <Route path ="/resources" exact render={() => <Resources  />} ></Route>
-                <Route component={Home}/>
+                <Route component={Home}/> */}
                 {/* <Route path='*' component={NotFound404} /> */}
 
+            {/* </Switch>
+            </Router> */ }
+
+
+            <HashRouter basename='/'>
+                <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
+                {/* <a href="#" className="closebtn"  onClick={this.handleCloseNav} >x</a> */}
+                {/* <div className="active" onClick={this.handleCloseNav} id="menu-icon">
+                    <div className="active" id="hamburger"></div>
+                </div> 
+                */}
+                
+                    {/* <NavLink to="/" activeClassName="active">Home</NavLink>
+                    <NavLink to="/blogs" activeClassName="chosen">Blogs</NavLink>
+                    <NavLink to="/ctf" activeClassName="chosen">CTF Work</NavLink>
+                    <NavLink to="/projects" activeClassName="chosen">Projects</NavLink>
+                    <NavLink to="/ConsAndMeetups" activeClassName="chosen">Cons And Meetups</NavLink>
+                    <NavLink to="/resources" activeClassName="chosen">Info Resources</NavLink> */}
+                    <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/blogs">Blogs</Link></li>
+                        <li><Link to="/ctf">CTF Work</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/ConsAndMeetups">Cons And Meetups</Link></li>
+                        <li><Link to="/resources">Info Resources</Link></li>
+                    </ul>
+                </div>
+            <Switch>
+                <Route  exact path ="/"  render={() => <Home  />} ></Route>
+                <Route path ="/blogs" exact render={() => <Blogs  />} ></Route>
+                <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
+                <Route path ="/projects" exact render={() => <Projects  />} ></Route>
+                <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
+                <Route path ="/resources" exact render={() => <Resources  />} ></Route>
+                <Route component={Home}/>
+                {/* <Route path='*' component={NotFound404} /> */}
+                {/* <Route exact path="/" component={Home} />
+                <Route path="/blogs" component={Blogs} />   
+                <Route path="/ctf" component={About} />   
+                <Route path="/projects" component={About} />   
+                <Route path="/ConsAndMeetups" component={About} />   
+                <Route path="/resources" component={About} />    */}
+
             </Switch>
-            </Router>
+            </HashRouter>
+
+
+
             </div>
 
         
