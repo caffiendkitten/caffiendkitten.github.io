@@ -5,11 +5,12 @@ const Home = () => {
     return <div className="content">
 
         <div className="row">
-            <div className="column side">
+            {/* <div className="column side">
                 <h5>Continued Education</h5>
                 <p className="technicalSkills"> 
                     <b>Pentester Lab</b>
                     <ul>
+                        <li>Blue Badge | April 03, 2020</li>
                         <li>Serialize Badge | February 17, 2020</li>
                         <li>White Badge | February 12, 2020</li>
                         <li>PCAP Badge | February 5, 2020</li>
@@ -62,16 +63,48 @@ const Home = () => {
 
 
 
+            </div> */}
+            <div className="column side">
+                <p className="resourcesSide"></p>
             </div>
             
             <div className="column middle">
                 <h3>Welcome To My Portfolio</h3>
-                <p>My name is DaNeil and I am a Security researcher performing responsible 
-            disclosure and full stack software/security engineer with a passion for 
-            aligning security controls, processes, policies and procedures. <br />
-            I take pride in being a self-starter/team player with good multitasking skills and a 
-            desire to consistently exceed expectations. 
-            I have project manager and team leader experience in directing all phases of complex projects while motivating and mentoring team members.</p>
+                <p>My name is DaNeil and I am a Quality-driven security researcher 
+                    and full stack software/security engineer with a passion for performing 
+                    responsible disclosure and aligning security controls, processes, policies and procedures.
+                    <br />
+                    Experienced in leveraging tool-based testing and manual hands-on testing of web 
+                    applications and network services while utilizing web and network application 
+                    guidelines and following industry-standard best practices and methodologies, such as OWASP and PTES.
+                </p>
+                <p>
+                    I am passionate about Information Security and enthusiastic about finding 
+                    security vulnerabilities. I am active within the Capture the Flag community 
+                    and local tech meetup groups such as the CyberSecurity Non-Profit that I am a 
+                    chapter organizer for, WISP, WoSec, and OWASP.
+                </p>
+                <p>
+                    I am seeking a Vulnerability Researcher / Penetration Tester position that 
+                    will push my experience and skills to the limit and also offer a challenging 
+                    future with room for learning and advancement.
+                </p>
+
+                <p>
+                I started my transition into Information Security as a Web Dev Student at LCSC. 
+                From here I took an interest in Information Systems and went to City University of Seattle 
+                to finish my BA. During this time I became fascinated with security started down the 
+                research path of discovering bugs in code and applications. I am a highly motivated and 
+                a self-taught pentesting through CTFs and Bug Bounties. While learning pentesting I 
+                became a graduate of Flatiron School's intensive Immersive Fullstack Software Engineering 
+                program to better understand how web applications were built while being taught to make them 
+                myself. During my time at Flatiron, I had the opportunity to work both collaboratively and 
+                independently to conceive and create multiple fullstack React and Ruby on Rails web applications 
+                in a fast-moving, high-stress environment.
+
+                </p>
+
+
                 <p>This site will be built around my progress and my process of getting into Info Sec.</p>
 
             <p><b>Connect with me:</b><br />
@@ -88,8 +121,10 @@ const Home = () => {
 
 
             </div>
-            
             <div className="column side">
+                <p className="resourcesSide"></p>
+            </div>
+            {/* <div className="column side">
 
                 <h5>Technical Skills </h5>
                 <p className="technicalSkills">
@@ -114,7 +149,7 @@ const Home = () => {
                 Computer Science | Java, Computer Science || Java, Cybercrime, Tech and Social Change, Human Computer Interaction, IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, Novell/Linux OS, Operating Systems, Operating Systems: MS Windows, PC Technician Fundamentals, Programming with Python, Systems Analysis and Design
 
                 </p>
-            </div>
+            </div> */}
         </div>
         <div className="footer">
             <Footer />

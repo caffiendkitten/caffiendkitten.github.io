@@ -2,9 +2,9 @@ import React from 'react'
 import Footer from "./Footer.js"
 
 
-const Blogs = () => {
+const Blog = () => {
     return <div className="content">
-        <h3>Blogs</h3>
+        <h3>Blog</h3>
 
         <div className="row">
             <div className="column side">
@@ -28,4 +28,4 @@ const Blogs = () => {
     </div>       
 }
         
-export default Blogs
+export default Blog
