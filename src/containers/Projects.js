@@ -7,7 +7,7 @@ const Projects = () => {
         <h3>Academic Projects</h3>
 
         <div className="row">
-            <div className="column side">
+            <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
             
@@ -54,7 +54,7 @@ const Projects = () => {
 
             </div>
             
-            <div className="column side">
+            <div className="column right">
                 <p className="resourcesSide"></p>
             </div>
 

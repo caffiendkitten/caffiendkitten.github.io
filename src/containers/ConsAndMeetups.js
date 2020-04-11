@@ -8,7 +8,7 @@ const ConsAndMeetups = () => {
             <p>I like to stay active and up to date in the Tech community and these are some events and conferences I have attended.</p>
 
     <div className="row">
-        <div className="column side">
+        <div className="column left">
         <p className="resourcesSide"></p>
         </div>
         
@@ -26,7 +26,7 @@ const ConsAndMeetups = () => {
         
         </div>
         
-        <div className="column side">
+        <div className="column right">
             <p className="resourcesSide"></p>
         </div>
     </div>

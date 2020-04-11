@@ -10,7 +10,7 @@ const Resume = () => {
             {/* <div className="column side">
                 <p className="resourcesSide"></p>
             </div> */}
-            <div className="column side">
+            <div className="column left">
                 <h5>Continued Education</h5>
                 <p className="technicalSkills"> 
                     <b>Pentester Lab</b>
@@ -73,11 +73,11 @@ const Resume = () => {
             <div className="column middle">
                 {/* <dev-widget data-username="caffiendkitten" data-width="600px" ></dev-widget> */}
                 {/* <img src="../docs/DaNeil_Coulthard_Resume.pdf" width="800px" height="2100px" /> */}
-                {/* <iframe src="../docs/DaNeil_Coulthard_Resume.pdf#toolbar=0" width="100%" height="500px">
-                </iframe> */}
-                <object width="400" height="400" data="../docs/DaNeil_Coulthard_Resume.pdf" type="application/pdf"></object>
+                <iframe src="../docs/DaNeil_Coulthard_Resume.pdf#toolbar=0" width="100%" height="700px">
+                </iframe>
+                {/* <object width="100%" height="700" data="../docs/DaNeil_Coulthard_Resume.pdf" type="application/pdf"></object> */}
 
-
+                {/* <embed src="../docs/DaNeil_Coulthard_Resume.pdf" width="100%" height="100%" type="application/pdf"></embed> */}
 
 
             </div>
@@ -85,7 +85,7 @@ const Resume = () => {
             {/* <div className="column side">
                 <p className="resourcesSide"></p>
             </div> */}
-            <div className="column side">
+            <div className="column right">
                 <h5>Technical Skills </h5>
                 <p className="technicalSkills">
                     <b>Languages:</b> Ruby, React, JavaScript, Python, HTML5/CSS3, SQL<br />

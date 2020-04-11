@@ -64,7 +64,7 @@ const Home = () => {
 
 
             </div> */}
-            <div className="column side">
+            <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
             
@@ -121,7 +121,7 @@ const Home = () => {
 
 
             </div>
-            <div className="column side">
+            <div className="column right">
                 <p className="resourcesSide"></p>
             </div>
             {/* <div className="column side">

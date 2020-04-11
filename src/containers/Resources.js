@@ -7,7 +7,7 @@ const Resources = () => {
         <h3>Info Resources</h3>
 
         <div className="row">
-            <div className="column side">
+            <div className="column left">
             <p className="resourcesSide">
 
                 Cyber News
@@ -49,7 +49,7 @@ const Resources = () => {
                                 <li><a className="resourcesTable" href="https://exploit-exercises.lains.space/mainsequence/"  target="_blank" rel="noopener noreferrer" >Mainsequence</a></li>
                                 <li><a className="resourcesTable" href="https://pentesterlab.com/"  target="_blank" rel="noopener noreferrer" >Pentester Lab</a></li>
                             </ul>                              
-                           
+                        
 
                         </td>
                         <td>
@@ -168,7 +168,7 @@ const Resources = () => {
 
             </div>
             
-            <div className="column side">
+            <div className="column right">
                 <p className="resourcesSide">
                 Good Reading/Resources
                         <ul>

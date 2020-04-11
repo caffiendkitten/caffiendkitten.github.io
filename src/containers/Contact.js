@@ -5,8 +5,8 @@ import Footer from "./Footer.js"
 const Contact = () => {
     return <div className="content">
         <div className="row">
-        <div className="column side">
-        <p></p>
+        <div className="column left">
+            <p className="resourcesSide"></p>
         </div>
         
         <div className="column middle">
@@ -20,8 +20,8 @@ const Contact = () => {
 
         </div>
         
-        <div className="column side">
-            <p></p>
+        <div className="column right">
+            <p className="resourcesSide"></p>
         </div>
     </div>
     <div className="footer">

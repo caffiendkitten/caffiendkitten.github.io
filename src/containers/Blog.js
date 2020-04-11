@@ -7,7 +7,7 @@ const Blog = () => {
         <h3>Blog</h3>
 
         <div className="row">
-            <div className="column side">
+            <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
         
@@ -15,7 +15,7 @@ const Blog = () => {
                 <dev-widget data-username="caffiendkitten" data-width="600px" ></dev-widget>
             </div>
         
-            <div className="column side">
+            <div className="column right">
                 <p className="resourcesSide"></p>
             </div>
         </div>

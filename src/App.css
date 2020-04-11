@@ -49,22 +49,38 @@
 .content{
   text-align: center;
 }
-
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
+  width: 100%;
+  /* flex: 25%; */
+
 }
 /* Left and right column */
-.column.side {
+.column.left {
   width: 25%;
+  order: 1;
+  -webkit-order: 1;
+}
+/* Left and right column */
+.column.right {
+  width: 25%;
+  order: 3;
+  -webkit-order: 3;
 }
 /* Middle column */
 .column.middle {
   width: 50%;
   padding-bottom: 90px;
-
+  order: 2;
+  -webkit-order: 2;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -76,11 +92,66 @@
   box-sizing: border-box;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+/* On screens that are 1024px wide or less, go from 3 columns to two columns */
+@media  screen and (min-width: 600px) and (max-width: 1024px) {
+  /* .row{
+    flex-direction: column;
+  } */
+  .column {
     width: 100%;
   }
+  .column.left {
+    order: 2;
+    -webkit-order: 2;
+    width: 50%;
+    background: yellow;
+
+  }
+  .column.middle {
+    order: 1;
+    -webkit-order: 1;
+    width: 100%;
+
+  }
+  .column.right {
+    order: 3;
+    -webkit-order: 3;
+    width: 50%;
+  }
+
 }
+/* On screens that are 480px wide or less, make the columns stack on top of each other instead of next to each other */
+@media  screen and  (max-device-width: 600px){ 
+  /* .row{(min-device-width: 320px) and
+    flex-direction: column;
+  } */
+  .column {
+    width: 100%;
+  }
+  .column.left {
+    order: 2;
+    -webkit-order: 2;
+    /* width: 100%; */
+    background: blue;
+
+  }
+  .column.middle {
+    order: 1;
+    -webkit-order: 1;
+    /* width: 100%; */
+  }
+  .column.right {
+    order: 3;
+    -webkit-order: 3;
+    /* width: 100%; */
+  }
+}
+
+
+
+
+
+
 /* Style the footer */
 .footer {
   position: fixed;

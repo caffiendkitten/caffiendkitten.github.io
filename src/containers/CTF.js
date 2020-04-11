@@ -8,8 +8,8 @@ const CTF = () => {
         <h3>CTFs</h3>
 
         <div className="row">
-            <div className="column side">
-            <p></p>
+            <div className="column left">
+                <p className="resourcesSide"></p>
             </div>
             
             <div className="column middle projects">
@@ -74,8 +74,8 @@ const CTF = () => {
 
             </div>
             
-            <div className="column side">
-                <p></p>
+            <div className="column right">
+                <p className="resourcesSide"></p>
             </div>
 
         </div>
