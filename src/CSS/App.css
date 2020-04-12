@@ -20,7 +20,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* color: black; */
 }
 
 .App img {
@@ -49,7 +48,8 @@
 .content{
   text-align: center;
 }
-/* Container for flexboxes */
+
+/* Container for flex-boxes */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -91,62 +91,6 @@
 * {
   box-sizing: border-box;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-/* On screens that are 1024px wide or less, go from 3 columns to two columns */
-@media  screen and (min-width: 600px) and (max-width: 1024px) {
-  /* .row{
-    flex-direction: column;
-  } */
-  .column {
-    width: 100%;
-  }
-  .column.left {
-    order: 2;
-    -webkit-order: 2;
-    width: 50%;
-    background: yellow;
-
-  }
-  .column.middle {
-    order: 1;
-    -webkit-order: 1;
-    width: 100%;
-
-  }
-  .column.right {
-    order: 3;
-    -webkit-order: 3;
-    width: 50%;
-  }
-
-}
-/* On screens that are 480px wide or less, make the columns stack on top of each other instead of next to each other */
-@media  screen and  (max-device-width: 600px){ 
-  /* .row{(min-device-width: 320px) and
-    flex-direction: column;
-  } */
-  .column {
-    width: 100%;
-  }
-  .column.left {
-    order: 2;
-    -webkit-order: 2;
-    /* width: 100%; */
-    background: blue;
-
-  }
-  .column.middle {
-    order: 1;
-    -webkit-order: 1;
-    /* width: 100%; */
-  }
-  .column.right {
-    order: 3;
-    -webkit-order: 3;
-    /* width: 100%; */
-  }
-}
-
 
 
 
@@ -192,6 +136,7 @@ h1{
   font-size: 50px;
   margin: 0 auto;
   width: 850px;
+  text-align: center;
 }
 
 h5{
@@ -224,9 +169,87 @@ th, td {
   font-size: 18px;
   vertical-align: top;
 }
-
-
 .resourcesSide {
   text-align: left;
   font-size: 18px;
 }
+
+
+
+
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* On screens that are 601-1024px wide, go from 3 columns to two columns */
+@media  screen and (min-width: 671px) and (max-width: 1024px) {
+  .column {
+    width: 100%;
+  }
+  .column.left {
+    order: 2;
+    -webkit-order: 2;
+    width: 50%;
+  }
+  .column.middle {
+    order: 1;
+    -webkit-order: 1;
+    width: 100%;
+
+  }
+  .column.right {
+    order: 3;
+    -webkit-order: 3;
+    width: 50%;
+  }
+  h1{
+    color: black;
+    font-size: 35px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media  screen and (min-width: 1px) and (max-width: 670px){ 
+  .column {
+    width: 100%;
+  }
+  .column.left {
+    order: 3;
+    -webkit-order: 3;
+    width: 100%;
+  }
+  .column.middle {
+    order: 1;
+    -webkit-order: 1;
+    width: 100%;
+  }
+  .column.right {
+    order: 2;
+    -webkit-order: 2;
+    width: 100%;
+  }
+  h1{
+    color: black;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+/* 
+@media  screen and (max-width: 1024px){ 
+  h1{
+    color: black;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+} */

@@ -1,9 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
-import './App.css';
-import './Nav.css';
-import './Social.css';
-import './Glitch.css';
+import './CSS/App.css';
+import './CSS/Nav.css';
+import './CSS/Social.css';
+import './CSS/Glitch.css';
 import Header from './components/Header.js';
 
 
