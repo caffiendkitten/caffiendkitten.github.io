@@ -73,8 +73,10 @@ const Resume = () => {
             <div className="column middle">
                 {/* <dev-widget data-username="caffiendkitten" data-width="600px" ></dev-widget> */}
                 {/* <img src="../docs/DaNeil_Coulthard_Resume.pdf" width="800px" height="2100px" /> */}
-                <iframe src="../docs/DaNeil_Coulthard_Resume.pdf#toolbar=0" width="100%" height="700px">
+                
+                <iframe src="../docs/DaNeil_Coulthard_Resume.pdf" width="100%" height="700px">
                 </iframe>
+
                 {/* <object width="100%" height="700" data="../docs/DaNeil_Coulthard_Resume.pdf" type="application/pdf"></object> */}
 
                 {/* <embed src="../docs/DaNeil_Coulthard_Resume.pdf" width="100%" height="100%" type="application/pdf"></embed> */}
