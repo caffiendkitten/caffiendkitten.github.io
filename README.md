@@ -1,13 +1,11 @@
-# My Github Pages App
+# My Github Pages Profile
 
 
+My name is DaNeil. I am a quality-driven security researcher and full stack software/security engineer with a passion for performing responsible disclosure, aligning security controls, processes, policies and procedures.
+I take pride in my passion for Information Security and am enthusiastic about finding security vulnerabilities.
 
+I am active within the Capture the Flag community and local tech meetup groups such as the CyberSecurity Non-Profit that I am a chapter organizer for, WISP, WoSec, and OWASP and this site will be built around my progress and my process of getting into Info Sec.
 
-My name is DaNeil and I am a Security researcher performing responsible disclosure and full stack software/security engineer with a passion for aligning security controls, processes, policies and procedures.<br />
-I take pride in being a self-starter/team player with good multitasking skills and a desire to consistently exceed expectations. <br />
-I have project manager and team leader experience in directing all phases of complex projects while motivating and mentoring team members.
-
-This site will be built around my progress and my process of <br /> getting intoInfo Sec.<br /> 
 See it at <a href="https://caffiendkitten.github.io">caffiendkitten.github.io</a> </p>
 
 <p><b>Connect with me:</b><br />

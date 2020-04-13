@@ -82,7 +82,9 @@ const Home = () => {
                     I am passionate about Information Security and enthusiastic about finding 
                     security vulnerabilities. I am active within the Capture the Flag community 
                     and local tech meetup groups such as the CyberSecurity Non-Profit that I am a 
-                    chapter organizer for, WISP, WoSec, and OWASP.
+                    chapter organizer for, WISP, WoSec, and OWASP and this site will be built 
+                    around my progress and my process of getting into Info Sec.
+
                 </p>
                 <p>
                     I am seeking a Vulnerability Researcher / Penetration Tester position that 
@@ -105,7 +107,6 @@ const Home = () => {
                 </p>
 
 
-                <p>This site will be built around my progress and my process of getting into Info Sec.</p>
 
             <p><b>Connect with me:</b><br />
             <b>LinkedIn:</b>  <a className="resourcesTable" href="https://www.linkedin.com/in/daneil-coulthard/"  target="_blank" rel="noopener noreferrer" >https://www.linkedin.com/in/daneil-coulthard/</a><br />
