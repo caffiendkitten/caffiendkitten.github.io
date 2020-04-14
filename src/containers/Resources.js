@@ -4,7 +4,7 @@ import Footer from "./Footer.js"
 
 const Resources = () => {
     return <div className="content">
-        <h3>Info Resources</h3>
+        <h3>Information Resources</h3>
 
         <div className="row">
             <div className="column left">

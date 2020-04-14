@@ -12,6 +12,7 @@ import Home from '../containers/Home.js'
 import Resume from './Resume.js'
 import Blog from '../containers/Blog.js'
 import CTF from '../containers/CTF.js'
+import Education from '../containers/Education.js'
 import Projects from '../containers/Projects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
 import Resources from '../containers/Resources.js'
@@ -88,7 +89,7 @@ class Header extends Component {
                 <h1>DaNeil Coulthard // CaffiendKitten</h1>
                 <hr></hr>  
             </div>
-            <div className="overlay" id="overlay" onClick={this.handleOverlay}></div>
+            <div class="overlay" id="overlay" onClick={this.handleOverlay}></div>
 
             <div className='navbar' id='navBar'>
                 
@@ -126,20 +127,22 @@ class Header extends Component {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/resume">Resume</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/ctf">CTF Work</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/education">Ongoing Education</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/ConsAndMeetups">Cons And Meetups</Link></li>
-                        <li><Link to="/resources">Info Resources</Link></li>
+                        <li><Link to="/projects">Academic Projects</Link></li>
+                        <li><Link to="/resources">Information Resources</Link></li>
                     </ul>
                 </div>
             <Switch>
                 <Route  exact path ="/"  render={() => <Home  />} ></Route>
                 <Route path ="/resume" exact render={() => <Resume  />} ></Route>
-                <Route path ="/blog" exact render={() => <Blog  />} ></Route>
                 <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
-                <Route path ="/projects" exact render={() => <Projects  />} ></Route>
+                <Route path ="/education" exact render={() => <Education  />} ></Route>
+                <Route path ="/blog" exact render={() => <Blog  />} ></Route>
                 <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
+                <Route path ="/projects" exact render={() => <Projects  />} ></Route>
                 <Route path ="/resources" exact render={() => <Resources  />} ></Route>
                 <Route component={Home}/>
                 {/* <Route path='*' component={NotFound404} /> */}

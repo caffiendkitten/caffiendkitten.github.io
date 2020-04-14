@@ -189,6 +189,15 @@ canvas{
 /* END of react-pdf display on resume */
 
 
+table {
+  width: 100%;
+}
+
+td {
+  width: 50%;
+}
+
+
 
 
 

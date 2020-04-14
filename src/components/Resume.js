@@ -14,11 +14,10 @@ class Resume extends Component {
         <h3>Resume</h3>
 
         <div className="row">
-            {/* <div className="column side">
-                <p className="resourcesSide"></p>
-            </div> */}
+
             <div className="column left">
-                <h5>Continued Education</h5>
+                <p className="resourcesSide"></p>
+                {/* <h5>Continued Education</h5>
                 <p className="technicalSkills"> 
                     <b>Pentester Lab</b>
                     <ul>
@@ -71,7 +70,7 @@ class Resume extends Component {
                         <li>Intro to Javascript | November 2018</li>
                     </ul>                       
 
-                </p>
+                </p> */}
 
 
 
@@ -88,11 +87,11 @@ class Resume extends Component {
 
             </div>
         
-            {/* <div className="column side">
-                <p className="resourcesSide"></p>
-            </div> */}
+        
             <div className="column right">
-                <h5>Technical Skills </h5>
+                <p className="resourcesSide"></p>
+
+                {/* <h5>Technical Skills </h5>
                 <p className="technicalSkills">
                     <b>Languages:</b> Ruby, React, JavaScript, Python, HTML5/CSS3, SQL<br />
                     <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
@@ -114,7 +113,7 @@ class Resume extends Component {
                     IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, 
                     Novell/Linux OS, Operating Systems, Operating Systems: MS Windows, PC Technician Fundamentals, Programming with 
                     Python, Systems Analysis and Design
-                </p>
+                </p> */}
             </div>
         </div>
 
