@@ -5,14 +5,15 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.1",
+    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "jest-haste-map": "^25.3.0",
     "nan": "^2.14.0",
     "node-gyp": "^6.1.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-pdf": "^4.1.0",
+    "react-pdf-pages": "^0.1.8",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1"
   },
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "pdfjs-dist": "^2.3.200"
   }
 }

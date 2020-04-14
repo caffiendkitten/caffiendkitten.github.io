@@ -176,9 +176,23 @@ th, td {
 
 
 
+/* Start of react-pdf display in resume */
+.react-pdf__Page {
+  width: 611px;
+}
+.react-pdf__Page__annotations{
+  height: 0px;
+}
+canvas{
+  border: 1px solid black;
+  width: 611px;
+}
+/* END of react-pdf display on resume */
 
 
-
+dev-widget{
+  width: 700px;
+}
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */

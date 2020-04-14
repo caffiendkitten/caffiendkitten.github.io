@@ -1,9 +1,17 @@
-import React from 'react'
-import Footer from "./Footer.js"
+import React, { Component } from 'react';
+import Footer from "../containers/Footer.js"
+import 'pdfjs-dist';
+import { Document, Page, pdfjs } from "react-pdf";
+import file from '../docs/DaNeil_Coulthard_Resume.pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
-const Resume = () => {
-    return <div className="content">
+
+class Resume extends Component {
+
+    render() {
+
+        return <div className="content">
         <h3>Resume</h3>
 
         <div className="row">
@@ -71,17 +79,10 @@ const Resume = () => {
             </div>
         
             <div className="column middle">
-                {/* <dev-widget data-username="caffiendkitten" data-width="600px" ></dev-widget> */}
-                {/* <img src="../docs/DaNeil_Coulthard_Resume.pdf" width="800px" height="2100px" /> */}
-                
-                <iframe src="../docs/DaNeil_Coulthard_Resume.pdf" width="100%" height="700px">
-                </iframe>
-
-                {/* <object width="100%" height="700" data="../docs/DaNeil_Coulthard_Resume.pdf" type="application/pdf"></object> */}
-
-                {/* <embed src="../docs/DaNeil_Coulthard_Resume.pdf" width="100%" height="100%" type="application/pdf"></embed> */}
-
-
+                <Document file={file}>
+                    <Page pageNumber={1} />
+                </Document>
+                <a href={file}>Download</a>
             </div>
         
             {/* <div className="column side">
@@ -121,5 +122,5 @@ const Resume = () => {
             
     </div>       
 }
-        
+}      
 export default Resume

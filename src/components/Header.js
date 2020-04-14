@@ -9,7 +9,7 @@ import {
     } from "react-router-dom";
 
 import Home from '../containers/Home.js'
-import Resume from '../containers/Resume.js'
+import Resume from './Resume.js'
 import Blog from '../containers/Blog.js'
 import CTF from '../containers/CTF.js'
 import Projects from '../containers/Projects.js'
@@ -88,7 +88,7 @@ class Header extends Component {
                 <h1>DaNeil Coulthard // CaffiendKitten</h1>
                 <hr></hr>  
             </div>
-            <div class="overlay" id="overlay" onClick={this.handleOverlay}></div>
+            <div className="overlay" id="overlay" onClick={this.handleOverlay}></div>
 
             <div className='navbar' id='navBar'>
                 
