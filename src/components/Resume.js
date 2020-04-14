@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Footer from "../containers/Footer.js"
-import 'pdfjs-dist';
 import { Document, Page, pdfjs } from "react-pdf";
 import file from '../docs/DaNeil_Coulthard_Resume.pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
