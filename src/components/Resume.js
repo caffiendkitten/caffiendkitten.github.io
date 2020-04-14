@@ -78,10 +78,14 @@ class Resume extends Component {
             </div>
         
             <div className="column middle">
-                <Document file={file}>
+                {/* style={{"width" : "100%"}} width="100%" */}
+                {/* <Document file={file} >
                     <Page pageNumber={1} />
-                </Document>
+                </Document> */}
+
+                <embed src={file} type="application/pdf" width="100%" height="950px" />
                 <a href={file}>Download</a>
+
             </div>
         
             {/* <div className="column side">
