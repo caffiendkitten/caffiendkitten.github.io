@@ -5,72 +5,73 @@ import Footer from "./Footer.js"
 const CTF = () => {
     return <div className="content">
 
-        <h3>CTFs</h3>
-
+        {/* <h3>CTFs</h3> */}
+        {/* <table>
+                <tr>
+                    <th><u>Ongoing CTFs</u></th>
+                    <th><u>Con/Short Term CTFs</u></th>
+                </tr>
+        </table> */}
         <div className="row">
             <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
             
             <div className="column middle projects">
-
-                <table className="projects">
+            <table>
                 <tr>
-                    <td className="projectInfo"  colSpan={2} >
-                        <b>0x00sec</b> 
+                    <th><h3>Ongoing CTFs</h3></th>
+                    <th><h3>Con/Short Term CTFs</h3></th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                        <b>0x00sec</b><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-2-1km8" target="_blank" rel="noopener noreferrer" >Exercise #2</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-3-54b3" target="_blank" rel="noopener noreferrer" >Exercise #3</a><br />
+                        </p>
+
+                        <p>
+                        <b>PortSwigger</b><br/>
+                            <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-validation-of-csrf-token-depends-on-request-method-45mo" target="_blank" rel="noopener noreferrer" >Validation of CSRF token depends on request method</a><br />
+                            <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-csrf-vulnerability-with-no-defenses-817" target="_blank" rel="noopener noreferrer" >CSRF vulnerability with no defenses</a><br />
+                        </p>
+
+                        {/* <p>
+                        <b>Hack The Box </b> <br/>
+                            Nothing yet online
+                        </p> */}
+
+                        <p>
+                        <b>Hacker 101 CTFs</b> <br/>
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-h1-thermostat-4156" target="_blank" rel="noopener noreferrer" >H1 Thermostat</a><br />
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v3-4eo1" target="_blank" rel="noopener noreferrer" >BugDB v3</a><br />
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v1-7d2" target="_blank" rel="noopener noreferrer" >BugDB v2</a><br />
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v1-hnc" target="_blank" rel="noopener noreferrer" >BugDB v1</a><br />
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-petshop-pro-100p" target="_blank" rel="noopener noreferrer" >Petshop Pro</a><br />
+                            <a href="https://dev.to/caffiendkitten/ctf-postbook-2dpd" target="_blank" rel="noopener noreferrer" >Postbook</a><br />
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v1-3jo4" target="_blank" rel="noopener noreferrer" >Micro-CMS v1</a><br />
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v2-2b0l" target="_blank" rel="noopener noreferrer" >Micro-CMS v2</a>
+                        </p>
+
+
                     </td>
-                    </tr>
-                    <tr>
-                    <td ></td>
-                    <td className="projectLink">
-                        <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
-                        <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-2-1km8" target="_blank" rel="noopener noreferrer" >Exercise #2</a><br />
-                        <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-3-54b3" target="_blank" rel="noopener noreferrer" >Exercise #3</a><br />
+                    <td>
+                        <p><b>UMBC Cyber Dawgs</b><br/>April 10-12, 2020</p>
+                        <p><b>VirSec Con 2020</b><br/>April 4, 2020</p>
+                        <p><b>Escelate Hack to Help 2020</b><br/>March 26-April 22, 2020</p>
+                        <p><b>Cyber FastTrack</b><br/>March 26-27, 2020</p>
+                        <p><b>Pancakes Con CTF</b><br/>March 22, 2020</p>
+                        <p><b>March Hackness 2020</b><br/>March 19-21, 2020</p>
+                        <p><b>Women Unite Over CTF 2.0</b><br/>February 25, 2019</p>
+                        <p><b>Women Unite Over CTF</b><br/>November 2, 2019</p>
+                        <p><b>Defend Con CTF</b><br/>Sept 26-27, 2019</p>
                     </td>
-                    </tr>
-                    <tr>
-                    <td className="projectInfo"  colSpan={2} >
-                        <b>PortSwigger</b> 
-                    </td>
-                    </tr>
-                    <tr>
-                    <td ></td>
-                    <td className="projectLink">
-                        <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-validation-of-csrf-token-depends-on-request-method-45mo" target="_blank" rel="noopener noreferrer" >Validation of CSRF token depends on request method</a><br />
-                        <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-csrf-vulnerability-with-no-defenses-817" target="_blank" rel="noopener noreferrer" >CSRF vulnerability with no defenses</a><br />
-                    </td>
-                    </tr>
-                    <tr>
-                    <td  colSpan={2}>
-                        <b>Hack The Box </b>
-                    </td>
-                    </tr>
-                    <tr>
-                    <td ></td>
-                    <td  className="projectLink">
-                        {/* <a href="https://the-final-fm.herokuapp.com" target="_blank" rel="noopener noreferrer" >https://the-final-fm.herokuapp.com</a><br /> */}
-                        Nothing yet online
-                    </td>
-                    </tr>
-                    <tr>
-                    <td  colSpan={2}>
-                        <b>Hacker 101 CTFs</b>
-                    </td>
-                    </tr>
-                    <tr>
-                    <td ></td>
-                    <td  className="projectLink">
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-h1-thermostat-4156" target="_blank" rel="noopener noreferrer" >H1 Thermostat</a><br />
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v3-4eo1" target="_blank" rel="noopener noreferrer" >BugDB v3</a><br />
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v1-7d2" target="_blank" rel="noopener noreferrer" >BugDB v2</a><br />
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v1-hnc" target="_blank" rel="noopener noreferrer" >BugDB v1</a><br />
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-petshop-pro-100p" target="_blank" rel="noopener noreferrer" >Petshop Pro</a><br />
-                        <a href="https://dev.to/caffiendkitten/ctf-postbook-2dpd" target="_blank" rel="noopener noreferrer" >Postbook</a><br />
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v1-3jo4" target="_blank" rel="noopener noreferrer" >Micro-CMS v1</a><br />
-                        <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v2-2b0l" target="_blank" rel="noopener noreferrer" >Micro-CMS v2</a>
-                    </td>
-                    </tr>
-                </table>
+                </tr>
+            </table>
+
 
             </div>
             
