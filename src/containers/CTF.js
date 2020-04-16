@@ -39,10 +39,10 @@ const CTF = () => {
                             <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-csrf-vulnerability-with-no-defenses-817" target="_blank" rel="noopener noreferrer" >CSRF vulnerability with no defenses</a><br />
                         </p>
 
-                        {/* <p>
+                        <p>
                         <b>Hack The Box </b> <br/>
-                            Nothing yet online
-                        </p> */}
+                            <a href="https://dev.to/caffiendkitten/htb-ctf-ezpz-2edg" target="_blank" rel="noopener noreferrer" >ezpz</a><br />                        
+                        </p> 
 
                         <p>
                         <b>Hacker 101 CTFs</b> <br/>
