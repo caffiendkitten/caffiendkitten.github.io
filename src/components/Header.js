@@ -17,6 +17,7 @@ import Projects from '../containers/Projects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
 import Resources from '../containers/Resources.js'
 // import NotFound404 from '../404.html'
+import ErrorPage from '../containers/ErrorPage.js'
 
 class Header extends Component {
 
@@ -144,8 +145,8 @@ class Header extends Component {
                 <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
                 <Route path ="/projects" exact render={() => <Projects  />} ></Route>
                 <Route path ="/resources" exact render={() => <Resources  />} ></Route>
-                <Route component={Home}/>
-                {/* <Route path='*' component={NotFound404} /> */}
+                {/* <Route component={Home}/> */}
+                <Route path='*' component={ErrorPage} />
             </Switch>
             </HashRouter>
 
