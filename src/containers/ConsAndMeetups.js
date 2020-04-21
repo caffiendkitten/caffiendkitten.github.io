@@ -14,6 +14,7 @@ const ConsAndMeetups = () => {
         
         <div className="column middle">
             <ul className="resourcesSide">
+                <li>Isolation Con | April 19, 2020</li>
                 <li>GRIMM Con | April 14, 2020</li>
                 <li>VirSec Con | April 4, 2020</li>
                 <li>BSides Atlanta | March 28, 2020</li>

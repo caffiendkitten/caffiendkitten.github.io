@@ -77,19 +77,19 @@ const Home = () => {
                     Experienced in leveraging tool-based testing and manual hands-on testing of web 
                     applications and network services while utilizing web and network application 
                     guidelines and following industry-standard best practices and methodologies, such as OWASP and PTES.
-                </p><br />
+                </p>
                 <p>
                     I am passionate about Information Security and enthusiastic about finding 
                     security vulnerabilities. I am active within the Capture the Flag community 
                     and local tech meetup groups such as the CyberSecurity Non-Profit that I am a 
                     chapter organizer for, WISP, WoSec, and OWASP and this site will be built 
                     around my progress and my process of getting into Info Sec.
-                </p><br />
+                </p>
                 <p>
                     I am seeking a Vulnerability Researcher / Penetration Tester position that 
                     will push my experience and skills to the limit and also offer a challenging 
                     future with room for learning and advancement.
-                </p><br />
+                </p>
                 <p>
                 I started my transition into Information Security as a Web Dev Student at LCSC. 
                 From here I took an interest in Information Systems and went to City University of Seattle 
@@ -101,7 +101,7 @@ const Home = () => {
                 myself. During my time at Flatiron, I had the opportunity to work both collaboratively and 
                 independently to conceive and create multiple fullstack React and Ruby on Rails web applications 
                 in a fast-moving, high-stress environment.
-                </p><br />
+                </p>
 
                 <p>
                     <b>Connect with me:</b><br />

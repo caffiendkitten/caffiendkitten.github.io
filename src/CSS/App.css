@@ -60,8 +60,24 @@ h5{
 }
 p{
   font-size: 20px;
+  padding-bottom: 15px;
 }
-
+a:link {
+  text-decoration: none;
+  color: #35474d;
+}
+a:visited {
+  text-decoration: underline;
+  color: #2a3e44;
+}
+a:hover {
+  text-decoration: underline ;
+  color: #548596;
+}
+a:active {
+  text-decoration: underline;
+  color: #548596;
+}
 
 
 .content{
@@ -163,7 +179,7 @@ th, td {
   table-layout: fixed;
 }
  /* td:hover {background-color:#f5f5f5;} */
-.resourcesTable ul li a{
+.resourcesTable ul li {
   /* all: unset; */
   /* text-align: right; */
   /* color: red; */
