@@ -1,6 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
 Welcome to robots.txt file.
 You Found some Robots. Good for you!
      Models               Number
