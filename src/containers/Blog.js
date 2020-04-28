@@ -20,7 +20,6 @@ const Blog = () => {
             </div>
         </div>
 
-
         <div className="footer">
             <Footer />
         </div>

@@ -9,7 +9,7 @@ const Resources = () => {
         <div className="row">
             <div className="column left">
             <p className="resourcesSide">
-
+{/* 
                 Cyber News
                 <ul>
                     <li><a className="resourcesTable" href="https://pbs.twimg.com/media/DP7axHKUEAALlJB.jpg:large"  target="_blank" rel="noopener noreferrer" >Common Ports &#38; Protocols</a></li>
@@ -28,10 +28,7 @@ const Resources = () => {
                     <li><a className="resourcesTable" href="https://scund00r.com/all/oscp/2018/02/25/passing-oscp.html" target="_blank" rel="noopener noreferrer">Passing OSCP by Alex Dib</a> </li>
                     <li><a className="resourcesTable" href="http://0xc0ffee.io/blog/OSCP-Goldmine" target="_blank" rel="noopener noreferrer">OSCP Goldmine</a> </li>
                     <li><a className="resourcesTable" href="https://malicious.link/post/2019/grumpy-hackers/" target="_blank" rel="noopener noreferrer">Grumpy Hackers Info! (CLICK THIS)</a></li>
-                </ul>            
-
-
-
+                </ul>             */}
             </p>
             </div>
             
@@ -114,8 +111,6 @@ const Resources = () => {
                             <ul>
                                 <li><a className="resourcesTable" href="https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/"  target="_blank" rel="noopener noreferrer" >Exploit writing tutorial part 1 : Stack Based Overflows</a></li>
                                 <li><a className="resourcesTable" href="https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/"  target="_blank" rel="noopener noreferrer" >Exploit writing tutorial part 2 : Jumping to shellcode</a></li>
-                                {/* <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li>
-                                <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li> */}
                             </ul>                            
                         </td>
                         <td>
@@ -124,7 +119,6 @@ const Resources = () => {
                                 <li><a className="resourcesTable" href="https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/"  target="_blank" rel="noopener noreferrer" >Basic Linux Privilege Escalation</a></li>
                                 <li><a className="resourcesTable" href="https://netsec.ws/?p=309"  target="_blank" rel="noopener noreferrer" >Linux Privilege Escalation Scripts</a></li>
                                 <li><a className="resourcesTable" href="https://exploit-exercises.lains.space/nebula/"  target="_blank" rel="noopener noreferrer" >Nebula</a></li>
-                                {/* <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li> */}
                             </ul>                            
                         </td>
                     </tr>                    
@@ -135,19 +129,13 @@ const Resources = () => {
                         <li><a className="resourcesTable" href="https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/" target="_blank" rel="noopener noreferrer">Basic Windows Priv Escalation</a></li>
                             <li><a className="resourcesTable" href="http://www.fuzzysecurity.com/tutorials/16.html"  target="_blank" rel="noopener noreferrer" >Windows Privilege Escalation Fundamentals</a></li>
                             <li><a className="resourcesTable" href="https://github.com/netbiosX/Checklists/blob/master/Windows-Privilege-Escalation.md"  target="_blank" rel="noopener noreferrer" >Windows Privilege Escalation</a></li>
-                            {/* <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li> */}
                         </ul>                            
                     </td>
                     <td>
                     XSS
-                            <ul>
-                                <li><a className="resourcesTable" href="https://www.shift8web.ca/2018/01/craft-xss-payload-create-admin-user-in-wordpress-user/"  target="_blank" rel="noopener noreferrer" >How To Craft An XSS Payload To Create An Admin User In WordPress</a></li>
-                                {/* <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li>
-                                <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li>
-                                <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li> */}
-                            </ul> 
-
-
+                        <ul>
+                            <li><a className="resourcesTable" href="https://www.shift8web.ca/2018/01/craft-xss-payload-create-admin-user-in-wordpress-user/"  target="_blank" rel="noopener noreferrer" >How To Craft An XSS Payload To Create An Admin User In WordPress</a></li>
+                        </ul> 
                     </td>
                     <td>
                         Links for Creating This Site
@@ -158,19 +146,11 @@ const Resources = () => {
                     </td>
                     </tr>
                 </table>
-
-
-
-
-
-
-
-
             </div>
             
             <div className="column right">
                 <p className="resourcesSide">
-                Good Reading/Resources
+                {/* Good Reading/Resources
                         <ul>
                             <li><a className="resourcesTable" href="https://www.blackhillsinfosec.com/your-password-is-wait-for-it-not-always-encrypted/" target="_blank" rel="noopener noreferrer">Mimikatz tutorial</a></li>
                             <li><a className="resourcesTable" href="https://cwe.mitre.org" target="_blank" rel="noopener noreferrer">CWE &#8211; MITRE</a></li>
@@ -184,13 +164,9 @@ const Resources = () => {
                             <li><a className="resourcesTable" href="https://malicious.link/post/2011/2011-09-06-post-exploitation-command-lists/" target="_blank" rel="noopener noreferrer">Mubix&#8217;s post exploitation command lists</a></li>
                             <li><a className="resourcesTable" href="https://github.com/justinsteven/dostackbufferoverflowgood" target="_blank" rel="noopener noreferrer">dostackbufferoverflowgood</a></li>
                             <li><a className="resourcesTable" href="https://www.sans.org/security-resources/posters/" target="_blank" rel="noopener noreferrer">Cool SANS posters</a></li>                            
-                            {/* <li><a className="resourcesTable" href=""  target="_blank" rel="noopener noreferrer" ></a></li> */}
                             <li><a className="resourcesTable" href="https://github.com/enaqx/awesome-pentest"  target="_blank" rel="noopener noreferrer" >Awesome Penetration Testing</a></li>
                             <li><a className="resourcesTable" href="https://xapax.gitbooks.io/security/content/"  target="_blank" rel="noopener noreferrer" >IT-Security</a></li>
-                        
-                        </ul>  
-
-
+                        </ul>   */}
                 </p>
             </div>
         </div>

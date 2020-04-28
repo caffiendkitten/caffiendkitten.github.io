@@ -191,6 +191,12 @@ th, td {
   font-size: 18px;
 }
 
+.projectInfo.left{
+  text-align: left;
+}
+.projectInfo.right{
+  text-align: right;
+}
 
 
 /* Start of react-pdf display in resume */

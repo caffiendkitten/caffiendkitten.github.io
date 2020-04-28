@@ -15,7 +15,7 @@ const Education = () => {
                 <table>
                     <tr>
                         <td>
-                            <h5>Continued Education</h5>
+                            <h4>Continued Education</h4>
                             <p className="technicalSkills"> 
                                 <b>Pentester Lab</b>
                                 <ul>
@@ -27,6 +27,8 @@ const Education = () => {
                                     <li>Unix Badge | January 27, 2020</li>
                                     <li>Introduction Badge | January 21, 2020</li>
                                 </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>Udemy</b>
                                 <ul>
                                     <li>Learn Burp Suite, the Nr. 1 Web Hacking Tool | November 21, 2019</li>
@@ -35,82 +37,86 @@ const Education = () => {
                                     <li>Hacking Academy: How to Monitor &#38; Intercept Transmitted Data | Oct 2018</li>
                                     <li>Introduction to Python Programming	| March 2018</li>
                                 </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>Stack Skills</b>
                                 <ul>
                                     <li>The Complete Hacking Course: Go From Beginner to Advanced! | November 11, 2019</li>
                                     <li>Cross Site Scripting(XSS) Attacks for Pentesters | March 2019</li>
                                     <li>Ultimate WiFi Hacking &#38; Security Series | Dec 2018</li>
                                 </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>FreeCodeCamp</b>
                                 <ul>
                                     <li>Responsive Web Design | November 11, 2019</li>                        
                                 </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>General Assembly Seattle</b>
                                 <ul>
                                     <li>SQL Bootcamp | March 2018</li>
                                     <li>Intro to Data Analytics | March 2018</li>
                                     <li>Python for Data 1 | January 2018</li>
                                 </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>SoloLearn</b>
                                 <ul>
                                     <li>JavaScrippt | Oct 2019</li>
-                                </ul>   
+                                </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>Hack Reactor/Galvanize</b>
                                 <ul>
                                     <li>Pre Immersive SSP | Jan 2019</li>
-                                </ul>                                        
+                                </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>Watch and Code</b>
                                 <ul>
                                     <li>Practical JavaScript | Dec 2018</li>
-                                </ul>   
+                                </ul>
+                            </p>
+                            <p className="technicalSkills">
                                 <b>Udacity</b>
                                 <ul>
                                     <li>Intro to Javascript | November 2018</li>
                                 </ul>                       
-
                             </p>                            
                         </td>
+
                         <td>
-
-
-                            <h5>Education</h5>
+                            <h4>Technical Skills </h4>
+                            <p className="technicalSkills">
+                                <b>Languages:</b> Ruby, React, JavaScript, Python, HTML5/CSS3, SQL<br />
+                                <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
+                                <b>Tools:</b> Git, Github, VSCode, Burp Suite, ZAP, WireShark, Hydra, SQLMap<br />
+                                <b>Database:</b> PostgreSQL, SQLite, MYSQL<br />
+                                <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
+                            </p>
+                            <h4>Education</h4>
                             <p className="technicalSkills">
                                 <b>Flatiron School:</b><br />Software Engineering Bootcamp<br /> Seattle, WA | August 2019<br />
                                 <b>City University Seattle:</b><br />Bachelor of Science – Information Technology, Information Security Emphasis<br /> Seattle, WA | March 2018<br />
                                 <b>Edmonds Community College:</b><br />General Associate’s Degree <br /> Lynnwood, WA | June 2013 <br />
                                 <b>Lewis-Clark State College:</b><br />Associate’s Degree in Web Development <br /> Lewiston, ID | May 2010
                             </p>
-
-                            <h5>Relevant Courses </h5>
+                            <h4>Relevant College Courses </h4>
                             <p className="technicalSkills">
                                 Computer Science | Java, Computer Science || Java, Cybercrime, Tech and Social Change, Human Computer Interaction, 
                                 IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, 
                                 Novell/Linux OS, Operating Systems, Operating Systems: MS Windows, PC Technician Fundamentals, Programming with 
                                 Python, Systems Analysis and Design
                             </p>
-                            {/* <h5>Technical Skills </h5>
-                            <p className="technicalSkills">
-                                <b>Languages:</b> Ruby, React, JavaScript, Python, HTML5/CSS3, SQL<br />
-                                <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
-                                <b>Tools:</b> Git, Github, VSCode, Burp Suite, ZAP, WireShark, PostgreSQL, SQLite, MYSQL<br />
-                                <b>Methodologies:</b> MVC (Model-View-Controller), RESTful API, OSSTMM (Open Source Security Testing Methodology Manual)<br />
-                            </p> */}                            
-
-
-
                         </td>
                     </tr>                  
                 </table>
-            
-
             </div>
-        
             <div className="column right">
                 <p className="resourcesSide"></p>
             </div>
         </div>
-
-
         <div className="footer">
             <Footer />
         </div>

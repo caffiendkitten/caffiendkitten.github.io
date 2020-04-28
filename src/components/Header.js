@@ -3,7 +3,6 @@ import {
         BrowserRouter as Router,
         Route,
         Switch,
-        NavLink,
         Link,
         HashRouter
     } from "react-router-dom";
@@ -16,7 +15,6 @@ import Education from '../containers/Education.js'
 import Projects from '../containers/Projects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
 import Resources from '../containers/Resources.js'
-// import NotFound404 from '../404.html'
 import ErrorPage from '../containers/ErrorPage.js'
 
 class Header extends Component {
@@ -27,12 +25,7 @@ class Header extends Component {
             addClass: false,
             navClass: "",
         }
-
     }
-
-    // componentDidMount = () => {
-    // }
-
 
     handleNav = () => {
         if(this.state.navClass === "active" ) {
@@ -59,22 +52,6 @@ class Header extends Component {
         document.getElementById('overlay').classList.remove('is-visible')
     }
 
-
-
-    // handleOpenNav = () => {
-    //     document.getElementById("mySidenav").style.width = "250px";
-    //     document.getElementById("hamburger").style.backgroundColor = "#ffffff";
-    //     this.setState({addClass: !this.state.addClass});
-    // }   
-
-    // handleCloseNav = () => {
-    //     document.getElementById("mySidenav").style.width = "0";
-    //     document.getElementById("hamburger").style.backgroundColor = "#000000";
-    // this.setState({addClass: !this.state.addClass});
-    // }
-
-
-
     render(){
         return <div id='body'>
     
@@ -93,68 +70,60 @@ class Header extends Component {
             <div class="overlay" id="overlay" onClick={this.handleOverlay}></div>
 
             <div className='navbar' id='navBar'>
-                
-            {/* <Router >
-                <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
-                {/* <a href="#" className="closebtn"  onClick={this.handleCloseNav} >x</a> */}
-                {/* <div className="active" onClick={this.handleCloseNav} id="menu-icon">
-                    <div className="active" id="hamburger"></div>
-                </div> 
-                */}
-                
-                    {/* <NavLink to="/" activeClassName="active">Home</NavLink>
-                    <NavLink to="/blogs" activeClassName="chosen">Blogs</NavLink>
-                    <NavLink to="/ctf" activeClassName="chosen">CTF Work</NavLink>
-                    <NavLink to="/projects" activeClassName="chosen">Projects</NavLink>
-                    <NavLink to="/ConsAndMeetups" activeClassName="chosen">Cons And Meetups</NavLink>
-                    <NavLink to="/resources" activeClassName="chosen">Info Resources</NavLink>
-                </div>
-            <Switch>
-                <Route  path ="/" exact render={() => <Home  />} ></Route>
-                <Route path ="/blogs" exact render={() => <Blogs  />} ></Route>
-                <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
-                <Route path ="/projects" exact render={() => <Projects  />} ></Route>
-                <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
-                <Route path ="/resources" exact render={() => <Resources  />} ></Route>
-                <Route component={Home}/> */}
-                {/* <Route path='*' component={NotFound404} /> */}
+                {/* <Router >
+                    <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
+                    {/* <a href="#" className="closebtn"  onClick={this.handleCloseNav} >x</a> */}
+                    {/* <div className="active" onClick={this.handleCloseNav} id="menu-icon">
+                        <div className="active" id="hamburger"></div>
+                    </div> 
+                    */}
+                    
+                        {/* <NavLink to="/" activeClassName="active">Home</NavLink>
+                        <NavLink to="/blogs" activeClassName="chosen">Blogs</NavLink>
+                        <NavLink to="/ctf" activeClassName="chosen">CTF Work</NavLink>
+                        <NavLink to="/projects" activeClassName="chosen">Projects</NavLink>
+                        <NavLink to="/ConsAndMeetups" activeClassName="chosen">Cons And Meetups</NavLink>
+                        <NavLink to="/resources" activeClassName="chosen">Info Resources</NavLink>
+                    </div>
+                <Switch>
+                    <Route  path ="/" exact render={() => <Home  />} ></Route>
+                    <Route path ="/blogs" exact render={() => <Blogs  />} ></Route>
+                    <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
+                    <Route path ="/projects" exact render={() => <Projects  />} ></Route>
+                    <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
+                    <Route path ="/resources" exact render={() => <Resources  />} ></Route>
+                    <Route component={Home}/> */}
+                    {/* <Route path='*' component={NotFound404} /> */}
 
-            {/* </Switch>
-            </Router> */ }
-
-
-            <HashRouter basename='/'>
-                <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/resume">Resume</Link></li>
-                        <li><Link to="/ctf">CTF Work</Link></li>
-                        <li><Link to="/education">Ongoing Education</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/ConsAndMeetups">Cons And Meetups</Link></li>
-                        <li><Link to="/projects">Academic Projects</Link></li>
-                        <li><Link to="/resources">Information Resources</Link></li>
-                    </ul>
-                </div>
-            <Switch>
-                <Route  exact path ="/"  render={() => <Home  />} ></Route>
-                <Route path ="/resume" exact render={() => <Resume  />} ></Route>
-                <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
-                <Route path ="/education" exact render={() => <Education  />} ></Route>
-                <Route path ="/blog" exact render={() => <Blog  />} ></Route>
-                <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
-                <Route path ="/projects" exact render={() => <Projects  />} ></Route>
-                <Route path ="/resources" exact render={() => <Resources  />} ></Route>
-                {/* <Route component={Home}/> */}
-                <Route path='*' component={ErrorPage} />
-            </Switch>
-            </HashRouter>
-
-
-
+                {/* </Switch>
+                </Router> */ }
+                <HashRouter basename='/'>
+                    <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
+                        <ul>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
+                            <li><Link to="/ctf">CTF Work</Link></li>
+                            <li><Link to="/education">Ongoing Education</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/ConsAndMeetups">Cons And Meetups</Link></li>
+                            <li><Link to="/projects">Academic Projects</Link></li>
+                            <li><Link to="/resources">Information Resources</Link></li>
+                        </ul>
+                    </div>
+                <Switch>
+                    <Route  exact path ="/"  render={() => <Home  />} ></Route>
+                    <Route path ="/resume" exact render={() => <Resume  />} ></Route>
+                    <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
+                    <Route path ="/education" exact render={() => <Education  />} ></Route>
+                    <Route path ="/blog" exact render={() => <Blog  />} ></Route>
+                    <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
+                    <Route path ="/projects" exact render={() => <Projects  />} ></Route>
+                    <Route path ="/resources" exact render={() => <Resources  />} ></Route>
+                    {/* <Route component={Home}/> */}
+                    <Route path='*' component={ErrorPage} />
+                </Switch>
+                </HashRouter>
             </div>
-
-        
         </div>
     }     
 }

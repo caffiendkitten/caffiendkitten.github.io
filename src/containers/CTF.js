@@ -62,25 +62,26 @@ const CTF = () => {
                     </td>
                     <td>
                         <p><b>UMBC Cyber Dawgs</b><br/>
-                            April 10-12, 2020<br />
-                        </p>
-                        <p><b>VirSec Con 2020</b><br/>April 4, 2020</p>
-                        <p><b>Escalate Hack to Help 2020</b><br/>March 26-April 22, 2020</p>
-                        <p><b>Cyber FastTrack</b><br/>March 26-27, 2020</p>
+                            April 10-12, 2020</p>
+                        <p><b>VirSec Con 2020</b><br/>
+                            April 4, 2020</p>
+                        <p><b>Escalate Hack to Help 2020</b><br/>
+                            March 26-April 22, 2020</p>
+                        <p><b>Cyber FastTrack</b><br/>
+                            March 26-27, 2020</p>
                         <p><b>Pancakes Con CTF</b><br/>
                             March 22, 2020<br />
-                            Score: 1955, Rank: 78/975
-                        </p>
+                            Rank: 78/975</p>
                         <p><b>March Hackness 2020</b><br/>
                             March 19-21, 2020<br />
-                            Score: 7720, Rank: 39/796
-                        </p>
-                        <p><b>Women Unite Over CTF 2.0</b><br/>February 25, 2019</p>
-                        <p><b>Women Unite Over CTF</b><br/>November 2, 2019</p>
+                            Rank: 39/796</p>
+                        <p><b>Women Unite Over CTF 2.0</b><br/>
+                            February 25, 2019</p>
+                        <p><b>Women Unite Over CTF</b><br/>
+                            November 2, 2019</p>
                         <p><b>Defend Con CTF</b><br/>
                             Sept 26-27, 2019<br />
-                            Score: 1395, Rank: 18/40    
-                        </p>
+                            Rank: 18/40</p>
                     </td>
                 </tr>
             </table>
