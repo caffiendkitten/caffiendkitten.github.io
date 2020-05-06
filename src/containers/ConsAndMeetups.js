@@ -13,7 +13,7 @@ const ConsAndMeetups = () => {
 
             <div className="column middle">
                 <ul className="resourcesSide">
-                    <li>Women in Cybersecurity Capture the Flag {Virtual} | SecureSet and WiCyS - Human | May 2, 2020</li>
+                    <li>Women in Cybersecurity Capture the Flag | SecureSet and WiCyS - Human | May 2, 2020</li>
                     <li>BSides Knoxville - Human | May 1, 2020</li>
                     <li>Isolation Con - Human | April 19, 2020</li>
                     <li>GRIMM Con - Human | April 14, 2020</li>
