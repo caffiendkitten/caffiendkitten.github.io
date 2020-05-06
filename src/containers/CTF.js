@@ -35,19 +35,6 @@ const CTF = () => {
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-2-1km8" target="_blank" rel="noopener noreferrer" >Exercise #2</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
                         </p>
-
-                        <p>
-                        <b>PortSwigger</b><br/>
-                            <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-validation-of-csrf-token-depends-on-request-method-45mo" target="_blank" rel="noopener noreferrer" >Validation of CSRF token depends on request method</a><br />
-                            <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-csrf-vulnerability-with-no-defenses-817" target="_blank" rel="noopener noreferrer" >CSRF vulnerability with no defenses</a><br />
-                        </p>
-
-                        <p>
-                        <b>Hack The Box </b> <br/>
-                            <a href="https://dev.to/caffiendkitten/htb-ctf-decode-me-3n8a" target="_blank" rel="noopener noreferrer" >Decode Me!!</a><br />                        
-                            <a href="https://dev.to/caffiendkitten/htb-ctf-ezpz-2edg" target="_blank" rel="noopener noreferrer" >ezpz</a><br />                        
-                        </p> 
-
                         <p>
                         <b>Hacker 101 CTFs</b> <br/>
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-photo-gallery-4foi" target="_blank" rel="noopener noreferrer" >Photo Gallery</a><br />
@@ -60,8 +47,16 @@ const CTF = () => {
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v1-3jo4" target="_blank" rel="noopener noreferrer" >Micro-CMS v1</a><br />
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v2-2b0l" target="_blank" rel="noopener noreferrer" >Micro-CMS v2</a>
                         </p>
-
-
+                        <p>
+                        <b>Hack The Box </b> <br/>
+                            <a href="https://dev.to/caffiendkitten/htb-ctf-decode-me-3n8a" target="_blank" rel="noopener noreferrer" >Decode Me!!</a><br />                        
+                            <a href="https://dev.to/caffiendkitten/htb-ctf-ezpz-2edg" target="_blank" rel="noopener noreferrer" >ezpz</a><br />                        
+                        </p>
+                        <p>
+                        <b>PortSwigger</b><br/>
+                            <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-validation-of-csrf-token-depends-on-request-method-45mo" target="_blank" rel="noopener noreferrer" >Validation of CSRF token depends on request method</a><br />
+                            <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-csrf-vulnerability-with-no-defenses-817" target="_blank" rel="noopener noreferrer" >CSRF vulnerability with no defenses</a><br />
+                        </p>
                     </td>
                     <td>
                         <p><b>UMBC Cyber Dawgs</b><br/>
