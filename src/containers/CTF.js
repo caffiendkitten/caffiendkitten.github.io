@@ -62,6 +62,9 @@ const CTF = () => {
                         <p><b>Secure|Set and WiCyS CTF </b><br/>
                             May 2, 2020<br />
                             Rank: 20th place</p>
+                        <p><b>Derp Con Ticer King CTF</b><br />
+                            May 1, 2020<br />
+                            Rank: 444/614</p>
                         <p><b>UMBC Cyber Dawgs</b><br/>
                             April 10-12, 2020</p>
                         <p><b>VirSec Con 2020</b><br/>
