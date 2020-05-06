@@ -28,9 +28,12 @@ const CTF = () => {
                     <td>
                         <p>
                         <b>0x00sec</b><br />
-                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
-                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-2-1km8" target="_blank" rel="noopener noreferrer" >Exercise #2</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-6-2i4n" target="_blank" rel="noopener noreferrer" >Exercise #6</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-5-11o8" target="_blank" rel="noopener noreferrer" >Exercise #5</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-4-3a2n" target="_blank" rel="noopener noreferrer" >Exercise #4</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-3-54b3" target="_blank" rel="noopener noreferrer" >Exercise #3</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-2-1km8" target="_blank" rel="noopener noreferrer" >Exercise #2</a><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
                         </p>
 
                         <p>
