@@ -62,7 +62,7 @@ const CTF = () => {
                         <p><b>Secure|Set and WiCyS CTF </b><br/>
                             May 2, 2020<br />
                             Rank: 20th place</p>
-                        <p><b>Derp Con Ticer King CTF</b><br />
+                        <p><b>Derp Con Tiger King CTF</b><br />
                             May 1, 2020<br />
                             Rank: 444/614</p>
                         <p><b>UMBC Cyber Dawgs</b><br/>
@@ -73,7 +73,7 @@ const CTF = () => {
                             March 26-April 22, 2020</p>
                         <p><b>Cyber FastTrack</b><br/>
                             March 26-27, 2020</p>
-                        <p><b>Pancakes Con CTF</b><br/>
+                        <p><a href="https://dev.to/caffiendkitten/progress-check-from-1400pts-77000pts-4648"><b>Pancakes Con CTF</b></a><br/>
                             March 22, 2020<br />
                             Rank: 78/975</p>
                         <p><b>March Hackness 2020</b><br/>
