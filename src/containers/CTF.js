@@ -28,6 +28,7 @@ const CTF = () => {
                     <td>
                         <p>
                         <b>0x00sec</b><br />
+                            <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-7-5526" target="_blank" rel="noopener noreferrer" >Exercise #7</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-6-2i4n" target="_blank" rel="noopener noreferrer" >Exercise #6</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-5-11o8" target="_blank" rel="noopener noreferrer" >Exercise #5</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-4-3a2n" target="_blank" rel="noopener noreferrer" >Exercise #4</a><br />
@@ -73,7 +74,7 @@ const CTF = () => {
                             March 26-April 22, 2020</p>
                         <p><b>Cyber FastTrack</b><br/>
                             March 26-27, 2020</p>
-                        <p><a href="https://dev.to/caffiendkitten/progress-check-from-1400pts-77000pts-4648"><b>Pancakes Con CTF</b></a><br/>
+                        <p><a href="https://dev.to/caffiendkitten/progress-check-from-1400pts-77000pts-4648" target="_blank" rel="noopener noreferrer"><b>Pancakes Con CTF</b></a><br/>
                             March 22, 2020<br />
                             Rank: 78/975</p>
                         <p><b>March Hackness 2020</b><br/>
