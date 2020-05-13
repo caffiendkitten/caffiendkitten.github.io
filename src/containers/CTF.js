@@ -38,6 +38,7 @@ const CTF = () => {
                         </p>
                         <p>
                         <b>Hacker 101 CTFs</b> <br/>
+                            <a href="https://dev.to/caffiendkitten/hacker101-ctf-cody-s-first-blog-da8" target="_blank" rel="noopener noreferrer" >Cody's First Blog</a><br />
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-photo-gallery-4foi" target="_blank" rel="noopener noreferrer" >Photo Gallery</a><br />
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-h1-thermostat-4156" target="_blank" rel="noopener noreferrer" >H1 Thermostat</a><br />
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-bugdb-v3-4eo1" target="_blank" rel="noopener noreferrer" >BugDB v3</a><br />
