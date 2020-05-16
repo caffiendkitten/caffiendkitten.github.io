@@ -13,6 +13,7 @@ import Blog from '../containers/Blog.js'
 import CTF from '../containers/CTF.js'
 import Education from '../containers/Education.js'
 import Projects from '../containers/Projects.js'
+import SideProjects from '../containers/SideProjects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
 import Resources from '../containers/Resources.js'
 import ErrorPage from '../containers/ErrorPage.js'
@@ -105,8 +106,9 @@ class Header extends Component {
                             <li><Link to="/ctf">CTF Work</Link></li>
                             <li><Link to="/education">Ongoing Education</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/ConsAndMeetups">Cons And Meetups</Link></li>
-                            <li><Link to="/projects">Academic Projects</Link></li>
+                            <li><Link to="/consAndMeetups">Cons And Meetups</Link></li>
+                            <li><Link to="/academicProjects">Academic Projects</Link></li>
+                            <li><Link to="/sideProjects">Side Projects</Link></li>
                             <li><Link to="/resources">Information Resources</Link></li>
                         </ul>
                     </div>
@@ -116,8 +118,9 @@ class Header extends Component {
                     <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
                     <Route path ="/education" exact render={() => <Education  />} ></Route>
                     <Route path ="/blog" exact render={() => <Blog  />} ></Route>
-                    <Route path ="/ConsAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
-                    <Route path ="/projects" exact render={() => <Projects  />} ></Route>
+                    <Route path ="/consAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
+                    <Route path ="/academicProjects" exact render={() => <Projects  />} ></Route>
+                    <Route path ="/sideProjects" exact render={() => <SideProjects  />} ></Route>
                     <Route path ="/resources" exact render={() => <Resources  />} ></Route>
                     {/* <Route component={Home}/> */}
                     <Route path='*' component={ErrorPage} />
