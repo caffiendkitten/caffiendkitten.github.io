@@ -16,9 +16,22 @@ const Projects = () => {
                 <table className="projects">
                 <tr>
                     <td className="projectInfo left">
+                        <b>PentestReport Project: </b><br />
+                        This repository is a sample report done on my final project at Flatiron School, the [password manager](https://flatiron-passwordmanager.netlify.app/).<br />
+                        This will be an ongoing report until it is complete.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="projectInfo right">
+                        <a href="https://github.com/caffiendkitten/PenTestReport" target="_blank" rel="noopener noreferrer" >https://github.com/caffiendkitten/PenTestReport</a><br />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td className="projectInfo left">
                         <b>Coding Payloads Project: </b><br />
-                        A repository for my methodology/approach to penetration testing along with any payloads that I have 
-                        used for the process.<br />
+                        A repository for my methodology/approach to penetration testing along with any payloads that I have used for the process.<br />
                         This is an ongoing process and will continue to grow as my skills do.
                     </td>
                 </tr>
