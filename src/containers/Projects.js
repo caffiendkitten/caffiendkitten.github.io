@@ -17,7 +17,7 @@ const Projects = () => {
                 <tr>
                     <td className="projectInfo left">
                         <b>PentestReport Project: </b><br />
-                        This repository is a sample report done on my final project at Flatiron School, the [password manager](https://flatiron-passwordmanager.netlify.app/).<br />
+                        This repository is a sample report done on my final project at Flatiron School, the <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer">password manager</a>).<br />
                         This will be an ongoing report until it is complete.
                     </td>
                 </tr>
