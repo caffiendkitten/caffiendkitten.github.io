@@ -17,8 +17,12 @@ const Projects = () => {
                 <tr>
                     <td className="projectInfo left">
                         <b>PentestReport Project: </b><br />
-                        This repository is a sample report done on my final project at Flatiron School, the <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer">password manager</a>).<br />
-                        This will be an ongoing report until it is complete.
+                        This repository is a report done on my final project at Flatiron School, 
+                        the <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer">password manager</a>).<br />
+                        This report will be an ongoing, full evaluation of the security posture of the 
+                        application compared to current industry best practices, such as OWASP top 10, PTES, and NIST. <br />
+                        This will include both manual and automated testing as well as an evaluation of the vulnerabilities 
+                        found and their suggested remediation.
                     </td>
                 </tr>
                 <tr>

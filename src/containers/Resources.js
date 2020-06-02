@@ -12,6 +12,7 @@ const Resources = () => {
 {/* 
                 Cyber News
                 <ul>
+                    <li><a className="resourcesTable" href="https://blog.analyzenothing.com/"  target="_blank" rel="noopener noreferrer" >Analyze Nothing</a></li>
                     <li><a className="resourcesTable" href="https://pbs.twimg.com/media/DP7axHKUEAALlJB.jpg:large"  target="_blank" rel="noopener noreferrer" >Common Ports &#38; Protocols</a></li>
                     <li><a className="resourcesTable" href="https://thehackernews.com/" target="_blank" rel="noopener noreferrer">The Hacker News</a></li>
                     <li><a className="resourcesTable" href="https://www.wired.com/category/security/" target="_blank"  rel="noopener noreferrer">Wired &#8211; Security</a></li>
