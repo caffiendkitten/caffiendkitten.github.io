@@ -65,7 +65,9 @@ const CTF = () => {
                         </p>
                     </td>
                     <td>
-                        <p><b>Secure|Set and WiCyS CTF </b><br/>
+                        <p><b>WHackzCon CTF</b><br/>
+                            June 6-7, 2020<br /></p>
+                        <p><b>Secure|Set and WiCyS CTF</b><br/>
                             May 2, 2020<br />
                             Rank: 20th place</p>
                         <p><b>Derp Con Tiger King CTF</b><br />
