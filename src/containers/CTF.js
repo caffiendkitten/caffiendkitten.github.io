@@ -4,14 +4,7 @@ import Footer from "./Footer.js"
 
 const CTF = () => {
     return <div className="content">
-
         {/* <h3>CTFs</h3> */}
-        {/* <table>
-                <tr>
-                    <th><u>Ongoing CTFs</u></th>
-                    <th><u>Con/Short Term CTFs</u></th>
-                </tr>
-        </table> */}
         <div className="row">
             <div className="column left">
                 <p className="resourcesSide"></p>
@@ -27,7 +20,7 @@ const CTF = () => {
                 <tr>
                     <td>
                         <p>
-                        <b>0x00sec</b><br />
+                        <a href="https://github.com/caffiendkitten/CTFs/tree/master/0x00sec" target="_blank" rel="noopener noreferrer" ><b>0x00sec</b></a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-7-5526" target="_blank" rel="noopener noreferrer" >Exercise #7</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-6-2i4n" target="_blank" rel="noopener noreferrer" >Exercise #6</a><br />
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-5-11o8" target="_blank" rel="noopener noreferrer" >Exercise #5</a><br />
@@ -37,7 +30,7 @@ const CTF = () => {
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
                         </p>
                         <p>
-                        <b>Hacker 101 CTFs</b> <br/>
+                        <a href="https://github.com/caffiendkitten/CTFs/tree/master/Hacker101" target="_blank" rel="noopener noreferrer" ><b>Hacker 101 CTFs</b></a><br/>
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-hello-world-1627" target="_blank" rel="noopener noreferrer" >Hello World!</a><br />
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-ticketastic-live-instance-3nch" target="_blank" rel="noopener noreferrer" >Ticketastic: Live Instance</a><br />
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-cody-s-first-blog-da8" target="_blank" rel="noopener noreferrer" >Cody's First Blog</a><br />
@@ -52,19 +45,21 @@ const CTF = () => {
                             <a href="https://dev.to/caffiendkitten/hacker101-ctf-micro-cms-v2-2b0l" target="_blank" rel="noopener noreferrer" >Micro-CMS v2</a>
                         </p>
                         <p>
-                        <b>Hack The Box </b> <br/>
+                        <a href="https://github.com/caffiendkitten/CTFs/tree/master/HTB" target="_blank" rel="noopener noreferrer" ><b>Hack The Box </b></a><br/>
                             <a href="https://dev.to/caffiendkitten/htb-ctf-i-know-mag1k-2g7b" target="_blank" rel="noopener noreferrer" >I know Mag1k</a><br />                        
                             <a href="https://dev.to/caffiendkitten/htb-ctf-freelancer-1ff6" target="_blank" rel="noopener noreferrer" >FreeLancer</a><br />                        
                             <a href="https://dev.to/caffiendkitten/htb-ctf-decode-me-3n8a" target="_blank" rel="noopener noreferrer" >Decode Me!!</a><br />                        
                             <a href="https://dev.to/caffiendkitten/htb-ctf-ezpz-2edg" target="_blank" rel="noopener noreferrer" >ezpz</a><br />                        
                         </p>
                         <p>
-                        <b>PortSwigger</b><br/>
+                        <a href="https://github.com/caffiendkitten/CTFs/tree/master/PortSwigger" target="_blank" rel="noopener noreferrer" ><b>PortSwigger</b></a><br/>
                             <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-validation-of-csrf-token-depends-on-request-method-45mo" target="_blank" rel="noopener noreferrer" >Validation of CSRF token depends on request method</a><br />
                             <a href="https://dev.to/caffiendkitten/web-sec-academy-ctf-csrf-vulnerability-with-no-defenses-817" target="_blank" rel="noopener noreferrer" >CSRF vulnerability with no defenses</a><br />
                         </p>
                     </td>
                     <td>
+                        <p><a href="https://github.com/caffiendkitten/CTFs/tree/master/NahamSecCon" target="_blank" rel="noopener noreferrer" ><b>NahamSec Con CTF</b></a><br/>
+                            June 13-14, 2020<br /></p>
                         <p><b>DC-CyberWarriors CTF</b><br/>
                             June 11-12, 2020<br />
                             Rank: 8th place</p>

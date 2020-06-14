@@ -13,6 +13,7 @@ const ConsAndMeetups = () => {
 
             <div className="column middle">
                 <ul className="resourcesSide">
+                    <li>NahamSec Con - Human | June 13-14, 2020</li>
                     <li>WHackzCon - Human | June 6-7, 2020</li>
                     <li>SANS HackFest & Cyber Ranges Summit - Human | June 4-5, 2020</li>
                     <li>Women in Cybersecurity CtF | SecureSet and WiCyS - Human | May 2, 2020</li>
