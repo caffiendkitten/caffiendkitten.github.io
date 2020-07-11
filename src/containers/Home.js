@@ -10,7 +10,7 @@ const Home = () => {
             
             <div className="column middle">
                 <h3>Welcome To My Portfolio</h3>
-                <p>My name is DaNeil and I am a Quality-driven security researcher 
+                <p>My name is DaNeil and I am a Quality-driven security professional 
                     and full stack software/security engineer with a passion for performing 
                     responsible disclosure and aligning security controls, processes, policies and procedures.
                     <br />
