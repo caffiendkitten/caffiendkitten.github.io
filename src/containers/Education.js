@@ -16,6 +16,21 @@ const Education = () => {
                     <tr>
                         <td>
                             <h4>Continued Education</h4>
+
+
+
+                            <p className="technicalSkills">
+                                <b>ICSI, UK (International CyberSecurity Institute)</b>
+                                <ul>
+                                    <li>ICSI | CNSS Certified Network Security Specialist | July 10, 2020</li>                        
+                                </ul>
+                            </p>  
+                            <p className="technicalSkills">
+                                <b>NexGenT</b>
+                                <ul>
+                                    <li>CompTIA Network+ Certification Course | June 23, 2020</li>                        
+                                </ul>
+                            </p>                            
                             <p className="technicalSkills"> 
                                 <b>Pentester Lab</b>
                                 <ul>
@@ -97,12 +112,12 @@ const Education = () => {
                             </p>
                             <h4>Education</h4>
                             <p className="technicalSkills">
-                                <b>Flatiron School:</b><br />Software Engineering Bootcamp<br /> Seattle, WA | August 2019<br />
-                                <b>City University Seattle:</b><br />Bachelor of Science – Information Technology, Information Security Emphasis<br /> Seattle, WA | March 2018<br />
-                                <b>Edmonds Community College:</b><br />General Associate’s Degree <br /> Lynnwood, WA | June 2013 <br />
-                                <b>Lewis-Clark State College:</b><br />Associate’s Degree in Web Development <br /> Lewiston, ID | May 2010
+                                <b>Flatiron School:</b><br />Software Engineering Bootcamp<br /> Seattle, WA<br />
+                                <b>City University Seattle:</b><br />Bachelor of Science – Information Technology, Information Security Emphasis<br /> Seattle, WA<br />
+                                <b>Edmonds Community College:</b><br />General Associate’s Degree <br /> Lynnwood, WA<br />
+                                <b>Lewis-Clark State College:</b><br />Associate’s Degree in Web Development <br /> Lewiston, ID
                             </p>
-                            <h4>Relevant College Courses </h4>
+                            <h4>Relevant Academic Courses </h4>
                             <p className="technicalSkills">
                                 Computer Science | Java, Computer Science || Java, Cybercrime, Tech and Social Change, Human Computer Interaction, 
                                 IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, 
