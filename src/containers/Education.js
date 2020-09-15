@@ -18,7 +18,12 @@ const Education = () => {
                             <h4>Continued Education</h4>
 
 
-
+                            <p className="technicalSkills">
+                                <b>TryHackMe</b>
+                                <ul>
+                                    <li><script src="https://tryhackme.com/badge/106028"></script></li>
+                                </ul>
+                            </p>
                             <p className="technicalSkills">
                                 <b>Stack Skills</b>
                                 <ul>
@@ -31,7 +36,7 @@ const Education = () => {
                             <p className="technicalSkills">
                                 <b>FreeCodeCamp</b>
                                 <ul>
-                                    <li>Information Security Certification | August 27, 2020</li>                        
+                                    <li>Information Security Certification | Sept 14, 2020</li>                        
                                     <li>Responsive Web Design | November 11, 2019</li>                        
                                 </ul>
                             </p>                            
