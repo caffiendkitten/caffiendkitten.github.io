@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from "./Footer.js"
+import Footer from "../containers/Footer.js"
 
 
 
