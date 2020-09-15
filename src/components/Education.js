@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { Component } from 'react';
 import Footer from "./Footer.js"
 
 
-const Education = () => {
-    return <div className="content">
+
+
+class Education extends Component {
+
+    componentDidMount() {
+        const script = document.createElement("script");
+        const placement = document.getElementsByClassName("TryHackMe");
+        script.src = "https://tryhackme.com/badge/106028";
+        script.async = true;
+    
+        placement.appendChild(script);
+    }
+
+    render() {
+        return <div className="content">
         <h3>Ongoing Education</h3>
 
         <div className="row">
@@ -21,7 +34,7 @@ const Education = () => {
                             <p className="technicalSkills">
                                 <b>TryHackMe</b>
                                 <ul>
-                                    <li><script src="https://tryhackme.com/badge/106028" crossorigin></script></li>
+                                    <li className="TryHackMe"><script src="https://tryhackme.com/badge/106028" crossorigin></script></li>
                                 </ul>
                             </p>
                             <p className="technicalSkills">
@@ -144,6 +157,6 @@ const Education = () => {
         </div>
             
     </div>       
-}
-        
+    }
+}       
 export default Education
