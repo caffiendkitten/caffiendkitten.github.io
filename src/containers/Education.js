@@ -21,7 +21,7 @@ const Education = () => {
                             <p className="technicalSkills">
                                 <b>TryHackMe</b>
                                 <ul>
-                                    <li><script src="https://tryhackme.com/badge/106028"></script></li>
+                                    <li><script src="https://tryhackme.com/badge/106028" crossorigin></script></li>
                                 </ul>
                             </p>
                             <p className="technicalSkills">
