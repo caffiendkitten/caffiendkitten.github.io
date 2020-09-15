@@ -20,6 +20,22 @@ const Education = () => {
 
 
                             <p className="technicalSkills">
+                                <b>Stack Skills</b>
+                                <ul>
+                                    <li>Windows Exploit Development Megaprimer | September 14, 2020</li>
+                                    <li>The Complete Hacking Course: Go From Beginner to Advanced! | November 11, 2019</li>
+                                    <li>Cross Site Scripting(XSS) Attacks for Pentesters | March 2019</li>
+                                    <li>Ultimate WiFi Hacking &#38; Security Series | Dec 2018</li>
+                                </ul>
+                            </p>
+                            <p className="technicalSkills">
+                                <b>FreeCodeCamp</b>
+                                <ul>
+                                    <li>Information Security Certification | August 27, 2020</li>                        
+                                    <li>Responsive Web Design | November 11, 2019</li>                        
+                                </ul>
+                            </p>                            
+                            <p className="technicalSkills">
                                 <b>ICSI, UK (International CyberSecurity Institute)</b>
                                 <ul>
                                     <li>ICSI | CNSS Certified Network Security Specialist | July 10, 2020</li>                        
@@ -51,20 +67,6 @@ const Education = () => {
                                     <li>PHP Programming Basics | Nov 15, 2019</li>
                                     <li>Hacking Academy: How to Monitor &#38; Intercept Transmitted Data | Oct 2018</li>
                                     <li>Introduction to Python Programming	| March 2018</li>
-                                </ul>
-                            </p>
-                            <p className="technicalSkills">
-                                <b>Stack Skills</b>
-                                <ul>
-                                    <li>The Complete Hacking Course: Go From Beginner to Advanced! | November 11, 2019</li>
-                                    <li>Cross Site Scripting(XSS) Attacks for Pentesters | March 2019</li>
-                                    <li>Ultimate WiFi Hacking &#38; Security Series | Dec 2018</li>
-                                </ul>
-                            </p>
-                            <p className="technicalSkills">
-                                <b>FreeCodeCamp</b>
-                                <ul>
-                                    <li>Responsive Web Design | November 11, 2019</li>                        
                                 </ul>
                             </p>
                             <p className="technicalSkills">
