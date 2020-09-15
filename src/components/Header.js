@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-        BrowserRouter as Router,
+        // BrowserRouter as Router,
         Route,
         Switch,
         Link,
@@ -68,7 +68,7 @@ class Header extends Component {
                 <h1>DaNeil Coulthard // CaffiendKitten</h1>
                 <hr></hr>  
             </div>
-            <div class="overlay" id="overlay" onClick={this.handleOverlay}></div>
+            <div className="overlay" id="overlay" onClick={this.handleOverlay}></div>
 
             <div className='navbar' id='navBar'>
                 {/* <Router >

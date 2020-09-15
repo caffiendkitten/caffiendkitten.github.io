@@ -10,6 +10,7 @@
     "jest-haste-map": "^25.3.0",
     "nan": "^2.14.0",
     "node-gyp": "^6.1.0",
+    "postscribe": "^2.0.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.0.3",

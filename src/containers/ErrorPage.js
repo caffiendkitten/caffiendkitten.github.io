@@ -3,7 +3,6 @@ import React from 'react'
 import '../CSS/ErrorPage.css';
 import Particles from 'react-particles-js';
 // import '../Scripts/ErrorPage.js'
-   {/* <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> */}
 
 
 const ErrorPage = () => {

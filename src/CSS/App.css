@@ -22,11 +22,11 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App img {
+.App #header img {
   border-radius: 20%;
   opacity: 0.25;
   filter: alpha(opacity=50);
-  z-index: -10;
+  z-index: -1000;
   position: absolute;
   max-width: 100%;
   width: 100%;
@@ -57,6 +57,9 @@ h1{
 h5{
   margin: 5px;
   padding: -5px;
+}
+h4{
+  padding-bottom: 10px;
 }
 p{
   font-size: 20px;
@@ -164,6 +167,7 @@ th, td {
 .technicalSkills {
   text-align: left;
   font-size: 15px;
+  padding-bottom: 15px;
 }
 
 
@@ -301,3 +305,30 @@ canvas{
 
 }
 
+
+
+
+/* START of TryHackMe overlay CSS */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
+}
+
+.thm_line a{
+  color: white;
+}
+
+.thm_line .thm_rank{
+  font-family: "Roboto", monospace;
+}
+.thm_line .thm_nickname {
+  font-family: "Roboto", monospace;
+}
+.thm_line .thm_stat{
+  color: white;
+  opacity: 0.8;
+}
+
+/* END of TryHackMe overlay CSS */
