@@ -119,7 +119,7 @@ class Education extends Component {
                         <td>
                             <h4>Technical Skills </h4>
                             <div className="technicalSkills">
-                                <b>Languages:</b> Ruby, React, JavaScript, Python, HTML5/CSS3, SQL<br />
+                                <b>Languages:</b> Python, HTML5/CSS3, JavaScript, Ruby, React, SQL<br />
                                 <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
                                 <b>Tools:</b> Git, Github, VSCode, Burp Suite, ZAP, WireShark, Hydra, SQLMap<br />
                                 <b>Database:</b> PostgreSQL, SQLite, MYSQL<br />
