@@ -34,8 +34,8 @@ const SideProjects = () => {
                 </tr>
                 <tr>
                     <td className="projectInfo right">
-                        <a href="./../Images/OnTheFlyEspressoLogo.jpg" target="_blank" rel="noopener noreferrer" ><img src="./../Images/OnTheFlyEspressoLogo.jpg" alt="On The Fly Espresso Logo" width="200" /></a><br />
-                        <a href="./../Images/OnTheFlyEspressoSite.jpg" target="_blank" rel="noopener noreferrer" ><img src="./../Images/OnTheFlyEspressoSite.jpg" alt="On The Fly Espresso Site" height="200" /></a><br />
+                        <a href="./../Images/OnTheFlyEspressoLogo.jpg" target="_blank" rel="noopener noreferrer" ><img src="./../Images/OnTheFlyEspressoLogo.jpg" alt="On The Fly Espresso Logo" height="150" /></a>
+                        <a href="./../Images/OnTheFlyEspressoSite.jpg" target="_blank" rel="noopener noreferrer" ><img src="./../Images/OnTheFlyEspressoSite.jpg" alt="On The Fly Espresso Site" height="150" /></a><br />
                     </td>
                 </tr>
                 {/* <tr>
