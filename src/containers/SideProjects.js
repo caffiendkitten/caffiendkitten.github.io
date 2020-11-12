@@ -24,22 +24,21 @@ const SideProjects = () => {
                         <a href="https://github.com/caffiendkitten/3DPlant" target="_blank" rel="noopener noreferrer">https://github.com/caffiendkitten/3DPlant</a><br />
                     </td>
                 </tr>
-                {/* <tr>
+                <tr>
                     <td className="projectInfo left">
-                        <b>Password Manager: </b><br />
-                        A password manager allowing users to create their own list of usernames and passwords for their online accounts.
-                        I utilized Cryptr AES-256-CRT encryption/decryption, BCrypt hashing of user login passwords, JavaScript and HTML for user input validation, 
-                        Ruby and Postgres for the backend database and database validations, and JWT HS256 signatures for user state validation.
+                        <b>Website Design: On the Fly Espresso</b><br />
+                        Worked with owner to builb a website for coffee shop, On the Fly Espresso, in Alaska from 2011 until 2013 when shop was sold.<br />
+                        I worked closly with the owner, Ms. Coulthard, to help design the logo, punch card, website, menu layout, and social media presence. I also worked with Ms. Coulthard to enable her to update social media and menu to enable her to update as needed for special daily deals.<br />
+                        <br/>
                     </td>
                 </tr>
                 <tr>
                     <td className="projectInfo right">
-                        <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer" >https://flatiron-passwordmanager.netlify.app/</a><br />
-                        <a href="https://github.com/caffiendkitten/Final-Project-Backend" target="_blank" rel="noopener noreferrer" >Backend Repository</a><br />
-                        <a href="https://github.com/caffiendkitten/Final-Project-Frontend" target="_blank" rel="noopener noreferrer" >Frontend Repository</a>
+                        <a href="../Images/OnTheFlyEspressoLogo.jpg" target="_blank" rel="noopener noreferrer" ><img src="../Images/OnTheFlyEspressoLogo.jpg" alt="On The Fly Espresso Logo" width="200" /></a><br />
+                        <a href="../Images/OnTheFlyEspressoSite.jpg" target="_blank" rel="noopener noreferrer" ><img src="../Images/OnTheFlyEspressoSite.jpg" alt="On The Fly Espresso Site" height="200" /></a><br />
                     </td>
                 </tr>
-                <tr>
+                {/* <tr>
                     <td className="projectInfo left">
                         <b>The Final FM: </b><br />
                         An Song Searcher/Saver with Location Searching application gives its users the ability 
