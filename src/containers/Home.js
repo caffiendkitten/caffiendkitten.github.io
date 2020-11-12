@@ -21,14 +21,13 @@ const Home = () => {
                 <p>
                     I am passionate about Information Security and enthusiastic about finding 
                     security vulnerabilities. I am active within the Capture the Flag community 
-                    and local tech meetup groups such as the CyberSecurity Non-Profit that I am a 
-                    chapter organizer for, WISP, WoSec, and OWASP and this site will be built 
-                    around my progress and my process of getting into Info Sec.
+                    and local tech meetup groups such as the CyberSecurity Non-Profit that I volunteer for, 
+                    WISP, WoSec, and OWASP.
                 </p>
                 <p>
-                    I am seeking a Vulnerability Researcher / Penetration Tester position that 
-                    will push my experience and skills to the limit and also offer a challenging 
-                    future with room for learning and advancement.
+                    I am seeking a position in Information Security / Penetration Testing that 
+                    will push my experience and skills while offering a challenging 
+                    future with room for continued learning and advancement.
                 </p>
                 <p>
                     <b>Connect with me:</b><br />
