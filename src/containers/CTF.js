@@ -4,7 +4,7 @@ import Footer from "./Footer.js"
 
 const CTF = () => {
     return <div className="content">
-        {/* <h3>CTFs</h3> */}
+        <h3>CTF Work</h3>
         <div className="row">
             <div className="column left">
                 <p className="resourcesSide"></p>
@@ -13,12 +13,14 @@ const CTF = () => {
             <div className="column middle projects">
             <table>
                 <tr>
-                    <th><h3>CTF Participation</h3></th>
-                    <th><h3>CTF Writeups</h3></th>
+                    <td><h4>CTF Participation</h4></td>
+                    <td><h4>CTF Writeups</h4></td>
                 </tr>
 
                 <tr>
                     <td>
+                        <p><b>Attack in Autumn</b><br/>
+                            Sept 24-26, 2020<br /></p>                        
                         <p><b>2nd annual Hot Dogs & Hacking CMD+CTRL Cyber Range event</b><br/>
                             July 2-4, 2020<br /></p>
                         <p><b>WoSEC & Security Innovation CTF Event</b><br/>

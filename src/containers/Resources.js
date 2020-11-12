@@ -37,7 +37,7 @@ const Resources = () => {
                 <table className="resourcesTable">
                     <tr>
                         <td>
-                        Practice Labs/ Education
+                        <b>Practice Labs/ Education</b>
                             <ul>
                                 <li><a className="resourcesTable" href="https://www.vulnhub.com/"  target="_blank" rel="noopener noreferrer" >VulnHub</a></li>
                                 <li><a className="resourcesTable" href="https://www.hackthebox.eu/"  target="_blank" rel="noopener noreferrer" >HackTheBox</a></li>
@@ -51,7 +51,7 @@ const Resources = () => {
 
                         </td>
                         <td>
-                            Turorials
+                            <b>Turorials</b>
                             <ul>
                                 <li><a className="resourcesTable" href="https://www.offensive-security.com/metasploit-unleashed" target="_blank" rel="noopener noreferrer">Free Metasploit Course!</a></li>
                                 <li><a className="resourcesTable" href="https://null-byte.wonderhowto.com/how-to/hack-like-pro-evade-detection-using-proxychains-0154619" target="_blank" rel="noopener noreferrer">Proxychains tutorial</a></li>
@@ -61,7 +61,7 @@ const Resources = () => {
                             </ul>                                                        
                         </td>
                         <td>
-                            Tools
+                            <b>Tools</b>
                             <ul>
                                 <li><a className="resourcesTable" href="https://www.virustotal.com" target="_blank" rel="noopener noreferrer">Virus Total</a></li>
                                 <li><a className="resourcesTable" href="https://github.com/jivoi/pentest" target="_blank" rel="noopener noreferrer">Jivoi &#8211; Pentest tools/scripts</a></li>
@@ -75,13 +75,13 @@ const Resources = () => {
                     </tr>
                     <tr>
                     <td>
-                        OSCP
+                        <b>OSCP</b>
                         <ul>
                             <li><a className="resourcesTable" href="https://medium.com/@hakluke/haklukes-ultimate-oscp-guide-part-3-practical-hacking-tips-and-tricks-c38486f5fc97"  target="_blank" rel="noopener noreferrer" >Hakluke’s Ultimate OSCP Guide: Part 3</a></li>
                         </ul>                          
                     </td>
                     <td>
-                        Linux &#038; Bash Scripting
+                        <b>Linux &#038; Bash Scripting</b>
                         <ul>
                             <li><a className="resourcesTable" href="https://linuxconfig.org/bash-scripting-tutorial"  target="_blank" rel="noopener noreferrer" >Bash scripting Tutorial</a></li>
                             <li><a className="resourcesTable" href="https://null-byte.wonderhowto.com/how-to/linux-basics/"  target="_blank" rel="noopener noreferrer" >Linux Basics for the Aspiring Hacker</a></li>
@@ -90,7 +90,7 @@ const Resources = () => {
                         </ul>                            
                     </td>
                     <td>
-                        TCP/IP &#38; Networking
+                        <b>TCP/IP &#38; Networking</b>
                         <ul>
                             <li><a className="resourcesTable" href="https://pbs.twimg.com/media/DP7axHKUEAALlJB.jpg:large"  target="_blank" rel="noopener noreferrer" >Common Ports &#38; Protocols</a></li>
                             <li><a className="resourcesTable" href="https://nmap.org/bennieston-tutorial/"  target="_blank" rel="noopener noreferrer" >Nmap Basics</a></li>
@@ -100,7 +100,7 @@ const Resources = () => {
                     </tr>
                     <tr>
                         <td>
-                            Python
+                            <b>Python</b>
                             <ul>
                                 <li><a className="resourcesTable" href="https://www.codecademy.com/learn/learn-python"  target="_blank" rel="noopener noreferrer" >Learn Python 2</a></li>
                                 <li><a className="resourcesTable" href="https://automatetheboringstuff.com/2e/"  target="_blank" rel="noopener noreferrer" >Automate the Boring Stuff with Python</a></li>
@@ -108,14 +108,14 @@ const Resources = () => {
                             </ul>   
                         </td>
                         <td>
-                        Buffer Overflows
+                        <b>Buffer Overflows</b>
                             <ul>
                                 <li><a className="resourcesTable" href="https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/"  target="_blank" rel="noopener noreferrer" >Exploit writing tutorial part 1 : Stack Based Overflows</a></li>
                                 <li><a className="resourcesTable" href="https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/"  target="_blank" rel="noopener noreferrer" >Exploit writing tutorial part 2 : Jumping to shellcode</a></li>
                             </ul>                            
                         </td>
                         <td>
-                        Linux Privilige Escalation
+                        <b>Linux Privilige Escalation</b>
                             <ul>
                                 <li><a className="resourcesTable" href="https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/"  target="_blank" rel="noopener noreferrer" >Basic Linux Privilege Escalation</a></li>
                                 <li><a className="resourcesTable" href="https://netsec.ws/?p=309"  target="_blank" rel="noopener noreferrer" >Linux Privilege Escalation Scripts</a></li>
@@ -125,7 +125,7 @@ const Resources = () => {
                     </tr>                    
                     <tr>
                     <td>
-                        Windows Privilege Escalation
+                    <b>Windows Privilege Escalation</b>
                         <ul>
                         <li><a className="resourcesTable" href="https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/" target="_blank" rel="noopener noreferrer">Basic Windows Priv Escalation</a></li>
                             <li><a className="resourcesTable" href="http://www.fuzzysecurity.com/tutorials/16.html"  target="_blank" rel="noopener noreferrer" >Windows Privilege Escalation Fundamentals</a></li>
@@ -133,13 +133,13 @@ const Resources = () => {
                         </ul>                            
                     </td>
                     <td>
-                    XSS
+                    <b>XSS</b>
                         <ul>
                             <li><a className="resourcesTable" href="https://www.shift8web.ca/2018/01/craft-xss-payload-create-admin-user-in-wordpress-user/"  target="_blank" rel="noopener noreferrer" >How To Craft An XSS Payload To Create An Admin User In WordPress</a></li>
                         </ul> 
                     </td>
                     <td>
-                        Links for Creating This Site
+                    <b>Links for Creating This Site</b>
                         <ul >
                             <li><a className="resourcesTable" href="https://dev.to/saurabhdaware/i-made-dev-to-widget-for-websites-blogs-40p2"  target="_blank" rel="noopener noreferrer" >Blog on Dev Widget</a></li>
                             <li><a className="resourcesTable" href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav"  target="_blank" rel="noopener noreferrer" >Side Nav</a></li>
