@@ -23,3 +23,13 @@ Happy Hacking<br />
 
 
 ###### Please Note that I am still learning. If something that I have stated is incorrect please let me know. I would love to learn more about what I may not understand fully.
+
+
+
+Container Components:
+Deal with managing data (typically state)
+They often pass data to child components
+
+Presentational Components:
+Deal with how things look
+Are often reusable

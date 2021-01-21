@@ -1,0 +1,260 @@
+/* export const css = css ` */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    font-family: Arial;
+    width: 600px;
+    display: inline-block; 
+
+    --cardHeader-bg:rgba(0, 0, 0, 0.911);
+    --cardHeader-color:#fff;
+    --cardHeader-logo-filter: invert(50%);
+
+    /* --cardContent-bg: rgb(204, 204, 204); */
+    --cardContent-border: #ddd;
+    --cardContent-color: #222;
+
+    --button-bg: #ddd;
+    --button-color: #222;
+
+    --scroll-track: #eee;
+    --scroll-thumb: #666;
+
+    --likes-color: #999;
+}
+
+
+/* Card Header content below */
+.cardHeader{
+    background-color:var(--cardHeader-bg);
+    color:var(--cardHeader-color);
+    position:relative;
+    height:120px;
+    overflow:hidden;
+}
+.profile-pic{
+    position:absolute;
+    top:23px;
+    left:20px;
+    border-radius:100%;
+    width:70px;
+}
+.dev-logo{
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:130px;
+    opacity:.2;
+    filter:var(--cardHeader-logo-filter);
+    z-index:1;
+}
+@media (max-width:768px){
+    .cardHeader{background-color: var(--cardHeader-bg);}
+}
+.cardHeader > .name-container{
+    font-weight:bold;
+    /* font-size:14pt; */
+    overflow-x:hidden;
+    /* margin-left:100px; */
+    padding:30px 5px;
+    position:relative;
+    z-index:1;
+    margin-left:100px
+}
+.cardHeader > .name-container div.view-profile-container{
+    margin-top:3px;
+}
+.cardHeader > .name-container .view-profile-button{
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    font-size:10pt;
+    border-radius:3px;
+    padding:5px 10px;
+    position:relative;
+    top:6px;
+    text-decoration:none;
+}
+/* Card Header content above */
+
+
+
+
+/* Card Content below */
+.cardContent{
+    /* background-color:var(--cardContent-bg); */
+    max-height:500px;
+    min-height:400px;
+    /* width: 300px; */
+    overflow-y:scroll;
+}
+
+
+/* Custom scrollbar for everything except firefox and edge below */
+.cardContent::-webkit-scrollbar {
+    width: 8px;
+}
+.cardContent::-webkit-scrollbar-track {
+    background-color: var(--scroll-track);
+}
+.cardContent::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb);
+  /* border-radius: 5px; */
+}
+/* Custom scrollbar for everything except firefox and edge above */
+
+.article-card{
+    padding:10px 10px;
+    font-size:10pt;
+    border-bottom:1px solid var(--cardContent-border);
+    display:block;
+    text-decoration:none;
+    transition:background-color .5s ease;
+}
+
+.article-card a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    /* color: #2a3e44; */
+}
+a:hover {
+    text-decoration: none ;
+    color: #426b79;
+}
+a:active {
+    text-decoration: none;
+    /* color: #548596; */
+}
+
+
+.article-card:hover{
+    background-color: rgba(238, 238, 238, 0.85);
+    transition:background-color .5s ease;
+}
+.article-card > .articleTitle{
+    text-decoration:none;
+    color: var(--cardContent-color);
+    font-weight: 700;
+    font-size: 12pt;  
+
+}
+.articleTimeStamp{
+    position:relative;
+    right: 0px;
+    top: 5px;
+    font-size: 8pt;  
+    padding-left:-5px;
+    padding-bottom: 8px;
+}
+.article-card > .articleDescription{
+    text-decoration:none;
+    color: var(--cardContent-color);
+    font-weight:400;
+}
+/* details {
+    font: 16px "Open Sans", Calibri, sans-serif;
+    width: 620px;
+  } */
+.reading_time{
+    text-decoration:none;
+    /* color: red; */
+    /* color: var(--cardContent-color); */
+    /* font-weight:400; */
+    padding-bottom: 3px;
+    font-size: 9pt;  
+
+}
+
+.articleTags{
+    /* font-size: 10pt;   */
+    /* padding: .25rem; */
+    /* padding: .25rem; */
+    display: inline-block;
+    line-height: 1.5;
+    margin-right: 5px;
+}
+.article-icon{
+    margin-top:7px;
+    padding-left:5px;
+}
+.article-icon .fas {
+    color: rgba(255, 0, 0, 0.733);
+    /* transition: .5s; */
+    font-size: 10pt;  
+    filter:drop-shadow(2px 2px 2px black);
+}
+/* Card Content Adove */
+
+
+
+
+
+/* Tag Styles below */
+.secStyle{
+    background-color: #000000;
+    color: #23ff00;
+    border-radius: 5px;
+    padding: 4px;
+}
+.codeNoobStyle{
+    background-color:#57d700;
+    color:#ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.todayilearnedStyle{
+    background-color:#ffedc9;
+    color:#820000;
+    border-radius: 5px;
+    padding: 4px;
+}
+.jsStyle{
+    background-color:#F7DF1E;
+    color: #000000;
+    border-radius: 5px;
+    padding: 4px;
+}
+.reactStyle{
+    background-color:#222222;
+    color: #61DAF6;
+    border-radius: 5px;
+    padding: 4px;
+}
+.cssStyle{
+    background-color:#2965F1;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.webdevStyle{
+    background-color:#562765;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.gitStyle{
+    background-color:#F54D27;
+    color: #413932;
+    border-radius: 5px;
+    padding: 4px;
+}
+.githubStyle{
+    background-color:#191919;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.dbStyle{
+    background-color:#ED1556;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.railsStyle{
+    background-color:#CC0000;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+/* Tag Styles Above */

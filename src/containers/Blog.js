@@ -1,8 +1,9 @@
 import React from 'react'
+import DevCard from '../components/BlogWidget2.js'
 import Footer from "./Footer.js"
 
 
-const Blog = () => {
+function Blog(props) {
     return <div className="content">
         <h3>Blog</h3>
 
@@ -12,7 +13,14 @@ const Blog = () => {
             </div>
         
             <div className="column middle">
-                <dev-widget data-username="caffiendkitten" data-width="600px" ></dev-widget>
+            <DevCard 
+                data={props.data}
+                author={props.author}
+                articlezList={props.articlezList}
+                profile_image_90={props.profile_image_90}
+                articleContent={props.articleContent}
+                wordCountArrayz={props.wordCountArrayz}
+                />         
             </div>
         
             <div className="column right">

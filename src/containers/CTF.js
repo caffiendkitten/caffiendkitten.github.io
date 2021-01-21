@@ -1,6 +1,12 @@
 import React from 'react'
 import Footer from "./Footer.js"
+// import postscribe from 'postscribe';
 
+// class Education extends Component {
+//     componentDidMount() {
+//         postscribe('#TryHackMe', '<script src="https://tryhackme.com/badge/106028"></script>')
+//         postscribe('#HackTheBox', '<script src="https://www.hackthebox.eu/badge/67366"></script>')
+//     }
 
 const CTF = () => {
     return <div className="content">
@@ -66,6 +72,12 @@ const CTF = () => {
                     <td>
                         <p>
                         <a href="https://github.com/caffiendkitten/CTFs/tree/master/HTB" target="_blank" rel="noopener noreferrer" ><b>Hack The Box </b></a><br/>
+                            {/* <div className="technicalSkills">
+                                <b>HackTheBox</b>
+                                <ul>
+                                    <li  id="HackTheBox" ></li>
+                                </ul>
+                            </div> */}
                             <a href="https://dev.to/caffiendkitten/htb-ctf-i-know-mag1k-2g7b" target="_blank" rel="noopener noreferrer" >I know Mag1k</a><br />                        
                             <a href="https://dev.to/caffiendkitten/htb-ctf-freelancer-1ff6" target="_blank" rel="noopener noreferrer" >FreeLancer</a><br />                        
                             <a href="https://dev.to/caffiendkitten/htb-ctf-decode-me-3n8a" target="_blank" rel="noopener noreferrer" >Decode Me!!</a><br />                        

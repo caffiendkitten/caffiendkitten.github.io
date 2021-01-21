@@ -160,7 +160,10 @@ td {
   width: 50%;
   padding: 8px;
   font-size: 18px;
-  vertical-align: top;}
+  vertical-align: top;
+  border-color: rgba(0, 0, 0, 0); 
+  border-collapse: collapse;
+}
 th, td {
   text-align: left;
 }
@@ -347,3 +350,6 @@ canvas{
 }
 
 /* END of TryHackMe overlay CSS */
+
+
+
