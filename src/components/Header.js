@@ -76,8 +76,8 @@ class Header extends Component {
                     <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/resume">Resume</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/SkillsAndCerts">Skills And Certs</Link></li>
                             <li><Link to="/education">Ongoing Education</Link></li>
                             <li><Link to="/academicProjects">Academic Projects</Link></li>
@@ -89,14 +89,14 @@ class Header extends Component {
                     </div>
                 <Switch>
                     <Route  exact path ="/"  render={() => <Home  />} ></Route>
-                    <Route path ="/blog" exact render={() => <Blog 
-                data={this.props.data}
-                author={this.props.author}
-                articlezList={this.props.articlezList}
-                profile_image_90={this.props.profile_image_90}
-                done={this.props.done}
-                                                             />} ></Route>
                     <Route path ="/resume" exact render={() => <Resume  />} ></Route>
+                    <Route path ="/blog" exact render={() => <Blog 
+                                                            data={this.props.data}
+                                                            author={this.props.author}
+                                                            articlezList={this.props.articlezList}
+                                                            profile_image_90={this.props.profile_image_90}
+                                                            done={this.props.done}
+                                                             />} ></Route>
                     <Route path ="/SkillsAndCerts" exact render={() => <SkillsAndCerts  />} ></Route>
                     <Route path ="/education" exact render={() => <Education  />} ></Route>
                     <Route path ="/academicProjects" exact render={() => <Projects  />} ></Route>
