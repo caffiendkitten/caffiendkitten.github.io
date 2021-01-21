@@ -25,9 +25,9 @@ import ErrorPage from '../containers/ErrorPage.js'
 class Header extends Component {
     state = {
         addClass: false,
-        navClass: ""
+        navClass: "",
+        done: true
     }
-
 
     handleNav = () => {
         if(this.state.navClass === "active" ) {
@@ -94,6 +94,7 @@ class Header extends Component {
                 author={this.props.author}
                 articlezList={this.props.articlezList}
                 profile_image_90={this.props.profile_image_90}
+                done={this.props.done}
                                                              />} ></Route>
                     <Route path ="/resume" exact render={() => <Resume  />} ></Route>
                     <Route path ="/SkillsAndCerts" exact render={() => <SkillsAndCerts  />} ></Route>

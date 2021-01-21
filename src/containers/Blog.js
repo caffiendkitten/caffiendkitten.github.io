@@ -18,11 +18,11 @@ function Blog(props) {
                 author={props.author}
                 articlezList={props.articlezList}
                 profile_image_90={props.profile_image_90}
-                articleContent={props.articleContent}
-                wordCountArrayz={props.wordCountArrayz}
+                // articleContent={props.articleContent}
+                // wordCountArrayz={props.wordCountArrayz}
+                done={props.done}
                 />         
             </div>
-        
             <div className="column right">
                 <p className="resourcesSide"></p>
             </div>

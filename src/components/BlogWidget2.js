@@ -4,15 +4,21 @@ let SingleArticle = ""
 let articleGroup = []
 let articleList = document.getElementsByClassName("cardzContent")
 const avgWordsPerMin = 250;
-let count = 1
-
-
 
 
 class DevCard extends React.Component {
-   componentDidUpdate(){
-      count += 1
+   state = {
+      data: this.props.data,
+      done: this.props.done,
+      countz: 0
    }
+
+   componentDidUpdate(){
+      this.state.countz += 1
+   }
+
+
+
 
    renderHeader(){
       return <div className="cardHeader">
@@ -129,8 +135,8 @@ class DevCard extends React.Component {
 
 
    render(){
-      return (<Fragment>
-         {count < 29?
+      return (<div>
+         {this.state.counts < 29?
             <div className="wrap">
               <div className="loading">
                 <div className="bounceball"></div>
@@ -146,7 +152,7 @@ class DevCard extends React.Component {
          </div>          
             }
 
-   </Fragment>
+   </div>
 
       )
    }

@@ -16,6 +16,7 @@ const articlez = []
 const articleContentz = []
 const wordCountArray = []
 const tempIDList = []
+let finishedLoading = false
 
 class App extends Component {
     state = {
@@ -98,7 +99,7 @@ class App extends Component {
   render () {
     return (
     <div className="App">
-          {this.state.done === false?//articlez.length === 0 ?//|| articleContentz.length == 29?
+        {this.state.done === false?//articlez.length === 0 ?//|| articleContentz.length == 29?
           <div className="wrap">
             <div className="loading">
               <div className="bounceball"></div>
@@ -113,10 +114,12 @@ class App extends Component {
           author={this.state.author}
           articlezList={this.state.articlezList}
           profile_image_90={this.state.profile_image_90}
-          articleContent={this.state.articleContent}
-          wordCountArrayz={this.state.wordCountArrayz}
-        />            
-          }
+          // articleContent={this.state.articleContent}
+          // wordCountArrayz={this.state.wordCountArrayz}
+          done={this.state.done}
+        />
+         
+      }
 
 
         
