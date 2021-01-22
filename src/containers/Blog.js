@@ -1,5 +1,5 @@
 import React from 'react'
-import DevCard from '../components/BlogWidget2.js'
+import DevCard from '../components/BlogWidget.js'
 import Footer from "./Footer.js"
 
 

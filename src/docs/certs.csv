@@ -1,22 +1,30 @@
 CertificationName,CertificationAuthority,LicenseNum,Compleated,Experation,HoursTowardsCPECEUs
-Windows Exploit Development Megaprimer,Stack Skills,,"Sept 14, 2020",does not expire,0,
-Information Security Certification,FreeCodeCamp,,"Sept 14, 2020",does not expire,0,
-ICSI | CNSS Certified Network Security Specialist,"ICSI, UK (International CyberSecurity Institute)",20485416,"July 10, 2020",does not expire,0,
-CompTIA Network+ Certification Course,NexGenT,,"June 23, 2020",does not expire,0,
-Active Countermeasures Network CyberThreat Hunting Training Level 1,Active Countermeasures,,"January 22, 2020",does not expire,0,
-"Learn Burp Suite, the Nr. 1 Web Hacking Tool",Udemy,,"November 21, 2019",does not expire,0,
-"Programming with Python : HandsOn Introduction for Beginners""",Udemy,,"November 20, 2019",does not expire,0,
-PHP Programming Basics,Udemy,,"November 15, 2019",does not expire,0,
-Responsive Web Design,FreeCodeCamp,,"November 11, 2019",does not expire,0,
-The Complete Hacking Course: Go From Beginner to Advanced!,Stack Skills,,"November 11, 2019",does not expire,0,
-Javascript,SoloLearn,,October 2019,does not expire,0,
-Cross Site Scripting(XSS) Attacks for Pentesters,Stack Skills,,March 2019,does not expire,0,
-Pre Immersive SSP,Hack Reactor/Galvanize,,Jan 2019,does not expire,0,
-Practical JavaScript,Watch and Code,,Dec 2018,does not expire,0,
-Ultimate WiFi Hacking & Security Series,Stack Skills,,Dec 2018,does not expire,0,
-Intro to Javascript,Udacity,,November 2018,does not expire,0,
-Hacking Academy: How to Monitor & Intercept Transmitted Data,Udemy,,Oct 2018,does not expire,0,
-SQL Bootcamp,General Assembly Seattle,,March 2018,does not expire,0,
-Intro to Data Analytics,General Assembly Seattle,,March 2018,does not expire,0,
-Introduction to Python Programming,Udemy,,March 2018,does not expire,0,
-Python for Data 1,General Assembly Seattle,,January 2018,does not expire,0,
+Windows Exploit Development Megaprimer,Stack Skills,,"Sept 14, 2020",X,4
+Information Security Certification,FreeCodeCamp,,"Sept 14, 2020",X,300
+ICSI | CNSS Certified Network Security Specialist,"ICSI, UK (International CyberSecurity Institute)",20485416,"July 10, 2020",X,
+CompTIA Network+ Certification Course,NexGenT,,"June 23, 2020",X,50
+Blue Badge,PentesterLab,PTLB0346,"Apr 3, 2020",X,
+Serialize Badge,PentesterLab,PTLS1085,"Feb 17, 2020",X,
+White Badge,PentesterLab,PTLW2152,"Feb 12, 2020",X,
+PCAP badge,PentesterLab,PTLP1303,"Feb 4, 2020",X,
+Essential Badge,PentesterLab,PTLE2089,"February 1, 2020",X,
+Unix Badge,PentesterLab,PTLU3925,"January, 27 2020",X,
+Active Countermeasures Network CyberThreat Hunting Training Level 1,Active Countermeasures,,"January 22, 2020",X,1
+"Learn Burp Suite, the Nr. 1 Web Hacking Tool",Udemy,,"November 21, 2019",X,2
+"Programming with Python : HandsOn Introduction for Beginners""",Udemy,,"November 20, 2019",X,3.5
+PHP Programming Basics,Udemy,,"November 15, 2019",X,2.5
+Free CCNA Security 210-260 Course: All About VPNs,Udemy,,"November 15, 2019",X,1
+Responsive Web Design,FreeCodeCamp,,"November 11, 2019",X,300
+The Complete Hacking Course: Go From Beginner to Advanced!,Stack Skills,,"November 11, 2019",X,25
+Javascript,SoloLearn,1024-2178107,October 2019,X,
+Cross Site Scripting(XSS) Attacks for Pentesters,Stack Skills,,March 2019,X,1.5
+Pre Immersive SSP,Hack Reactor/Galvanize,,Jan 2019,X,15
+Mobile Cybersecurity Awareness,Udemy,,Jan 2019,X,0.4
+Practical JavaScript,Watch and Code,,Dec 2018,X,
+Ultimate WiFi Hacking & Security Series,Stack Skills,,Dec 2018,X,3
+Intro to Javascript,Udacity,,November 2018,X,3
+Hacking Academy: How to Monitor & Intercept Transmitted Data,Udemy,,Oct 2018,X,1.5
+SQL Bootcamp,General Assembly Seattle,,March 2018,X,4
+Intro to Data Analytics,General Assembly Seattle,,March 2018,X,2
+Introduction to Python Programming,Udemy,,March 2018,X,4.5
+Python for Data 1,General Assembly Seattle,,January 2018,X,1

@@ -7,6 +7,7 @@ import './CSS/Social.css';
 import './CSS/Glitch.css';
 import './CSS/Edu.css';
 import './CSS/card.style.css';
+import Loading from './containers/Loading'
 
 import Header from './components/Header.js';
 // const fetchURL = "https://dev.to/api/articles?username=caffiendkitten&page=1";
@@ -16,7 +17,6 @@ const articlez = []
 const articleContentz = []
 const wordCountArray = []
 const tempIDList = []
-let finishedLoading = false
 
 class App extends Component {
     state = {
@@ -58,7 +58,7 @@ class App extends Component {
     .then(d=>{
       // "d" is each article object here
 
-      let singlePoint  =  `<span>${d["body_html"].toString()}</span>`
+      // let singlePoint  =  `<span>${d["body_html"].toString()}</span>`
       let wordcount = this.getWordCount(articleNum, d["body_html"])
 
       // WordCount is a "promise" here and will be filled
@@ -100,12 +100,7 @@ class App extends Component {
     return (
     <div className="App">
         {this.state.done === false?//articlez.length === 0 ?//|| articleContentz.length == 29?
-          <div className="wrap">
-            <div className="loading">
-              <div className="bounceball"></div>
-              <div className="text">NOW LOADING...</div>
-            </div>
-          </div>
+          <Loading />
           :
         <Header 
           // addClass={this.state.addClass}

@@ -10,12 +10,13 @@ import Home from '../containers/Home.js'
 import Resume from './Resume.js'
 import Blog from '../containers/Blog.js'
 import CTF from '../containers/CTF.js'
+import Badges from './BadgesAndSkills.js'
 import Education from './Education.js'
 import Projects from '../containers/Projects.js'
 import SideProjects from '../containers/SideProjects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
-import SkillsAndCerts from '../containers/SkillsAndCerts.js'
-import Resources from '../containers/Resources.js'
+// import SkillsAndCerts from '../containers/SkillsAndCerts.js'
+// import Resources from '../containers/Resources.js'
 import ErrorPage from '../containers/ErrorPage.js'
 
 // // const fetchURL = "https://dev.to/api/articles?username=caffiendkitten&page=1";
@@ -78,13 +79,14 @@ class Header extends Component {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/SkillsAndCerts">Skills And Certs</Link></li>
+                            {/* <li><Link to="/SkillsAndCerts">Skills And Certs</Link></li> */}
+                            <li><Link to="/Badges">Badges & Skills</Link></li>
                             <li><Link to="/education">Ongoing Education</Link></li>
                             <li><Link to="/academicProjects">Academic Projects</Link></li>
                             <li><Link to="/sideProjects">Side Projects</Link></li>
                             <li><Link to="/ctf">CTFs</Link></li>
                             <li><Link to="/consAndMeetups">Cons And Meetups</Link></li>
-                            <li><Link to="/resources">Information Resources</Link></li>
+                            {/* <li><Link to="/resources">Information Resources</Link></li> */}
                         </ul>
                     </div>
                 <Switch>
@@ -97,13 +99,14 @@ class Header extends Component {
                                                             profile_image_90={this.props.profile_image_90}
                                                             done={this.props.done}
                                                              />} ></Route>
-                    <Route path ="/SkillsAndCerts" exact render={() => <SkillsAndCerts  />} ></Route>
+                    {/* <Route path ="/SkillsAndCerts" exact render={() => <SkillsAndCerts  />} ></Route> */}
+                    <Route path ="/Badges" exact render={() => <Badges  />} ></Route>
                     <Route path ="/education" exact render={() => <Education  />} ></Route>
                     <Route path ="/academicProjects" exact render={() => <Projects  />} ></Route>
                     <Route path ="/sideProjects" exact render={() => <SideProjects  />} ></Route>
                     <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
                     <Route path ="/consAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
-                    <Route path ="/resources" exact render={() => <Resources  />} ></Route>
+                    {/* <Route path ="/resources" exact render={() => <Resources  />} ></Route> */}
                     <Route path='*' component={ErrorPage} />
                 </Switch>
                 </HashRouter>

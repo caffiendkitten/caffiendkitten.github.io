@@ -1,11 +1,11 @@
 import React  from 'react';
 const keysHeads = [
-    "Certification Name",
-    "Certification Authority",
+    "Certificate Name",
+    "Certificate Authority",
     "License #",
     "Compleated",
     "Experation",
-    "Hours Towards CPE/CEUs"
+    "CPE/CEU Hours"
 ];
 class CSVtable extends React.Component {
     state = {
@@ -13,9 +13,8 @@ class CSVtable extends React.Component {
         navClass: "",
         // certs: [] 
     }
+
     renderTableHeader() {
-        // console.log("certs?>???", this.props.certs)
-      //  let header = Object.keys(this.props.certs)
        return keysHeads.map((key, index) => {
           return <th key={index}>{key}</th>
        })
@@ -23,7 +22,6 @@ class CSVtable extends React.Component {
  
     renderTableData() {
        return this.props.certs.map((cert, index) => {
-        //    console.log("whats haoppening?", this.state.certs)
           const { CertificationName, CertificationAuthority, LicenseNum, Compleated, Experation, HoursTowardsCPECEUs } = cert //destructuring
           return (
              <tr key={index}>
@@ -31,7 +29,7 @@ class CSVtable extends React.Component {
                 <td>{CertificationAuthority}</td>
                 <td>{LicenseNum}</td>
                 <td>{Compleated}</td>
-                <td>{Experation}</td>
+                <td><i className="fas fa-infinity"></i></td>
                 <td>{HoursTowardsCPECEUs}</td>
              </tr>
           )
@@ -40,7 +38,7 @@ class CSVtable extends React.Component {
  
     render() {
        return (
-          <div>
+          <div  className='EduTable' >
              <table className='certs'>
                 <tbody>
                    <tr>{this.renderTableHeader()}</tr>

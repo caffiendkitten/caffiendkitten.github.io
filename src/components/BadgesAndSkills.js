@@ -1,15 +1,14 @@
 import React from 'react';
 import Papa from 'papaparse';
 import {withRouter} from 'react-router-dom';
-import csvFilePath from './../docs/certs.csv'
-import eduFilePath from './../docs/degrees.csv'
+import badgeFilePath from './../docs/badges.csv'
 import Footer from "../containers/Footer.js"
-import CsvDatas from './csvData.js'
-import EduDatas from './eduData.js'
+import BadgeDatas from './BadgeData.js'
 import Loading from '../containers/Loading'
 
-var csvDatas1 = [];
-var eduDataArray = [];
+
+
+var badgeDataArray = [];
 
 class Education extends React.Component {
 
@@ -19,16 +18,15 @@ class Education extends React.Component {
         this.state = {
 			addClass: false,
 			navClass: "",
-            certState: [],
-            eduState: [] 
+            badgeState: [] 
         };
 
         this.getData = this.getData.bind(this);
     }
 
     UNSAFE_componentWillMount() {
-        this.getCsvData(csvFilePath, csvDatas1, "certState");
-        this.getCsvData(eduFilePath, eduDataArray, "eduState");
+        // this.getCsvData(csvFilePath, csvDatas1, "certState");
+        this.getCsvData(badgeFilePath, badgeDataArray, "badgeState");
         // this.forceUpdate()
         
     }
@@ -38,8 +36,8 @@ class Education extends React.Component {
     //     return true
     // }
     componentWillUnmount() {
-        csvDatas1 = []
-        eduDataArray = []
+        // csvDatas1 = []
+        badgeDataArray = []
     }
 
     async fetchCsv(filepath) {
@@ -76,7 +74,7 @@ class Education extends React.Component {
     render() {
         return (<div className="content">
             
-        <h3>Continued Education</h3>
+        <h3>Badges & Skills</h3>
 
         <div className="row">
             <div className="column left">
@@ -85,27 +83,27 @@ class Education extends React.Component {
         
             <div className="column middle">
 
-    {this.state.certState.length < 25?
-            <Loading />
-            :
-            <div className="eduCol">
-                <h4>CPE/CEUs</h4>
-                <CsvDatas certs={this.state.certState}/>
-                <br />
+                {this.state.badgeState.length < 14?
+                <Loading />
+                :
+                <div className="eduCol">
+                    <h4>Technical Skills</h4>
+                    <div className="technicalSkills">
+                        <b>Languages:</b> Python, HTML5/CSS3, JavaScript, Ruby on Rails, React, SQL, PHP<br />
+                        <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
+                        <b>Software/Tools:</b> Git, Github, VSCode, Burp Suite, ZAP, Apache HTTP Server, WireShark, MongoDB, Hydra, SQLMap<br />
+                        <b>Database:</b> PostgreSQL, MongoDB<br />
+                        <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
+                    </div>
+                    <br />
 
-                <h4>Academic Education</h4>
-                <EduDatas edu={this.state.eduState}/>
-                <br />
+                    <h4>Earned Badges</h4>
+                    <BadgeDatas edu={this.state.badgeState}/>
+                    <br />
 
-                <h4>Relevant Academic Courses </h4>
-                <div className="technicalSkills">
-                    Computer Science | Java, Computer Science || Java, Cybercrime, Tech and Social Change, Human Computer Interaction, 
-                    IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, 
-                    Novell/Linux OS, Operating Systems, Operating Systems: MS Windows, PC Technician Fundamentals, Programming with 
-                    Python, Systems Analysis and Design
+
                 </div>
-                </div>
-    }
+                }
             </div>
             <div className="column right">
                 <p className="resourcesSide"></p>

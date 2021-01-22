@@ -1,6 +1,10 @@
 import React from 'react'
 import Footer from "./Footer.js"
-
+import Papa from 'papaparse';
+// import {withRouter} from 'react-router-dom';
+import badgeFilePath from './../docs/badges.csv'
+import BadgeDatas from '../components/BadgeData'
+import Loading from './Loading'
 
 const ConsAndMeetups = () => {
     return <div className="content">

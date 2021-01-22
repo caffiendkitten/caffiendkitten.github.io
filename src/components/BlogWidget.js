@@ -1,4 +1,5 @@
-import React, {Fragment} from 'react';
+import React from 'react';
+import Loading from '../containers/Loading'
 
 let SingleArticle = ""
 let articleGroup = []
@@ -128,7 +129,7 @@ class DevCard extends React.Component {
             return "dbStyle";
          case "rails":
             return "railsStyle;"
-         case 6:
+         default:
             return "null";
        }
    }
@@ -137,12 +138,7 @@ class DevCard extends React.Component {
    render(){
       return (<div>
          {this.state.counts < 29?
-            <div className="wrap">
-              <div className="loading">
-                <div className="bounceball"></div>
-                <div className="text">NOW LOADING...</div>
-              </div>
-            </div>
+            <Loading />
             :
             <div className="card" >
             {this.renderHeader()}
