@@ -1,15 +1,15 @@
-BadgeName,BadgeAuthority,BadgeNum,Compleated,Experation,CPECEUs
-Pentester Tools,Try Hack Me,,"Jan 8, 2021",X,
-Ice,Try Hack Me,,"2020",X,
-Blue,Try Hack Me,,"Aug 12, 2020",X,
-Metasploitable,Try Hack Me,,"Aug 12, 2020",X,
-cat linux.txt,Try Hack Me,,"2020",X,
-Burp'ed,Try Hack Me,,"2020",X,
-Webbed,Try Hack Me,,"2020",X,
-OWASP Top 10,Try Hack Me,,"Aug 5, 2020",X,
-Blue Badge,Pentester Lab,PTLB0346,"Apr 3, 2020",X,
-Serialize Badge,Pentester Lab,PTLS1085,"Feb 17, 2020",X,
-White Badge,Pentester Lab,PTLW2152,"Feb 12, 2020",X,
-PCAP badge,Pentester Lab,PTLP1303,"Feb 4, 2020",X,
-Essential Badge,Pentester Lab,PTLE2089,"February 1, 2020",X,
-Unix Badge,Pentester Lab,PTLU3925,"January, 27 2020",X,
+BadgeName,BadgeAuthority,BadgeNum,Compleated,Image
+Pentester Tools,Try Hack Me,,"Jan 8, 2021",https://tryhackme.com/img/badges/pentestingtools_badge.svg
+Ice,Try Hack Me,,"Aug 2020",https://tryhackme.com/img/badges/ice.svg
+Blue,Try Hack Me,,"Aug 12, 2020",https://tryhackme.com/img/badges/blue.svg
+Metasploitable,Try Hack Me,,"Aug 12, 2020",https://tryhackme.com/img/badges/metasploit.svg
+cat linux.txt,Try Hack Me,,"Aug 2020",https://tryhackme.com/img/badges/linux.svg
+Burp'ed,Try Hack Me,,"Aug 2020",https://tryhackme.com/img/badges/burped.svg
+Webbed,Try Hack Me,,"Aug 2020",https://tryhackme.com/img/badges/webbed.svg
+OWASP Top 10,Try Hack Me,,"Aug 5, 2020",https://tryhackme.com/img/badges/owasptop10.svg
+Blue Badge,Pentester Lab,PTLB0346,"Apr 3, 2020",https://assets.pentesterlab.com/badges/blue.png
+Serialize Badge,Pentester Lab,PTLS1085,"Feb 17, 2020",https://assets.pentesterlab.com/badges/serialize.png
+White Badge,Pentester Lab,PTLW2152,"Feb 12, 2020",https://assets.pentesterlab.com/badges/white.png
+PCAP badge,Pentester Lab,PTLP1303,"Feb 4, 2020",https://assets.pentesterlab.com/badges/pcap.png
+Essential Badge,Pentester Lab,PTLE2089,"February 1, 2020",https://assets.pentesterlab.com/badges/essential.png
+Unix Badge,Pentester Lab,PTLU3925,"January, 27 2020",https://assets.pentesterlab.com/badges/unix.png

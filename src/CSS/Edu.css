@@ -18,12 +18,11 @@
     color: rgb(0, 0, 0);
 }
 .EduTable th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 10px 5px;
     text-align: center;
     background-color: #f1f1f1;
-    font-size: 12px;
-    font-weight: blod;
+    /* font-size: 18px; */
+    /* font-weight: 900; */
     border: 1px solid rgb(0, 0, 0);
 }
 
@@ -44,7 +43,7 @@
     text-align: center;
 
 }
-.EduTable  tr, td {
+.EduTable  tr {
     text-align: center;
     padding: 8px;
     border: 1px solid rgba(121, 121, 121, 0.582);
@@ -56,13 +55,8 @@
 /* .certs tr:hover {background-color: rgb(0, 0, 0);} */
 
 .EduTable tr:hover {
-    text-align: left;
     background-color: rgba(238, 238, 238, 0.85);
-    font-size: 12px;
-    padding: 3px;
-    border-color: rgb(145, 145, 145); 
-    border-collapse: collapse;
-    font-weight: 700;
+    /* border-color: rgb(145, 145, 145);  */
 }
 
 
@@ -73,4 +67,17 @@
 .certs td:nth-child(3) {
     padding-top: 8px;
 }
+
+.eduHistory td:nth-child(1) {
+    text-align: left;
+}
+
+
+.badgeHistory td:nth-child(1) {
+    font-size: 15px;
+}
+.badgeHistory img{
+    width: 100px;
+}
+
 

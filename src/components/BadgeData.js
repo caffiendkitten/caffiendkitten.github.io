@@ -2,10 +2,8 @@ import React  from 'react';
 const keysHeads = [
     "Badge Title",
     "Badge Authority",
-    "BadgeNum",
-    "Date Compleated",
-    "Experation",
-    "CPES?"
+    "Badge Number",
+    "Date Compleated"
    ];
 
 class BADGEtable extends React.Component {
@@ -16,22 +14,21 @@ class BADGEtable extends React.Component {
 
    renderTableHeader() {
    return keysHeads.map((key, index) => {
-      return <th key={index}>{key}</th>
+      return <th key={index}><h6>{key}</h6></th>
    })
    }
  
    renderTableData() {
       return this.props.edu.map((edus, index) => {
 
-         const { BadgeName,BadgeAuthority,BadgeNum,Compleated,Experation,CPECEUs} = edus //destructuring
+         const { BadgeName,BadgeAuthority,BadgeNum,Compleated,Image} = edus //destructuring
          return (
             <tr key={index}>
-               <td>{BadgeName}</td>
+               <td><img src={Image}/><br />{BadgeName}</td>
                <td>{BadgeAuthority}</td>
                <td>{BadgeNum}</td>
-               <td><i className="far fa-check-circle"></i>{Compleated}</td>
-               <td><i className="fas fa-infinity"></i></td>
-               <td>{CPECEUs}</td>
+               <td>{Compleated}</td>
+               {/* <td><img src={Image}/></td> */}
             </tr>
           )
       })

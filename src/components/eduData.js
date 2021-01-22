@@ -15,7 +15,7 @@ class CSVtable extends React.Component {
 
     renderTableHeader() {
       return keysHeads.map((key, index) => {
-         return <th key={index}>{key}</th>
+         return <th key={index}><h6>{key}</h6></th>
       })
     }
  

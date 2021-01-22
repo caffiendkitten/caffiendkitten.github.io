@@ -5,9 +5,15 @@ import badgeFilePath from './../docs/badges.csv'
 import Footer from "../containers/Footer.js"
 import BadgeDatas from './BadgeData.js'
 import Loading from '../containers/Loading'
+import ScriptTag from 'react-script-tag'
+// import THMB from './TryHackMeBadge'
+// import THM from '../scripts/THM'
 
 
 
+const badgeLocation = document.getElementsByClassName("badgeHere")
+const script = document.createElement("script");
+const span = document.createElement("span");
 var badgeDataArray = [];
 
 class Education extends React.Component {
@@ -25,19 +31,81 @@ class Education extends React.Component {
     }
 
     UNSAFE_componentWillMount() {
-        // this.getCsvData(csvFilePath, csvDatas1, "certState");
         this.getCsvData(badgeFilePath, badgeDataArray, "badgeState");
         // this.forceUpdate()
-        
+        console.log("badgeLocation in Willmount", badgeLocation.item(0))
+        this.fetchTHMBadge()
+    }
+    componentDidMount(){
+        const badgeLocation = document.getElementsByClassName("badgeHere")
+        const script = document.createElement("script");
+        const span = document.createElement("span");
+
+        script.src = "https://tryhackme.com/badge/106028";
+        // script.async = true;
+        // badgeLocation.item(0).insertBefore(script,badgeLocation);
+        badgeLocation.insertBefore = <p>hizzzzzzzz</p>
+        console.log("badgeLocation in Did Mount:", document.getElementsByClassName("badgeHere").item(0))  
+        // badge lcoation is null here
     }
 
-    // shouldComponentUpdate(){
-    //     // this.forceUpdate()
-    //     return true
-    // }
+
     componentWillUnmount() {
-        // csvDatas1 = []
         badgeDataArray = []
+    }
+    async fetchTHMBadge(){
+        return await fetch("http://tryhackme.com/badge/106028"
+        ,{
+        method: 'GET',
+        // mode: "no-cors",
+        // // credentials: 'include',
+        headers: {
+            "Accept": "text/html",
+            // "Access-Control-Allow-Origin": "*",
+            // "Cookie": "__cfduid=d00fc16cf4e5100b342c6da2f8a4a501f1611353532"
+
+        }
+        }
+        )
+        .then(res => console.log("typeof:", res.type))// res.blob())
+        // .then(data => {
+        //     let newdata = Body.data
+        //     console.log("newdata:", newdata)
+        // })
+        // .then(res=>res.json())
+        // .then(d=>{
+          // "d" is each article object here
+    
+          // let singlePoint  =  `<span>${d["body_html"].toString()}</span>`
+        //   let wordcount = this.getWordCount(articleNum, d["body_html"])
+            // console.log("D: ", d)
+          // WordCount is a "promise" here and will be filled
+        //   return 
+                 
+        // })
+        .catch(error => console.log("error fetching", error))
+  
+    }
+    createBadge(){
+
+
+        // const badgeLocation = document.getElementsByClassName("badgeHere")
+        const script = document.createElement("script");
+        const span = document.createElement("span");
+
+        {badgeLocation === null?
+        console.log("nUllLLLLll")
+        :
+        console.log("valid",badgeLocation[0])
+
+        script.src = "https://tryhackme.com/badge/106028";
+        script.async = false;
+        // badgeLocation.appendChild(script);
+        }
+
+        // badgeLocation.item(0).innerHTML = <p>hittttt</p>
+        // this.forceUpdate()
+        // console.log("badgeLocation:", document.getElementsByClassName("badgeHere").item(0).firstChild)        
     }
 
     async fetchCsv(filepath) {
@@ -68,7 +136,10 @@ class Education extends React.Component {
             },
             complete: this.getData(dataType, dataState)
         });
+        
         this.forceUpdate()
+        // this.createBadge()
+
     }
 
     render() {
@@ -98,6 +169,29 @@ class Education extends React.Component {
                     <br />
 
                     <h4>Earned Badges</h4>
+                    <span className="badgeHere">{console.log("badgeLocation in add", badgeLocation[0])}
+                    {badgeLocation[0] === undefined?
+                    <div>
+                        <img src="https://tryhackme-badges.s3.amazonaws.com/CaffiendKitten.png" alt="TryHackMe" />
+                        <img src="http://www.hackthebox.eu/badge/image/67366" alt="Hack The Box" />
+                        {/* {this.createBadge()} */}
+                    </div>
+                    :
+
+                    <div>
+                        {this.createBadge()}
+                        {console.log("badgeLocation in add", badgeLocation.innerHTML)}
+                        1<ScriptTag isHydrating={true} type="text/javascript" src="https://tryhackme.com/badge/106028" />
+                        2<script src="https://tryhackme.com/badge/106028"></script>
+                    {/* <THM />  */}
+3                        {badgeLocation.innerHTML = <script src="https://tryhackme.com/badge/106028"></script>}
+                        {badgeLocation.innerHTML = <p>woops</p>}
+                        </div>
+                    }    
+                    </span>
+                    {/* <img src="https://tryhackme-badges.s3.amazonaws.com/CaffiendKitten.png" alt="TryHackMe" />
+                    <img src="http://www.hackthebox.eu/badge/image/67366" alt="Hack The Box" /> */}
+
                     <BadgeDatas edu={this.state.badgeState}/>
                     <br />
 

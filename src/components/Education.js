@@ -85,7 +85,7 @@ class Education extends React.Component {
         
             <div className="column middle">
 
-    {this.state.certState.length < 25?
+    {this.state.certState.length < 22?
             <Loading />
             :
             <div className="eduCol">
