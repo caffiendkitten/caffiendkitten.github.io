@@ -80,8 +80,8 @@ class Header extends Component {
                             <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/Badges">Badges & Skills</Link></li>
                             <li><Link to="/education">Ongoing Education</Link></li>
-                            <li><Link to="/academicProjects">Academic Projects</Link></li>
                             <li><Link to="/sideProjects">Side Projects</Link></li>
+                            <li><Link to="/academicProjects">Academic Projects</Link></li>
                             <li><Link to="/ctf">CTFs</Link></li>
                             <li><Link to="/consAndMeetups">Cons And Meetups</Link></li>
                             {/* <li><Link to="/resources">Information Resources</Link></li> */}
@@ -99,8 +99,8 @@ class Header extends Component {
                                                              />} ></Route>
                     <Route path ="/Badges" exact render={() => <Badges  />} ></Route>
                     <Route path ="/education" exact render={() => <Education  />} ></Route>
-                    <Route path ="/academicProjects" exact render={() => <Projects  />} ></Route>
                     <Route path ="/sideProjects" exact render={() => <SideProjects  />} ></Route>
+                    <Route path ="/academicProjects" exact render={() => <Projects  />} ></Route>
                     <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
                     <Route path ="/consAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
                     {/* <Route path ="/resources" exact render={() => <Resources  />} ></Route> */}

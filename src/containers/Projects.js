@@ -4,7 +4,7 @@ import Footer from "./Footer.js"
 
 const Projects = () => {
     return <div className="content">
-        <h3>Academic Projects</h3>
+        <h3>Academic Specific Projects</h3>
 
         <div className="row">
             <div className="column left">
@@ -14,36 +14,7 @@ const Projects = () => {
             <div className="column middle projects">
             
                 <table className="projects">
-                <tr>
-                    <td className="projectInfo left">
-                        <b>PentestReport Project: </b><br />
-                        This repository is a report done on my final project at Flatiron School, 
-                        the <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer">password manager</a>).<br />
-                        This report will be an ongoing, full evaluation of the security posture of the 
-                        application compared to current industry best practices, such as OWASP top 10, PTES, and NIST. <br />
-                        This will include both manual and automated testing as well as an evaluation of the vulnerabilities 
-                        found and their suggested remediation.
-                    </td>
-                </tr>
-                <tr>
-                    <td className="projectInfo right">
-                        <a href="https://github.com/caffiendkitten/PenTestReport" target="_blank" rel="noopener noreferrer" >https://github.com/caffiendkitten/PenTestReport</a><br />
-                    </td>
-                </tr>
 
-
-                <tr>
-                    <td className="projectInfo left">
-                        <b>Coding Payloads Project: </b><br />
-                        A repository for my methodology/approach to penetration testing along with any payloads that I have used for the process.<br />
-                        This is an ongoing process and will continue to grow as my skills do.
-                    </td>
-                </tr>
-                <tr>
-                    <td className="projectInfo right">
-                        <a href="https://github.com/caffiendkitten/codeProjects" target="_blank" rel="noopener noreferrer" >https://github.com/caffiendkitten/codeProjects</a><br />
-                    </td>
-                </tr>
                 <tr>
                     <td className="projectInfo left">
                         <b>Password Manager: </b><br />

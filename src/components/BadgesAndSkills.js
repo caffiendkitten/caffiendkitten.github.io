@@ -109,8 +109,6 @@ class Education extends React.Component {
 
                     <h4>Earned Badges</h4>
                     <span className="badgeHere">
-                        {/* <span id="TryHackMe"></span><span id="HackTheBox"></span>                     */}
-
                         {this.state.THMBadge === false?
                         <span>
                             <img src="https://tryhackme-badges.s3.amazonaws.com/CaffiendKitten.png" alt="TryHackMe" />
