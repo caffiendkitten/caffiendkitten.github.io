@@ -332,7 +332,12 @@ canvas{
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
 }
-
+#TryHackMe{
+  float: left;
+}
+#HackTheBox{
+  float: left;
+}
 .thm_line a{
   color: white;
 }
@@ -347,6 +352,28 @@ canvas{
   color: white;
   opacity: 0.8;
 }
+.htb_line a{
+  color: rgb(0, 255, 34);
+}
+/* #HackTheBox div:nth-child(0){
+  background-color: #343c41 ;
+  height: 66px !important;
+  width: 255px !important;
+  padding-top: 50px;
+} */
+#HackTheBox{
+  background-color: #343c41 ;
+  height: 56px !important;
+  width: 245px !important;
+  padding-top: 2px;
+  margin-top:5px;
+  border-radius: 5px;
+
+}
+/* 
+.certs td:nth-child(3) {
+  padding-top: 8px;
+} */
 
 /* END of TryHackMe overlay CSS */
 
