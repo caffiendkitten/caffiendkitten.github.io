@@ -3,33 +3,35 @@ import Footer from "./Footer.js"
 
 const Home = () => {
     return <div className="content">
+                <h3>About Me</h3>
         <div className="row">
             <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
             
-            <div className="column middle">
-                <h3>Welcome To My Portfolio</h3>
-                <p>My name is DaNeil and I am a quality-driven security professional 
-                    and full stack software/security engineer with a passion for performing 
-                    responsible disclosure and aligning security controls, processes, policies and procedures.
-                    <br />
-                    I am experienced in leveraging tool-based testing, and manual hands-on testing, of web 
-                    applications and network services while utilizing web and network application 
+            <div className="column middle portfolio">
+                <p>A quality-driven security professional and full-stack software/security engineer with a passion for <br />
+                finding security vulnerabilities, performing responsible disclosure, and aligning security controls, processes, policies and procedures.
+                </p>
+                <p>Experienced in leveraging tool-based and manual hands-on testing of web applications and network services <br />
+                    while utilizing web and network application 
                     guidelines and following industry-standard best practices and methodologies, such as OWASP and PTES.
                 </p>
-                <p>
+                {/* <p>
                     I am passionate about Information Security and enthusiastic about finding 
-                    security vulnerabilities. I am active within the Capture the Flag community 
+                    security vulnerabilities. 
+                    I am active within the Capture the Flag community 
                     and local tech meetup groups such as the CyberSecurity Non-Profit that I volunteer for, 
                     WISP, WoSec, and OWASP.
-                </p>
+                </p> */}
                 <p>
-                    I am seeking a position in Information Security / Penetration Testing that 
-                    will push my experience and skills while offering a challenging 
-                    future with room for continued learning and advancement.
+                    Currently seeking a position in Information Security / Penetration Testing.
+                    {/* that will<br /> */}
+                     {/* push my skills while offering a challenging future with room for continued learning and advancement. */}
                 </p>
-                <p>
+
+
+                <p className="connectWithMe">
                     <b>Connect with me:</b><br />
                     <b>LinkedIn:</b>  <a className="resourcesTable" href="https://www.linkedin.com/in/daneil-coulthard/"  target="_blank" rel="noopener noreferrer" >linkedin.com/in/daneil-coulthard/</a><br />
                     <b>GitHub:</b> <a className="resourcesTable" href="https://github.com/caffiendkitten"  target="_blank" rel="noopener noreferrer" >github.com/caffiendkitten</a><br />

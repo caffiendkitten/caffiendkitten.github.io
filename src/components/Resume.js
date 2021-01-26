@@ -25,7 +25,7 @@ class Resume extends Component {
                 {/* <Document file={file} >
                     <Page pageNumber={1} />
                 </Document> */}
-                <a href={file}>Download</a>
+                <a href={file}><i class="fas fa-file-download"></i> Download</a>
 
                 <embed src={file} type="application/pdf" width="100%" height="950px" />
 

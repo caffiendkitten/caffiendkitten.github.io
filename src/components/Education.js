@@ -89,15 +89,15 @@ class Education extends React.Component {
             <Loading />
             :
             <div className="eduCol">
-                <h4>CPE/CEUs</h4>
+                <h4><i class="fas fa-award"></i> CPE/CEUs</h4>
                 <CsvDatas certs={this.state.certState}/>
                 <br />
 
-                <h4>Academic Education</h4>
+                <h4><i class="fas fa-graduation-cap"></i> Academic Education</h4>
                 <EduDatas edu={this.state.eduState}/>
                 <br />
 
-                <h4>Relevant Academic Courses </h4>
+                <h4><i class="fas fa-book-reader"></i> Relevant Academic Courses </h4>
                 <div className="technicalSkills">
                     Computer Science | Java, Computer Science || Java, Cybercrime, Tech and Social Change, Human Computer Interaction, 
                     IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, 

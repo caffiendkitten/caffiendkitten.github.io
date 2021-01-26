@@ -16,7 +16,7 @@ const ConsAndMeetups = () => {
                 <tbody>
                     <tr>
                         <td>
-                            <h4>Conferences (Online/In Person)</h4>
+                            <h4><i class="fas fa-id-card-alt"></i> Conferences (Online/In Person)</h4>
                             <div className="technicalSkills">
                                 <ul className="resourcesSide">
                                     <li className="hum">BSides Seattle | October 17, 2019</li>
@@ -53,7 +53,7 @@ const ConsAndMeetups = () => {
                         </td>
 
                         <td>
-                            <h4>Meetup/EventBrite Participant</h4>
+                            <h4><i class="fas fa-handshake"></i> Meetup/EventBrite Participant</h4>
                             <div className="technicalSkills">
                                 <ul className="meet">
                                     <li>Black Lodge Research</li>

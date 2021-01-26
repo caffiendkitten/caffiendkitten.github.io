@@ -97,7 +97,7 @@ class Education extends React.Component {
                 <Loading />
                 :
                 <div className="eduCol">
-                    <h4>Technical Skills</h4>
+                    <h4><i class="fas fa-laptop-code"></i> Technical Skills</h4>
                     <div className="technicalSkills">
                         <b>Languages:</b> Python, HTML5/CSS3, JavaScript, Ruby on Rails, React, SQL, PHP<br />
                         <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
@@ -107,7 +107,7 @@ class Education extends React.Component {
                     </div>
                     <br />
 
-                    <h4>Earned Badges</h4>
+                    <h4><i class="fas fa-award"></i> Badges</h4>
                     <span className="badgeHere">
                         {this.state.THMBadge === false?
                         <span>

@@ -19,8 +19,8 @@ const CTF = () => {
             <div className="column middle projects">
             <table>
                 <tr>
-                    <td><h4>CTF Participation</h4></td>
-                    <td><h4>CTF Writeups</h4></td>
+                    <td><h4><i class="fas fa-bug"></i> CTF Participation</h4></td>
+                    <td><h4><i class="far fa-file-alt"></i> CTF Writeups</h4></td>
                 </tr>
 
                 <tr>

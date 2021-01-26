@@ -20,6 +20,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  position: relative;
+
 }
 
 .App #header img {
@@ -32,9 +34,9 @@
   width: 100%;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
@@ -60,10 +62,16 @@ h5{
 }
 h4{
   padding-bottom: 10px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+h3{
+  font-size: 30px;
 }
 p{
   font-size: 20px;
   padding-bottom: 15px;
+  color: rgb(0, 0, 0);
 }
 a:link {
   text-decoration: none;
@@ -91,6 +99,7 @@ a:active {
 .row {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 /* Create three unequal columns that floats next to each other */
@@ -130,6 +139,26 @@ a:active {
   box-sizing: border-box;
 }
 
+.projectInfo.left{
+  text-align: left;
+  padding-bottom: 2px;
+}
+.projectInfo.left p:nth-child(1){
+  /* text-align: left; */
+  font-weight: bold;
+  padding-bottom: 4px;
+  position: relative;
+  right: 10px;
+}
+.projectInfo.right{
+  text-align: right;
+}
+
+.connectWithMe{
+  position: absolute;
+  bottom: 60px;
+  left:38%;
+}
 
 
 
@@ -146,12 +175,20 @@ a:active {
 }
 /* End styling footer */
 
-
+hr{
+  margin-bottom: 20px;;
+}
 
 .column.middle table p{
   font-size: 15px;
 }
 
+.portfolio h3{
+  padding-bottom: 10px;
+}
+.portfolio p{
+  font-size: 18px; 
+}
 table {
   width: 100%;
 }
@@ -212,25 +249,6 @@ ul.meet{
   font-size: 15px;
 }
 
-.projectInfo.left{
-  text-align: left;
-}
-.projectInfo.right{
-  text-align: right;
-}
-
-
-/* Start of react-pdf display in resume */
-canvas{
-  border: 1px solid black;
-}
-.react-pdf__Page__canvas{
-  margin: 1px auto;
-}
-.react-pdf__Page__annotations{
-  height: 0px;
-}
-/* END of react-pdf display on resume */
 
 
 
@@ -297,7 +315,22 @@ canvas{
     text-align: center;
     padding-top: 10px;
   }
-  /* Start of react-pdf display in resume */
+}
+
+
+
+
+/* Start of react-pdf display in resume */
+canvas{
+  border: 1px solid black;
+}
+.react-pdf__Page__canvas{
+  margin: 1px auto;
+}
+.react-pdf__Page__annotations{
+  height: 0px;
+}
+
 /* .react-pdf__Page {
   width: 360px;
   margin: 1px auto;
@@ -320,7 +353,7 @@ canvas{
 } */
 /* END of react-pdf display on resume */
 
-}
+
 
 
 
@@ -328,6 +361,7 @@ canvas{
 /* START of TryHackMe & HackTheBox  overlay CSS */
 @font-face {
   font-family: "Roboto";
+  /* color:red; */
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
