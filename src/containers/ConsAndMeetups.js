@@ -21,7 +21,7 @@ const ConsAndMeetups = () => {
                                 <ul className="resourcesSide">
                                     <li className="hum">BSides Seattle | October 17, 2019</li>
                                     <li className="hum">Cyber Security Summit: Seattle | October 9, 2020</li>
-                                    <li className="hum">The Diana Initiative | August 21-22, 2020</li>
+                                    <li className="hum"><a href="https://www.dianainitiative.org/" target="_blank" rel="noopener noreferrer" >The Diana Initiative</a> | August 21-22, 2020</li>
                                     <li className="hum">Hacktivity Con | August 1, 2020</li>
                                     <li className="hum">NahamSec Con | June 13-14, 2020</li>
                                     <li className="hum">WHackzCon | June 6-7, 2020</li>
@@ -40,7 +40,7 @@ const ConsAndMeetups = () => {
                                     <li className="hum">ACT-W | October 26, 2019</li>
                                     <li className="hum">DefendCon | September 26-27, 2019</li>
                                     <li className="hum">Seattle Code Camp | September 14, 2019</li>
-                                    <li className="hum">The Diana Initiative | August 9-10, 2019</li>
+                                    <li className="hum"><a href="https://www.dianainitiative.org/" target="_blank" rel="noopener noreferrer" >The Diana Initiative</a> | August 9-10, 2019</li>
                                     <li className="hum">DefCon | August 8-11, 2019</li>
                                     <li className="hum">GIX Women in Tech Con | April 13, 2019</li>
                                     <li className="hum">BSides Seattle | February 23, 2019</li>
@@ -51,27 +51,28 @@ const ConsAndMeetups = () => {
                                 </table>                        
                             </div>                            
                         </td>
-
+                        {/* <a href=" " target="_blank" rel="noopener noreferrer"></a> */}
                         <td>
                             <h4><i class="fas fa-handshake"></i> Meetup/EventBrite Participant</h4>
                             <div className="technicalSkills">
                                 <ul className="meet">
-                                    <li>Black Lodge Research</li>
+                                    <li><a href="https://www.meetup.com/Black-Lodge-Research/" target="_blank" rel="noopener noreferrer">Black Lodge Research</a></li>
                                     <li>ChickTech: Seattle Meetup</li>
-                                    <li>CSNP - Cyber Security NonProfit</li>
+                                    <li><a href="https://www.csnp.org/" target="_blank" rel="noopener noreferrer">Cyber Security NonProfit (CSNP)</a> - Seattle, WA</li>
                                     <li>D.C. Cybersecurity Professionals</li>
                                     <li>DevSecOps Seattle</li>
                                     <li>Free Code Camp Seattle</li>
-                                    <li>Girls in Tech Seattle</li>
+                                    {/* <li>Girls in Tech Seattle</li> */}
                                     <li>Hacks/Hackers Seattle</li>
                                     <li>InfoSec Happy Hour</li>
-                                    <li>Learn to Code Seattle</li>
+                                    {/* <li>ISSA Puget Sound</li> */}
+                                    {/* <li>Learn to Code Seattle</li> */}
                                     <li>New Tech Seattle</li>
                                     <li>Nordstrom Technology Seattle</li>
-                                    <li>Tech Ladies</li>
-                                    <li>The OWASP Seattle Chapter</li>
+                                    {/* <li>Tech Ladies</li> */}
+                                    <li><a href="https://owasp.org/" target="_blank" rel="noopener noreferrer" >OWASP</a> - <a href="https://www.meetup.com/Seattle-Open-Web-Application-Security-Project-OWASP-Chapter/" target="_blank" rel="noopener noreferrer" >Seattle Chapter</a></li>
                                     <li>SeaSec East - Information Security Meetup</li>
-                                    <li>Seattle CTF</li>
+                                    <li><a href="https://www.meetup.com/SeattleCTF/" target="_blank" rel="noopener noreferrer">Seattle CTF</a></li>
                                     <li>Seattle Cyber Security for Control Systems</li>
                                     <li>Seattle Cybersecurity Training</li>
                                     <li>Seattle Girl Geek Dinners</li>
@@ -83,15 +84,16 @@ const ConsAndMeetups = () => {
                                     <li>She's Coding (Seattle)</li>
                                     <li>Software Secured and Reshift Security</li>
                                     <li>South sound hackers Meetup</li>
-                                    <li>WomenHack</li>
-                                    <li>Women CyberSecurity Society (WCS2)</li>
-                                    <li>Women in Cyber Security</li>
-                                    <li>Women in Information Security - Puget Sound (WISPS)</li>
-                                    <li>Women Who Code Seattle</li>
-                                    <li>WoSEC San Francisco: Women of Security</li>
-                                    <li>WoSec Seattle: Women of Security - Seattle, WA</li>
-                                    <li>WoSEC Victoria: Women of Security (Victoria, BC)</li>
-                                    <li>WoSEC: Women of Security Portland!</li>
+                                    <li><a href="https://www.wearehackerz.org/" target="_blank" rel="noopener noreferrer">WeAreHackerz (formerly known as WomenHackerz)</a></li>
+                                    {/* <li><a href="https://womencybersecuritysociety.org/" target="_blank" rel="noopener noreferrer" >Women CyberSecurity Society (WCS2)</a></li> */}
+                                    <li><a href="https://www.wicys.org/" target="_blank" rel="noopener noreferrer">Women in Cyber Security (WiCyS)</a></li>
+                                    <li><a href="https://www.wisporg.com/" target="_blank" rel="noopener noreferrer" >Women in Security and Privacy (WISP)</a> - Puget Sound</li>
+                                    <li><a href="https://www.womenwhocode.com/" target="_blank" rel="noopener noreferrer">Women Who Code Seattle</a></li>
+                                    <li><a href="https://www.womenofsecurity.com/" target="_blank" rel="noopener noreferrer" >Women of Security (WoSEC)</a> - San Francisco, CA</li>
+                                    <li><a href="https://www.womenofsecurity.com/" target="_blank" rel="noopener noreferrer" >Women of Security (WoSEC)</a> - Seattle, WA</li>
+                                    <li><a href="https://www.womenofsecurity.com/" target="_blank" rel="noopener noreferrer" >Women of Security (WoSEC)</a> - Victoria, BC</li>
+                                    <li><a href="https://www.womenofsecurity.com/" target="_blank" rel="noopener noreferrer" >Women of Security (WoSEC)</a> - Portland, Or</li>
+                                    {/* <li><a href="https://womenscyberjutsu.org/" target="_blank" rel="noopener noreferrer" >Women Society of Cyberjutsu (WSC) </a></li> */}
                                     <li>Write/Speak/Code Seattle</li>
                                 </ul>
                             </div>

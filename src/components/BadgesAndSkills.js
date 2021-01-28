@@ -101,7 +101,8 @@ class Education extends React.Component {
                     <div className="technicalSkills">
                         <b>Languages:</b> Python, HTML5/CSS3, JavaScript, Ruby on Rails, React, SQL, PHP<br />
                         <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
-                        <b>Software/Tools:</b> Git, Github, VSCode, Burp Suite, ZAP, Apache HTTP Server, WireShark, MongoDB, Hydra, SQLMap<br />
+                        <b>Software/Tools:</b> 
+                        Apache HTTP Server, Burp Suite, Git, Github, Hydra, John the Ripper, MongoDB, SQLMap, VSCode, WireShark, ZAP  <br />
                         <b>Database:</b> PostgreSQL, MongoDB<br />
                         <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
                     </div>
