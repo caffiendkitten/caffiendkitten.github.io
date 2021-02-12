@@ -25,6 +25,8 @@ const CTF = () => {
 
                 <tr>
                     <td>
+                        <p><b>Women Unite Over CTF 3.0</b><br/>
+                            February 13, 2021</p>
                         <p><b>Attack in Autumn</b><br/>
                             Sept 24-26, 2020<br /></p>                        
                         <p><b>2nd annual Hot Dogs & Hacking CMD+CTRL Cyber Range event</b><br/>
