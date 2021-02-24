@@ -1,23 +1,20 @@
 import React from 'react'
 import Footer from "./Footer.js"
-// import postscribe from 'postscribe';
+import ProjectsTimeLine from '../components/ProjectTimeLine'
 
-// class Education extends Component {
-//     componentDidMount() {
-//         postscribe('#TryHackMe', '<script src="https://tryhackme.com/badge/106028"></script>')
-//         postscribe('#HackTheBox', '<script src="https://www.hackthebox.eu/badge/67366"></script>')
-//     }
-
-const CTF = () => {
+const Projects = () => {
     return <div className="content">
         <h3>Projects</h3>
+            <ProjectsTimeLine  />
         <div className="row">
             <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
             
             <div className="column middle projects">
-            <table>
+
+
+            {/* <table>
                 <tr>
                     <td><h4><i class="fas fa-code"></i> Academic Specific Projects</h4></td>
                     <td><h4><i class="fas fa-code-branch"></i> Side Projects</h4></td>
@@ -135,7 +132,7 @@ const CTF = () => {
                         </p>
                     </td>
                 </tr>
-            </table>
+            </table> */}
 
 
             </div>
@@ -151,4 +148,4 @@ const CTF = () => {
     </div>       
 }
         
-export default CTF
+export default Projects

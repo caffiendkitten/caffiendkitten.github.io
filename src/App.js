@@ -8,6 +8,8 @@ import './CSS/Glitch.css';
 import './CSS/Edu.css';
 import './CSS/card.style.css';
 import './CSS/Badges.css';
+import './CSS/Projects.css';
+
 import Loading from './containers/Loading'
 
 import Header from './components/Header.js';

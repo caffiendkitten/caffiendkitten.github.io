@@ -179,26 +179,6 @@ a:active {
 
 
 
-.projectInfo.left{
-  text-align: left;
-  padding-bottom: 2px;
-}
-.projectInfo.left p:nth-child(1){
-  /* text-align: left; */
-  font-weight: bold;
-  padding-bottom: 4px;
-  position: relative;
-  right: 10px;
-}
-.projectInfo.right{
-  text-align: right;
-}
-
-
-
-
-
-
 /* Style the footer */
 .footer {
   position: fixed;

@@ -1,0 +1,81 @@
+.projectInfo.left{
+    text-align: left;
+    padding-bottom: 2px;
+}
+.projectInfo.left p:nth-child(1){
+    /* text-align: left; */
+    font-weight: bold;
+    padding-bottom: 4px;
+    position: relative;
+    right: 10px;
+}
+.projectInfo.right{
+    text-align: right;
+}
+div.vertical-timeline::before {
+    background: #000000;
+}
+
+.vertical-timeline-element-content p{
+    text-align: left;
+}
+.vertical-timeline-element-content .vertical-timeline-element-date{
+    text-align: left;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+/* .vertical-timeline-element-content .vertical-timeline-element-content-arrow{
+    border-right: 7px solid rgb(41, 41, 41);
+} */
+
+
+/* Icon container's border */
+.vertical-timeline-element .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #004caf, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+div.vertical-timeline-element-content {
+    /* box-shadow: 0 0 0 4px rgb(228, 228, 228), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); */
+    border-left: 3px solid rgb(228, 228, 228);
+    border-right: 3px solid rgb(228, 228, 228);
+}
+div.vertical-timeline .vertical-timeline-element--research .vertical-timeline-element-content {
+    border-top: 3px solid #2196f3;
+}
+div.vertical-timeline .vertical-timeline-element--education .vertical-timeline-element-content {
+    border-top: 3px solid #0042f7;
+}
+div.vertical-timeline .vertical-timeline-element--fun .vertical-timeline-element-content {
+    border-top: 3px solid #ff0ceb;
+}
+div.vertical-timeline .vertical-timeline-element--work .vertical-timeline-element-content {
+    border-top: 3px solid #00ff0d;
+}
+
+
+
+
+
+
+
+.vertical-timeline-element--research .vertical-timeline-element-content .vertical-timeline-element-content-arrow{
+    border-right: 12px solid #2196f3;
+}
+.vertical-timeline-element--education .vertical-timeline-element-content .vertical-timeline-element-content-arrow{
+    border-right: 12px solid #0042f7;
+}
+.vertical-timeline-element--fun .vertical-timeline-element-content .vertical-timeline-element-content-arrow{
+    border-right: 12px solid #ff0ceb;
+}
+.vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-content-arrow{
+    border-right: 12px solid #00ff0d;
+}
+
+
+/* .vertical-timeline-element-content .vertical-timeline-element-date{
+    text-align: left;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+ */
+
