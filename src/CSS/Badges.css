@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
+}
+.badgeHistory td:nth-child(1) {
+    font-size: 15px;
+}
+.badgeHistory img{
+    width: 100px;
+}
+
+
+.technicalSkills {
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.technicalSkills ul{
+    margin-left: 30px;
+    font-size: 15px;
+}
+.technicalSkills p{
+    font-size: 15px;
+}
+  
+
+
+
+
+/* START of TryHackMe CSS */
+#TryHackMe *{
+    font-family: "Roboto", monospace;
+}
+#TryHackMe{
+    float: left;
+}
+
+.thm_line a{
+    color: rgba(255, 255, 255);
+}
+.thm_line .thm_stat{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+/* START of HackTheBox CSS */
+#HackTheBox *{
+    font-family: "Roboto", monospace;
+}
+#HackTheBox{
+    float: left;
+}
+
+.htb_line a{
+    color: rgb(0, 255, 34);
+}
+#HackTheBox div:nth-child(2){
+    float: left;
+    padding-top: 2px;
+    margin: 5px;
+    border-radius: 5px  !important; 
+    height: 56px !important;
+    background-size: 23px 23px;
+}
+#HackTheBox div:nth-child(2) img{
+    height: 50px;
+    padding-top: 0px;
+    border-radius: 5px  !important; 
+}
+
+p.htb_line .htb_ranking{
+    font-size: 14px;
+    opacity: 0.8;
+}
+p.htb_line .htb_points{
+    font-size: 14px;
+    opacity: 0.8;
+}
+p.htb_line .htb_respect{
+    font-size: 14px;
+    opacity: 0.8;
+}
+  

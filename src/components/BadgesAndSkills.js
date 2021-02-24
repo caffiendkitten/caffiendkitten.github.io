@@ -84,7 +84,7 @@ class Education extends React.Component {
     render() {
         return (<div className="content">
             
-        <h3>Badges & Skills</h3>
+        <h3>Skills / Certs / Badges</h3>
 
         <div className="row">
             <div className="column left">
@@ -97,16 +97,66 @@ class Education extends React.Component {
                 <Loading />
                 :
                 <div className="eduCol">
+                    <h4><i class="fas fa-handshake"></i> Soft Skills</h4>
+                    <div className="technicalSkills">
+                    <ul>
+                        <li>Accountability</li>
+                        <li>Attention to Detail</li>
+                        <li>Collaboration & Teamwork</li>
+                        <li>Interpersonal Skills</li>
+                        <li>Learns New Skills Quickly</li>
+                        <li>Strong Time Management and Organization Skills</li>
+                        <li>Works Well Under Pressure</li>
+                    </ul>
+                    </div>
+                    {/* <h4><i class="fas fa-microchip"></i> Hard Skills</h4>
+                    <div className="technicalSkills">
+                        <ul>
+                            <li></li>
+                        </ul>
+
+                    </div>       */}
                     <h4><i class="fas fa-laptop-code"></i> Technical Skills</h4>
                     <div className="technicalSkills">
-                        <b>Languages:</b> Python, HTML5/CSS3, JavaScript, Ruby on Rails, React, SQL, PHP<br />
-                        <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
-                        <b>Software/Tools:</b> 
-                        Apache HTTP Server, Burp Suite, Git, Github, Hydra, John the Ripper, MongoDB, SQLMap, VSCode, WireShark, ZAP  <br />
-                        <b>Database:</b> PostgreSQL, MongoDB<br />
-                        <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
+                        <p>Knowledge of:
+                            <ul>
+                                <li>Security Vulnerabilities and Remediation as Listed in OWASP</li>
+                                <li>Cybersecurity Compliance Regulations such as Cybersecurity Maturity Model Certification (CMMC), GDPR,  NIST Risk Management Framework (RMF), Sarbanes-Oxley Act (SOX)</li>
+                                <li>HTTP Protocols</li>
+                                <li>SSL Certificates</li>
+                            </ul>
+                        </p>
+                        <p>Working knowledge of:
+                            <ul>
+                                <li>Security tools such as Burp Suite, Nessus, Nmap, WireShark, etc.</li>
+                                <li>Building and accessing databases with NoSQL and Node.js</li>
+                                <li>Common Developer Tools</li>
+                                <li>Git Version Control</li>
+                                <li>Web Application Architecture</li>
+                            </ul>
+                        </p>
+                        <p>
+                            <b>Languages:</b> HTML5/CSS3, JavaScript, PHP, Python, React, Ruby on Rails, SQL <br />
+                            <b>Scripting:</b> Python, Bash
+                            <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
+                            <b>Security Tools and Solutions:</b> Apache HTTP Server, Automation, Burp Suite, Content Filtering, Git, Github, Hydra, IPS/IDS, John the Ripper, MongoDB, OS Hardening, PKI, Proxies, Secure Software Development, Security Analysis, SQLMap, VPN, VSCode, WireShark, ZAP<br />
+                            <b>Operating Systems:</b> Windows, Ubuntu, Mac OSx, Linux<br />
+                            <b>Database:</b> PostgreSQL, MongoDB<br />
+                            <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
+                        </p>
                     </div>
-                    <br />
+
+
+
+                    <h4><i class="fas fa-award"></i> Certifications</h4>
+                    <div className="technicalSkills">
+                    <ul>
+                        <li><a href="https://certification.w3schools.com/w3certified.asp?email=1615177">
+                        <img src="Images/w3certified_logo.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</a></li>
+                    </ul>
+                        
+                    </div>                                      
+
 
                     <h4><i class="fas fa-award"></i> Badges</h4>
                     <span className="badgeHere">

@@ -78,7 +78,7 @@ class Header extends Component {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/Badges">Badges & Skills</Link></li>
+                            <li><Link to="/Badges">Skills / Certs / Badges</Link></li>
                             <li><Link to="/education">Ongoing Education</Link></li>
                             {/* <li><Link to="/sideProjects">Side Projects</Link></li> */}
                             <li><Link to="/projects">Projects</Link></li>

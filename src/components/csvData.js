@@ -38,7 +38,7 @@ class CSVtable extends React.Component {
  
     render() {
        return (
-          <div  className='EduTable' >
+          <div  className='CpeTable' >
              <table className='certs'>
                 <tbody>
                    <tr>{this.renderTableHeader()}</tr>

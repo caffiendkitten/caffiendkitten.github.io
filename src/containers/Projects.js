@@ -26,10 +26,21 @@ const CTF = () => {
                 <tr>
                     <td>
                         <p className="projectInfo left">
-                            <p>Password Manager: </p>
-                            <p>A password manager allowing users to create their own list of usernames and passwords for their online accounts.
-                            I utilized Cryptr AES-256-CRT encryption/decryption, BCrypt hashing of user login passwords, JavaScript and HTML for user input validation, 
-                            Ruby and Postgres for the backend database and database validations, and JWT HS256 signatures for user state validation.</p>
+                            <p>Password Manager Application:</p>
+                            <p>
+                                Full-stack web application allowing users to create individual groups of credentials, create unique and secure passwords, and save passwords for later use.
+                            </p>
+                            <p>
+                               Utilizes:
+                                <ul>
+                                    <li>HTML, CSS, and React for frontend desgin</li>
+                                    <li>Cryptr AES-256-CTR encryption/decryption of user credential group data</li>
+                                    <li>Bcrypt password-hashing of login passwords</li>
+                                    <li>JavaScript and HTML for basic user input validation</li>
+                                    <li>JWT HS256 signatures for user state</li>
+                                    <li>Ruby on Rails and Postgres for the backend database and database validation</li>
+                                </ul> 
+                            </p>
                         </p>
                         <p className="projectInfo right">
                             <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer" >https://flatiron-passwordmanager.netlify.app/</a><br />
@@ -38,8 +49,21 @@ const CTF = () => {
                         </p>
 
                         <p className="projectInfo left">
-                            <p>The Final FM: </p>
-                            <p>An Song Searcher/Saver with Location Searching application gives its users the ability to search for artists and save songs to their own account via the Last FM API allowing users to see tour dates for a city via the Ticket Master API.</p>
+                            <p>The Final FM:</p>
+                            <p>
+                                A full-stack web application that allows users to search for artists by name or location and allows users to create and save favorite songs to their own account.
+                            </p>
+                            <p>
+                               Utilizes:
+                                <ul>
+                                    <li>HTML, CSS, BoostStrap, and React for frontend desgin</li>
+                                    <li>JavaScript and HTML for basic user validation</li>
+                                    <li>The Last FM API for song and artist informaiton</li>
+                                    <li>Ticket Master API for artist tour data informaiton</li>
+                                    <li>JWT HS256 signatures for user state</li>
+                                    <li>Ruby on Rails and Postgres for the backend database and database validation</li>
+                                </ul> 
+                            </p>
                         </p>
                         <p className="projectInfo right">
                             <a href="https://the-final-fm.herokuapp.com" target="_blank" rel="noopener noreferrer" >https://the-final-fm.herokuapp.com</a><br />

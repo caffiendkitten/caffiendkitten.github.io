@@ -7,8 +7,8 @@ import './CSS/Social.css';
 import './CSS/Glitch.css';
 import './CSS/Edu.css';
 import './CSS/card.style.css';
+import './CSS/Badges.css';
 import Loading from './containers/Loading'
-// import THM from './scripts/THM'
 
 import Header from './components/Header.js';
 // const fetchURL = "https://dev.to/api/articles?username=caffiendkitten&page=1";

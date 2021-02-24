@@ -1,3 +1,14 @@
+/* Default settings */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ /* Show scrollbars */
+body {
+  overflow: scroll;
+}
 /* .App { */
   /* text-align: center; */
 /* } */
@@ -12,6 +23,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
+
 
 .App {
   min-height: 100vh;
@@ -55,10 +67,8 @@ h1{
   width: 850px;
   text-align: center;
 }
-
 h5{
   margin: 5px;
-  /* padding: -5px; */
 }
 h4{
   padding-bottom: 10px;
@@ -68,11 +78,34 @@ h4{
 h3{
   font-size: 30px;
 }
+
+hr{
+  margin-bottom: 15px;;
+}
+
 p{
   font-size: 20px;
   padding-bottom: 15px;
   color: rgb(0, 0, 0);
 }
+
+table {
+  width: 100%;
+}
+td {
+  /* width: 50%; */
+  padding: 8px;
+  font-size: 18px;
+  vertical-align: top;
+  border-color: rgba(0, 0, 0, 0); 
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+}
+
+
+
 a:link {
   text-decoration: none;
   color: #35474d;
@@ -91,6 +124,8 @@ a:active {
 }
 
 
+
+/* Main content box */
 .content{
   text-align: center;
 }
@@ -99,8 +134,14 @@ a:active {
 .row {
   display: flex;
   flex-wrap: wrap;
-
 }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* Create three unequal columns that floats next to each other */
 .column {
@@ -109,13 +150,13 @@ a:active {
   width: 100%;
   /* flex: 25%; */
 }
-/* Left and right column */
+/* Left column */
 .column.left {
   width: 25%;
   order: 1;
   -webkit-order: 1;
 }
-/* Left and right column */
+/* Rright column */
 .column.right {
   width: 25%;
   order: 3;
@@ -129,15 +170,14 @@ a:active {
   -webkit-order: 2;
   /* font-size: 15px; */
 }
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column.middle table p{
+  font-size: 15px;
 }
-* {
-  box-sizing: border-box;
-}
+
+
+
+
+
 
 .projectInfo.left{
   text-align: left;
@@ -154,11 +194,7 @@ a:active {
   text-align: right;
 }
 
-.connectWithMe{
-  position: absolute;
-  bottom: 60px;
-  left:38%;
-}
+
 
 
 
@@ -175,52 +211,29 @@ a:active {
 }
 /* End styling footer */
 
-hr{
-  margin-bottom: 20px;;
-}
 
-.column.middle table p{
-  font-size: 15px;
-}
+
 
 .portfolio h3{
   padding-bottom: 10px;
 }
 .portfolio p{
   font-size: 18px; 
+  text-align: justify;
+  text-justify: inter-word;
 }
-table {
-  width: 100%;
-}
-td {
+p.connectWithMe{
+  text-align-last: center;
+  position: absolute;
+  bottom: 60px;
   width: 50%;
-  padding: 8px;
-  font-size: 18px;
-  vertical-align: top;
-  border-color: rgba(0, 0, 0, 0); 
-  border-collapse: collapse;
 }
-th, td {
-  text-align: left;
-}
-
-
-
-
-.technicalSkills {
-  text-align: left;
-  font-size: 15px;
-  padding-bottom: 15px;
-}
-
 
 
 
 
 .resourcesTable{
-  /* border: 1px solid red; */
   width: 100%;
-  /* height: 100%; */
   text-align: left;
   border-collapse: collapse;
   table-layout: fixed;
@@ -286,6 +299,12 @@ ul.meet{
     text-align: center;
     padding-top: 20px;
   }
+  p.connectWithMe{
+    text-align-last: center;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+  }
 }
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media  screen and (min-width: 1px) and (max-width: 670px){ 
@@ -314,6 +333,12 @@ ul.meet{
     width: 100%;
     text-align: center;
     padding-top: 10px;
+  }
+  p.connectWithMe{
+    text-align-last: center;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
   }
 }
 
@@ -358,50 +383,6 @@ canvas{
 
 
 
-/* START of TryHackMe & HackTheBox  overlay CSS */
-@font-face {
-  font-family: "Roboto";
-  /* color:red; */
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
-}
-#TryHackMe{
-  float: left;
-}
-#HackTheBox{
-  float: left;
-
-}
-.thm_line a{
-  color: white;
-}
-
-.thm_line .thm_rank{
-  font-family: "Roboto", monospace;
-}
-.thm_line .thm_nickname {
-  font-family: "Roboto", monospace;
-}
-.thm_line .thm_stat{
-  color: white;
-  opacity: 0.8;
-}
-.htb_line a{
-  color: rgb(0, 255, 34);
-}
-#HackTheBox div:nth-child(2){
-  float: left;
-  padding-top: 2px;
-  margin-top:5px;
-  border-radius: 5px  !important; 
-  height: 56px !important;
-  /* width: 245px !important; */
-  background-size: 23px 23px;
-}
-
-
-/* END of TryHackMe & HackTheBox overlay CSS */
 
 
 

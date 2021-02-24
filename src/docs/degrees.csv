@@ -1,5 +1,5 @@
-SchoolName,DegreeProgram,Emphasis,Compleated,Location
-Flatiron School,Software Engineering Bootcamp,,yes,"Seattle, WA"
-City University of Seattle,Bachelor of Science – Information Technology,Information Security,yes,"Seattle, WA"
-Edmonds Community College,Associate’s of Science,,yes,"Lynnwood, WA"
-Lewis-Clark State College,Associate’s of Science,Web Development,yes,"Lewiston, ID"
+SchoolName,DegreeType,Major,Emphasis,Compleated,Location,Classes
+Flatiron School,Certificate,Software Engineering,--,Aug 2019,"Seattle, WA",
+City University of Seattle,Bachelor of Science,Information Technology,Information Security,Mar 2018,"Seattle, WA","IT Compliance,Programming with Python,Network Security,IT Service Management,Information Technology Ethics,Cybercrime- Tech- and Soc Change,Human Computer Interaction,Systems Analysis and Design,Operating Systems,Data Mgmt Commun and Network,Critical Thinking"
+Edmonds Community College,Associate of Applied Science,General,--,Jun 2013,"Lynnwood, WA","COMPUTER SCIENCE I JAVA,COMPUTER SCIENCE II JAVA"
+Lewis-Clark State College,Associate of Applied Science,Web Development,--,Dec 2009,"Lewiston, ID","Web Database Technologies,Intro/C++ Program w/UML,Novell/LINUX Operating Systems"

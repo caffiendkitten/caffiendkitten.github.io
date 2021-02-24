@@ -7,9 +7,14 @@
 .eduCol table{
     width: 100%;
 }
+.eduCol h4{
+    text-align: left;
+}
 
-/* each table in the edu page */
-.EduTable table{
+
+/* CPE table in edu page */
+
+.CpeTable table{
     width: 100%;
     text-align: center;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -17,7 +22,7 @@
     /* border: 3px solid rgb(0, 0, 0); */
     color: rgb(0, 0, 0);
 }
-.EduTable th {
+.CpeTable th {
     padding: 10px 5px;
     text-align: center;
     background-color: #f1f1f1;
@@ -26,7 +31,7 @@
     border: 1px solid rgb(0, 0, 0);
 }
 
-.EduTable  td {
+.CpeTable  td {
     width: 50%;
     padding: 8px;
     vertical-align: middle ;
@@ -43,7 +48,7 @@
     text-align: center;
 
 }
-.EduTable  tr {
+.CpeTable  tr {
     text-align: center;
     padding: 8px;
     border: 1px solid rgba(121, 121, 121, 0.582);
@@ -54,13 +59,10 @@
   
 /* .certs tr:hover {background-color: rgb(0, 0, 0);} */
 
-.EduTable tr:hover {
+.CpeTable tr:hover {
     background-color: rgba(238, 238, 238, 0.85);
     /* border-color: rgb(145, 145, 145);  */
 }
-
-
-/* specific to the Certs table. */
 .certs td:nth-child(1) {
     text-align: left;
 }
@@ -68,16 +70,88 @@
     padding-top: 8px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Academic Table in the edu page */
+.EduTable table{
+    width: 100%;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+.EduTable th {
+    padding: 10px 5px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(0, 0, 0);
+}
+.EduTable  tr {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid rgba(121, 121, 121, 0.582);
+}
+
+.EduTable  td {
+    padding: 8px;
+    vertical-align: middle ;
+    border-collapse: collapse;
+    font-size: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+
 .eduHistory td:nth-child(1) {
     text-align: left;
+    width: 25%;
+}
+.eduHistory td:nth-child(2) {
+    text-align: left;
+    width: 30%;
+}
+.eduHistory td:nth-child(3) {
+    text-align: left;
+    width: 35%;
+    /* color: red; */
+}
+.eduHistory td:nth-child(3) ul {
+    padding-left: 13px;
+    text-align: left;
+    /* color: red; */
+}
+.eduHistory td:nth-child(4) {
+    text-align: left;
+
+    width: 10%;
 }
 
 
-.badgeHistory td:nth-child(1) {
-    font-size: 15px;
+/* .eduHistory tr:nth-child(even){background-color: rgb(0, 0, 0);} */
+  
+/* .eduHistory tr:hover {background-color: rgb(0, 0, 0);} */
+
+.EduTable tr:hover {
+    background-color: rgba(238, 238, 238, 0.85);
+    /* border-color: rgb(145, 145, 145);  */
 }
-.badgeHistory img{
-    width: 100px;
-}
+
+
+
 
 
