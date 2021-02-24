@@ -4,7 +4,9 @@
 My name is DaNeil. I am a quality-driven security researcher and full stack software/security engineer with a passion for performing responsible disclosure, aligning security controls, processes, policies and procedures.
 I take pride in my passion for Information Security and am enthusiastic about finding security vulnerabilities.
 
-I am active within the Capture the Flag community and local tech meetup groups such as the CyberSecurity Non-Profit that I am a chapter organizer for, WISP, WoSec, and OWASP and this site will be built around my progress and my process of getting into Info Sec.
+I am active within the CTF community and local tech meetup groups such as the CyberSecurity Non-Profit, WISP, WoSec, and OWASP.
+
+This site will be built around my progress and my process of getting into Info Sec.
 
 See it at <a href="https://caffiendkitten.github.io">caffiendkitten.github.io</a> </p>
 
@@ -23,13 +25,3 @@ Happy Hacking<br />
 
 
 ###### Please Note that I am still learning. If something that I have stated is incorrect please let me know. I would love to learn more about what I may not understand fully.
-
-
-
-Container Components:
-Deal with managing data (typically state)
-They often pass data to child components
-
-Presentational Components:
-Deal with how things look
-Are often reusable
