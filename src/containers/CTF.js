@@ -1,12 +1,7 @@
 import React from 'react'
 import Footer from "./Footer.js"
-// import postscribe from 'postscribe';
+import IconPicker from '../docs/iconsList.js'
 
-// class Education extends Component {
-//     componentDidMount() {
-//         postscribe('#TryHackMe', '<script src="https://tryhackme.com/badge/106028"></script>')
-//         postscribe('#HackTheBox', '<script src="https://www.hackthebox.eu/badge/67366"></script>')
-//     }
 
 const CTF = () => {
     return <div className="content">
@@ -19,8 +14,8 @@ const CTF = () => {
             <div className="column middle projects">
             <table>
                 <tr>
-                    <td><h4><i class="fas fa-bug"></i> CTF Participation</h4></td>
-                    <td><h4><i class="far fa-file-alt"></i> CTF Writeups</h4></td>
+                    <td><h4><i className="icon">{<IconPicker iconName={"computerBugIcon"} />}</i> CTF Participation</h4></td>
+                    <td><h4><i className="icon">{<IconPicker iconName={"writeupIcon"} />}</i> CTF Writeups</h4></td>
                 </tr>
 
                 <tr>
@@ -31,7 +26,7 @@ const CTF = () => {
                             February 4, 2021</p>
                         <p><b>Attack in Autumn</b><br/>
                             Sept 24-26, 2020<br /></p>                        
-                        <p><b>2nd annual Hot Dogs & Hacking CMD+CTRL Cyber Range event</b><br/>
+                        <p><b>2nd Annual Hot Dogs & Hacking CMD+CTRL Cyber Range Event</b><br/>
                             July 2-4, 2020<br /></p>
                         <p><b>WoSEC & Security Innovation CTF Event</b><br/>
                             June 27, 2020<br />

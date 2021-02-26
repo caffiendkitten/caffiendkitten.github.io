@@ -43,7 +43,7 @@ class ProjectTimeLine extends Component {
             >
             <h4 className="vertical-timeline-element-subtitle">Password Manager Application PentestReport:</h4>
             <p>This repository is a report done on my final project at Flatiron School, 
-            the <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer">password manager</a>).<br />
+            the <a href="https://flatiron-passwordmanager.netlify.app/" target="_blank" rel="noopener noreferrer">password manager</a>.<br />
             This report will be an ongoing, full evaluation of the security posture of the 
             application compared to current industry best practices, such as OWASP top 10, PTES, and NIST. <br />
             This will include both manual and automated testing as well as an evaluation of the vulnerabilities 

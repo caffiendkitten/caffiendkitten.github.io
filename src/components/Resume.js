@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Footer from "../containers/Footer.js"
 import { pdfjs } from "react-pdf";
+import IconPicker from '../docs/iconsList.js'
 // import { Document, Page, pdfjs } from "react-pdf";
 import file from '../docs/DaNeil_Coulthard_Resume.pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -25,7 +26,7 @@ class Resume extends Component {
                 {/* <Document file={file} >
                     <Page pageNumber={1} />
                 </Document> */}
-                <a href={file}><i class="fas fa-file-download"></i> Download</a>
+                <a href={file}><i className="icon">{<IconPicker iconName={"save"} />}</i> Download</a>
 
                 <embed src={file} type="application/pdf" width="100%" height="950px" />
 

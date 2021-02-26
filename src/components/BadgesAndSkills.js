@@ -6,6 +6,7 @@ import Footer from "../containers/Footer.js"
 import BadgeDatas from './BadgeData.js'
 import Loading from '../containers/Loading'
 import postscribe from 'postscribe';
+import IconPicker from '../docs/iconsList.js'
 
 var badgeDataArray = [];
 
@@ -69,13 +70,10 @@ class Education extends React.Component {
             header: true,
             // skipEmptyLines: true,
             step: function(parsedOutput) {
-                // console.log("parsedOutput", typeof(parsedOutput.data))
                 dataType.push(parsedOutput.data)
-                // console.log("dataType",dataType)
             },
             complete: this.getData(dataType, dataState)
         });
-        // console.log(document.getElementsByClassName("badgeHere"))
         this.forceUpdate()
         this.postscribez()
 
@@ -97,7 +95,7 @@ class Education extends React.Component {
                 <Loading />
                 :
                 <div className="eduCol">
-                    <h4><i class="fas fa-handshake"></i> Soft Skills</h4>
+                    <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
                     <div className="technicalSkills">
                     <ul>
                         <li>Accountability</li>
@@ -109,14 +107,7 @@ class Education extends React.Component {
                         <li>Works Well Under Pressure</li>
                     </ul>
                     </div>
-                    {/* <h4><i class="fas fa-microchip"></i> Hard Skills</h4>
-                    <div className="technicalSkills">
-                        <ul>
-                            <li></li>
-                        </ul>
-
-                    </div>       */}
-                    <h4><i class="fas fa-laptop-code"></i> Technical Skills</h4>
+                    <h4><i className="icon">{<IconPicker iconName={"computer2Icon"} />}</i> Technical Skills</h4>
                     <div className="technicalSkills">
                         <p>Knowledge of:
                             <ul>
@@ -148,7 +139,7 @@ class Education extends React.Component {
 
 
 
-                    <h4><i class="fas fa-award"></i> Certifications</h4>
+                    <h4><i className="icon">{<IconPicker iconName={"certificateIcon"} />}</i> Certifications</h4>
                     <div className="technicalSkills">
                     <ul>
                         <li><a href="https://certification.w3schools.com/w3certified.asp?email=1615177">
@@ -158,7 +149,7 @@ class Education extends React.Component {
                     </div>                                      
 
 
-                    <h4><i class="fas fa-award"></i> Badges</h4>
+                    <h4><i className="icon">{<IconPicker iconName={"badgeIcon"} />}</i> Badges</h4>
                     <span className="badgeHere">
                         {this.state.THMBadge === false?
                         <span>

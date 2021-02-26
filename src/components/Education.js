@@ -7,6 +7,7 @@ import Footer from "../containers/Footer.js"
 import CsvDatas from './csvData.js'
 import EduDatas from './eduData.js'
 import Loading from '../containers/Loading'
+import IconPicker from '../docs/iconsList.js'
 
 var csvDatas1 = [];
 var eduDataArray = [];
@@ -54,7 +55,6 @@ class Education extends React.Component {
     }
 
     getData(dataType, dataState){
-        // console.log("here in Edu Page getData function",this.state.certState, this.state.eduState.length)
         return this.setState({ [dataState]: dataType})
     }
 
@@ -64,9 +64,7 @@ class Education extends React.Component {
             header: true,
             // skipEmptyLines: true,
             step: function(parsedOutput) {
-                // console.log("parsedOutput", typeof(parsedOutput.data))
                 dataType.push(parsedOutput.data)
-                // console.log("dataType",dataType)
             },
             complete: this.getData(dataType, dataState)
         });
@@ -89,11 +87,11 @@ class Education extends React.Component {
             <Loading />
             :
             <div className="eduCol">
-                <h4><i className="fas fa-award"></i> CPE/CEUs</h4>
+                <h4><i className="icon">{<IconPicker iconName={"CPEIcon"} />}</i> CPE/CEUs</h4>
                 <CsvDatas certs={this.state.certState}/>
                 <br />
 
-                <h4><i className="fas fa-graduation-cap"></i> Academic Education</h4>
+                <h4><i className="icon">{<IconPicker iconName={"education"} />}</i> Academic Education</h4>
                 <EduDatas edu={this.state.eduState}/>
                 <br />
 

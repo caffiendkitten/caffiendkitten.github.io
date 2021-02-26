@@ -103,7 +103,10 @@ td {
 th, td {
   text-align: left;
 }
-
+.icon svg{
+  height: 24px;
+  width: 24px;
+}
 
 
 a:link {
@@ -205,7 +208,7 @@ a:active {
 p.connectWithMe{
   text-align-last: center;
   position: absolute;
-  bottom: 60px;
+  bottom: 75px;
   width: 50%;
 }
 
@@ -282,7 +285,7 @@ ul.meet{
   p.connectWithMe{
     text-align-last: center;
     position: absolute;
-    bottom: 60px;
+    bottom: 75px;
     width: 100%;
   }
 }
@@ -317,7 +320,7 @@ ul.meet{
   p.connectWithMe{
     text-align-last: center;
     position: absolute;
-    bottom: 60px;
+    /* bottom: 75px; */
     width: 100%;
   }
 }
