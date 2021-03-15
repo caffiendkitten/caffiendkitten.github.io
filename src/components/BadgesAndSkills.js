@@ -142,8 +142,10 @@ class Education extends React.Component {
                     <h4><i className="icon">{<IconPicker iconName={"certificateIcon"} />}</i> Certifications</h4>
                     <div className="technicalSkills">
                     <ul>
+                        {/* <li><img src="http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-C2BEVSLY58.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</li>
+                        <li><img src="http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EWAZ16KOPS.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</li> */}
                         <li><a href="https://certification.w3schools.com/w3certified.asp?email=1615177">
-                        <img src="Images/w3certified_logo.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</a></li>
+                        <img src="Images/w3certified_logo.png" alt="W3Schools Certified"/><p>The HTML Developer Certificate, December 17, 2009</p></a></li>
                     </ul>
                         
                     </div>                                      

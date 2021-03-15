@@ -17,7 +17,7 @@ const ConsAndMeetups = () => {
                 <tbody>
                     <tr>
                         <td>
-                            <h4><i className="icon">{<IconPicker iconName={"id-cardIcon"} />}</i> Conferences <br />Online/In Person</h4>
+                            <h4><i className="icon">{<IconPicker iconName={"id-cardIcon"} />}</i> Conferences<p>(Online/In Person)</p></h4>
                             <div className="technicalSkills">
                                 <ul className="resourcesSide">
                                     <li className="hum">BSides Seattle | October 17, 2019</li>

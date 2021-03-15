@@ -4,7 +4,7 @@ const keysHeads = [
     "Certificate Authority",
     "License #",
     "Compleated",
-    "Experation",
+   //  "Experation",
     "CPE/CEU Hours"
 ];
 class CSVtable extends React.Component {
@@ -22,14 +22,15 @@ class CSVtable extends React.Component {
  
     renderTableData() {
        return this.props.certs.map((cert, index) => {
-          const { CertificationName, CertificationAuthority, LicenseNum, Compleated, Experation, HoursTowardsCPECEUs } = cert //destructuring
+          const { CertificationName, CertificationAuthority, LicenseNum, Compleated, Experation, HoursTowardsCPECEUs,img } = cert //destructuring
           return (
              <tr key={index}>
-                <td>{CertificationName}</td>
+                <td><img src={img}/>
+                <p>{CertificationName}</p></td>
                 <td>{CertificationAuthority}</td>
                 <td>{LicenseNum}</td>
                 <td>{Compleated}</td>
-                <td><i className="fas fa-infinity"></i></td>
+                {/* <td><i className="fas fa-infinity"></i></td> */}
                 <td>{HoursTowardsCPECEUs}</td>
              </tr>
           )

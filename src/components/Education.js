@@ -95,13 +95,6 @@ class Education extends React.Component {
                 <EduDatas edu={this.state.eduState}/>
                 <br />
 
-                {/* <h4><i class="fas fa-book-reader"></i> Relevant Coursework </h4>
-                <div className="technicalSkills">
-                    Computer Science | Java, Computer Science || Java, Cybercrime, Tech and Social Change, Human Computer Interaction, 
-                    IT Compliance, Information Security, Information Technology Ethics, Intro/C++ Programming, Network Security, 
-                    Novell/Linux OS, Operating Systems, Operating Systems: MS Windows, PC Technician Fundamentals, Programming with 
-                    Python, Systems Analysis and Design
-                </div> */}
                 </div>
     }
             </div>

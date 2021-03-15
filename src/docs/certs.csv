@@ -1,24 +1,26 @@
-CertificationName,CertificationAuthority,LicenseNum,Compleated,Experation,HoursTowardsCPECEUs
-Windows Exploit Development Megaprimer,Stack Skills,,"Sept 14, 2020",X,4
-Information Security Certification,FreeCodeCamp,,"Sept 14, 2020",X,300
-ICSI | CNSS Certified Network Security Specialist,"ICSI, UK (International CyberSecurity Institute)",20485416,"July 10, 2020",X,
-CompTIA Network+ Certification Course,NexGenT,,"June 23, 2020",X,50
-Active Countermeasures Network CyberThreat Hunting Training Level 1,Active Countermeasures,,"January 22, 2020",X,1
-"Learn Burp Suite, the Nr. 1 Web Hacking Tool",Udemy,,"November 21, 2019",X,2
-"Programming with Python : HandsOn Introduction for Beginners""",Udemy,,"November 20, 2019",X,3.5
-PHP Programming Basics,Udemy,,"November 15, 2019",X,2.5
-Free CCNA Security 210-260 Course: All About VPNs,Udemy,,"November 15, 2019",X,1
-Responsive Web Design,FreeCodeCamp,,"November 11, 2019",X,300
-The Complete Hacking Course: Go From Beginner to Advanced!,Stack Skills,,"November 11, 2019",X,25
-Javascript,SoloLearn,1024-2178107,October 2019,X,
-Cross Site Scripting(XSS) Attacks for Pentesters,Stack Skills,,March 2019,X,1.5
-Pre Immersive SSP,Hack Reactor/Galvanize,,Jan 2019,X,15
-Mobile Cybersecurity Awareness,Udemy,,Jan 2019,X,0.4
-Practical JavaScript,Watch and Code,,Dec 2018,X,
-Ultimate WiFi Hacking & Security Series,Stack Skills,,Dec 2018,X,3
-Intro to Javascript,Udacity,,November 2018,X,3
-Hacking Academy: How to Monitor & Intercept Transmitted Data,Udemy,,Oct 2018,X,1.5
-SQL Bootcamp,General Assembly Seattle,,March 2018,X,4
-Intro to Data Analytics,General Assembly Seattle,,March 2018,X,2
-Introduction to Python Programming,Udemy,,March 2018,X,4.5
-Python for Data 1,General Assembly Seattle,,January 2018,X,1
+CertificationName,CertificationAuthority,LicenseNum,Compleated,Experation,HoursTowardsCPECEUs,img
+Web Fundamentals Path Certificate,Try Hack Me,THM-C2BEVSLY58,"Mar 11, 2021",X,37,http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-C2BEVSLY58.png
+Complete Beginner Path Certificate,Try Hack Me,THM-EWAZ16KOPS,"Mar 11, 2021",X,64,http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EWAZ16KOPS.png
+Windows Exploit Development Megaprimer,Stack Skills,,"Sept 14, 2020",X,4,
+Information Security Certification,FreeCodeCamp,,"Sept 14, 2020",X,300,
+ICSI | CNSS Certified Network Security Specialist,"ICSI, UK (International CyberSecurity Institute)",20485416,"July 10, 2020",X,,
+CompTIA Network+ Certification Course,NexGenT,,"June 23, 2020",X,50,
+Active Countermeasures Network CyberThreat Hunting Training Level 1,Active Countermeasures,,"January 22, 2020",X,1,
+"Learn Burp Suite, the Nr. 1 Web Hacking Tool",Udemy,,"November 21, 2019",X,2,
+"Programming with Python : HandsOn Introduction for Beginners",Udemy,UC-GU37Z959,"November 20, 2019",X,3.5,https://udemy-certificate.s3.amazonaws.com/image/UC-GU37Z959.jpg?v=1574275398000
+PHP Programming Basics,Udemy,UC-RVDF3113,"November 15, 2019",X,2.5,https://udemy-certificate.s3.amazonaws.com/image/UC-RVDF3113.jpg?v=1573845549000
+Free CCNA Security 210-260 Course: All About VPNs,Udemy,UC-4QH4W1UG,"November 15, 2019",X,1,https://udemy-certificate.s3.amazonaws.com/image/UC-4QH4W1UG.jpg?v=1573843116000
+Responsive Web Design,FreeCodeCamp,,"November 11, 2019",X,300,
+The Complete Hacking Course: Go From Beginner to Advanced!,Stack Skills,,"November 11, 2019",X,25,
+Javascript,SoloLearn,1024-2178107,October 2019,X,,
+Cross Site Scripting(XSS) Attacks for Pentesters,Stack Skills,,March 2019,X,1.5,
+Pre Immersive SSP,Hack Reactor/Galvanize,,Jan 2019,X,15,
+Mobile Cybersecurity Awareness,Udemy,UC-0NZEKNKY,Jan 2019,X,0.4,https://udemy-certificate.s3.amazonaws.com/image/UC-0NZEKNKY.jpg?v=1548292704000
+Practical JavaScript,Watch and Code,,Dec 2018,X,,
+Ultimate WiFi Hacking & Security Series,Stack Skills,,Dec 2018,X,3,
+Intro to Javascript,Udacity,,November 2018,X,3,
+Hacking Academy: How to Monitor & Intercept Transmitted Data,Udemy,UC-7U6WE2BH,Oct 2018,X,1.5,https://udemy-certificate.s3.amazonaws.com/image/UC-7U6WE2BH.jpg?v=1539580225000
+SQL Bootcamp,General Assembly Seattle,,March 2018,X,4,
+Intro to Data Analytics,General Assembly Seattle,,March 2018,X,2,
+Introduction to Python Programming,Udemy,UC-709455HQ,March 2018,X,4.5,https://udemy-certificate.s3.amazonaws.com/image/UC-709455HQ.jpg?v=1520570132000
+Python for Data 1,General Assembly Seattle,,January 2018,X,1,
