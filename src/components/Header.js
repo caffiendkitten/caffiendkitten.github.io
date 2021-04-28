@@ -7,7 +7,7 @@ import {
     } from "react-router-dom";
 
 import Home from '../containers/Home.js'
-import Resume from './Resume.js'
+// import Resume from './Resume.js'
 import Blog from '../containers/Blog.js'
 import CTF from '../containers/CTF.js'
 import Badges from './BadgesAndSkills.js'
@@ -75,20 +75,22 @@ class Header extends Component {
                     <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/resume">Resume</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/ctf">CTFs & Writeups</Link></li>
+                            {/* <li><Link to="/resume">Resume</Link></li> */}
                             <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/Badges">Skills / Certs / Badges</Link></li>
+                            <li><Link to="/Badges">Skills | Certs | Badges</Link></li>
                             <li><Link to="/education">Ongoing Education</Link></li>
                             {/* <li><Link to="/sideProjects">Side Projects</Link></li> */}
-                            <li><Link to="/projects">Projects</Link></li>
-                            <li><Link to="/ctf">CTFs</Link></li>
-                            <li><Link to="/consAndMeetups">Cons And Meetups</Link></li>
+                            <li><Link to="/consAndMeetups">Cons & Meetups</Link></li>
                             {/* <li><Link to="/resources">Information Resources</Link></li> */}
                         </ul>
                     </div>
                 <Switch>
                     <Route  exact path ="/"  render={() => <Home  />} ></Route>
-                    <Route path ="/resume" exact render={() => <Resume  />} ></Route>
+                    <Route path ="/Projects" exact render={() => <Projects  />} ></Route>
+                    <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
+                    {/* <Route path ="/resume" exact render={() => <Resume  />} ></Route> */}
                     <Route path ="/blog" exact render={() => <Blog 
                                                             data={this.props.data}
                                                             author={this.props.author}
@@ -99,8 +101,6 @@ class Header extends Component {
                     <Route path ="/Badges" exact render={() => <Badges  />} ></Route>
                     <Route path ="/education" exact render={() => <Education  />} ></Route>
                     {/* <Route path ="/sideProjects" exact render={() => <SideProjects  />} ></Route> */}
-                    <Route path ="/Projects" exact render={() => <Projects  />} ></Route>
-                    <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
                     <Route path ="/consAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
                     {/* <Route path ="/resources" exact render={() => <Resources  />} ></Route> */}
                     <Route path='*' component={ErrorPage} />
