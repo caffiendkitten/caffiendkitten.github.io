@@ -105,10 +105,10 @@ class ProjectTimeLine extends Component {
             <p>
                 Utilizes:
                 <ul>
-                    <li>HTML, CSS, BoostStrap, and React for frontend desgin</li>
+                    <li>HTML, CSS, BoostStrap, and React for frontend design</li>
                     <li>JavaScript and HTML for basic user validation</li>
-                    <li>The Last FM API for song and artist informaiton</li>
-                    <li>Ticket Master API for artist tour data informaiton</li>
+                    <li>The Last FM API for song and artist information</li>
+                    <li>Ticket Master API for artist tour data information</li>
                     <li>JWT HS256 signatures for user state</li>
                     <li>Ruby on Rails and Postgres for the backend database and database validation</li>
                 </ul> 
