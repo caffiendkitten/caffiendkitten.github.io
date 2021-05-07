@@ -182,3 +182,16 @@ div.vertical-timeline .vertical-timeline-element--fun .vertical-timeline-element
     margin-bottom: 2px;
     outline: none;
 }
+
+
+/* Tableau Box */
+#viz1620176554951.tableauPlaceholder {
+    width: 1000px !important;
+    margin-top: 20px;
+    border: solid 1px  #040404;
+}
+.tableauPlaceholder iframe{
+    width: 1000px;
+    height: 827px; 
+    margin-right: 0;
+} 

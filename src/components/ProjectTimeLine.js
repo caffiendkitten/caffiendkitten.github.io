@@ -3,6 +3,11 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import IconPicker from '../docs/iconsList.js'
 
+import {
+    NavLink,
+} from "react-router-dom";
+
+
 class ProjectTimeLine extends Component {
    
 
@@ -151,6 +156,28 @@ class ProjectTimeLine extends Component {
                 <a href="https://github.com/caffiendkitten/3DPlant" className="projectsBlock-linksItem" target="_blank" rel="noopener noreferrer">https://github.com/caffiendkitten/3DPlant</a><br />
             </div>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+            className="vertical-timeline-element--fun"
+            date="March 13, 2018"
+            dateClassName="datess"
+
+            icon={<IconPicker iconName={"education2"} />}
+            >
+            <h4 className="vertical-timeline-element-subtitle">Seattle Crime Dashboard 2017: </h4>
+            <p>
+                A Tableau dashboard visualizing 2017 Seattle Crime data.
+            </p>
+            <div className="projectsBlock-links">
+                {/* <a href="https://public.tableau.com/profile/daneil.coulthard#!/vizhome/SeattleCrimeDashboard2017_0/Dashboard1" className="projectsBlock-linksItem" target="_blank" rel="noopener noreferrer">https://public.tableau.com/profile/daneil.coulthard#!/vizhome/SeattleCrimeDashboard2017_0/Dashboard1</a><br /> */}
+
+                <NavLink to="/TableauProject" className="projectsBlock-linksItem">
+                    Interactive Tableau Dashboard
+                </NavLink>
+                
+            </div>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2011 - 2015"

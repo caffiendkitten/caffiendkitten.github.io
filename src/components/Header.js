@@ -16,6 +16,8 @@ import Projects from '../containers/Projects.js'
 import ConsAndMeetups from '../containers/ConsAndMeetups.js'
 // import Resources from '../containers/Resources.js'
 import ErrorPage from '../containers/ErrorPage.js'
+import TableauProject from '../containers/Project-TableauContainer'
+
 
 // // const fetchURL = "https://dev.to/api/articles?username=caffiendkitten&page=1";
 // const username = "caffiendkitten";
@@ -89,6 +91,7 @@ class Header extends Component {
                 <Switch>
                     <Route  exact path ="/"  render={() => <Home  />} ></Route>
                     <Route path ="/Projects" exact render={() => <Projects  />} ></Route>
+                    <Route path ="/TableauProject" exact render={() => <TableauProject  />} ></Route>
                     <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
                     {/* <Route path ="/resume" exact render={() => <Resume  />} ></Route> */}
                     <Route path ="/blog" exact render={() => <Blog 

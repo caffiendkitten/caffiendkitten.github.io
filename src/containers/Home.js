@@ -16,7 +16,7 @@ const Home = () => {
                 </p>
  
                 <p>
-                    Currently <b>not seeking a position</b> in Information Security / Penetration Testing.
+                    Currently <b>not seeking a positions.</b>
                 </p>
 
 
