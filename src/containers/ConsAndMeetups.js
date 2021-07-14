@@ -20,7 +20,11 @@ const ConsAndMeetups = () => {
                             <h4><i className="icon">{<IconPicker iconName={"id-cardIcon"} />}</i> Conferences<p>(Online/In Person)</p></h4>
                             <div className="technicalSkills">
                                 <ul className="resourcesSide">
-                                    <li className="hum">BSides Seattle | October 17, 2019</li>
+                                    <li className="hum">GRIMM Con 0x5 | July 14, 2021</li>
+                                    <li className="hum">Cyber Security Summit: Seattle/Portland | June 23, 2021</li>
+                                    <li className="hum">GRIM Con | March 17, 2021</li>
+                                    <li className="hum">ZAP Con | March 9, 2021</li>
+                                    <li className="hum">BSides Seattle | October 17, 2020</li>
                                     <li className="hum">Cyber Security Summit: Seattle | October 9, 2020</li>
                                     <li className="hum"><a href="https://www.dianainitiative.org/" target="_blank" rel="noopener noreferrer" >The Diana Initiative</a> | August 21-22, 2020</li>
                                     <li className="hum">Hacktivity Con | August 1, 2020</li>
