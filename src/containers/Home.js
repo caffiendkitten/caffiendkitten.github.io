@@ -16,7 +16,7 @@ const Home = () => {
                 </p>
  
                 <p>
-                    Currently <b>not seeking a positions.</b>
+                    <b>Currently I am not seeking a new position.</b>
                 </p>
 
 
