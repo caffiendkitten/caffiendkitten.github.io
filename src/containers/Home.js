@@ -14,10 +14,6 @@ const Home = () => {
 
                 Motivated to continue learning, participate in CTFs, and be active within the InfoSec community and local tech meetups, such as the CyberSecurity Non-Profit (volunteer), WISP, WoSec, and OWASP.
                 </p>
- 
-                <p>
-                    <b>Currently I am not seeking a new position.</b>
-                </p>
 
 
                 <p className="connectWithMe">
