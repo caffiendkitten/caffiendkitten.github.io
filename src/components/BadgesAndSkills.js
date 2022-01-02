@@ -95,6 +95,7 @@ class Education extends React.Component {
                 <Loading />
                 :
                 <div className="eduCol">
+
                     <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
                     <div className="technicalSkills">
                     <ul>
@@ -103,20 +104,12 @@ class Education extends React.Component {
                         <li>Collaboration & Teamwork</li>
                         <li>Interpersonal Skills</li>
                         <li>Learns New Skills Quickly</li>
-                        <li>Strong Time Management and Organization Skills</li>
+                        <li>Strong Organization Skills</li>
                         <li>Works Well Under Pressure</li>
                     </ul>
                     </div>
                     <h4><i className="icon">{<IconPicker iconName={"computer2Icon"} />}</i> Technical Skills</h4>
                     <div className="technicalSkills">
-                        <p>Knowledge of:
-                            <ul>
-                                <li>Security Vulnerabilities and Remediation as Listed in OWASP</li>
-                                <li>Cybersecurity Compliance Regulations such as Cybersecurity Maturity Model Certification (CMMC), GDPR,  NIST Risk Management Framework (RMF), Sarbanes-Oxley Act (SOX)</li>
-                                <li>HTTP Protocols</li>
-                                <li>SSL Certificates</li>
-                            </ul>
-                        </p>
                         <p>Working knowledge of:
                             <ul>
                                 <li>Security tools such as Burp Suite, Nessus, Nmap, WireShark, etc.</li>
@@ -126,15 +119,43 @@ class Education extends React.Component {
                                 <li>Web Application Architecture</li>
                             </ul>
                         </p>
+
+                        <p>Knowledge of:
+                            <ul>
+                                <li>Security Vulnerabilities and Remediation as Listed in OWASP</li>
+                                <li>Cybersecurity Compliance Regulations such as Cybersecurity Maturity Model Certification (CMMC), GDPR,  NIST Risk Management Framework (RMF), Sarbanes-Oxley Act (SOX)</li>
+                                <li>HTTP Protocols</li>
+                                <li>SSL Certificates</li>
+                            </ul>
+                        </p>
+{/* 
+<p>
+                HTML/CSS        █████████████████▓░░░░░░░   70.29 % <br />
+                Java          ███████▓░░░░░░░░░░░░░░░░░   45.1  % <br />
+                JavaScript/React █████████████████▓░░░░░░░   70.29 % <br />
+                PHP              █████████████████▓░░░░░░░   70.29 % <br />
+                Python           █████████████████▓░░░░░░░   70.29 % <br />
+                Markdown         ██████████████▓░░░░░░░░░░   65.0  % <br />
+                Shell Scripting  ████████████▓░░░░░░░░░░░░   40.2  % <br /> 
+                Ruby on Rails    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.61 %  <br />
+                SQL              ██░░░░░░░░░░░░░░░░░░░░░░░   07.63 %  <br />
+                C#               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %  <br />
+      
+                </p> */}
+
+
+
                         <p>
-                            <b>Languages:</b> HTML5/CSS3, JavaScript, PHP, Python, React, Ruby on Rails, SQL <br />
-                            <b>Scripting:</b> Python, Bash
+                            <b>Languages:</b> HTML5/CSS3, JavaScript/React, PHP, Python, Ruby on Rails, Java, SQL <br />
+                            <b>Scripting:</b> Python, Bash <br />
                             <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
                             <b>Security Tools and Solutions:</b> Apache HTTP Server, Automation, Burp Suite, Content Filtering, Git, Github, Hydra, IPS/IDS, John the Ripper, MongoDB, OS Hardening, PKI, Proxies, Secure Software Development, Security Analysis, SQLMap, VPN, VSCode, WireShark, ZAP<br />
                             <b>Operating Systems:</b> Windows, Ubuntu, Mac OSx, Linux<br />
                             <b>Database:</b> PostgreSQL, MongoDB<br />
                             <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
                         </p>
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten" />
+
                     </div>
 
 

@@ -3,17 +3,33 @@ import Footer from "./Footer.js"
 
 const Home = () => {
     return <div className="content">
-                <h3>About Me</h3>
+                {/* <h3>About Me</h3> */}
         <div className="row">
             <div className="column left">
                 <p className="resourcesSide"></p>
             </div>
             
             <div className="column middle portfolio">
-                <p>Passionate Security Consultant and University graduate with IT BS and hundreds of classroom hours in Information Security and Penetration Testing. Experienced at leveraging automated and manual testing of web applications while utilizing industry-standard best practices and methodologies; such as OWASP WSTG, RFC BCP, and PTES. Enthusiastic about finding and fixing security vulnerabilities in web applications, performing responsible disclosure, and aligning security controls, processes, policies and procedures.
+                <p>
+                A security consultant who performs security assessments across a wide variety of applications, platforms, and operating systems.
+                </p>
 
+                <p>Passionate Security Consultant and University graduate with IT BS and hundreds of classroom hours in Information Security and Penetration Testing. Experienced at leveraging automated and manual testing of web applications while utilizing industry-standard best practices and methodologies; such as OWASP WSTG, RFC BCP, and PTES. Enthusiastic about finding and fixing security vulnerabilities in web applications, performing responsible disclosure, and aligning security controls, processes, policies and procedures.
+<br /><br />
                 Motivated to continue learning, participate in CTFs, and be active within the InfoSec community and local tech meetups, such as the CyberSecurity Non-Profit (volunteer), WISP, WoSec, and OWASP.
                 </p>
+
+
+                <p>
+                    <center>
+
+                    {/* ![DaNeil's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaNeil&count_private=true&theme=tokyonight&hide=contribs,prs) */}
+                     <img src="https://github-readme-stats.vercel.app/api?username=Caffiendkitten&custom_title=DaNeil's GitHub Stats&show_icons=true&count_private=true&title_color=0096b4&icon_color=0096b4&hide=contribs&border_color=000000" />
+
+                    </center>
+                </p>
+
+
 
 
                 <p className="connectWithMe">
