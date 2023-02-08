@@ -14,7 +14,7 @@ const Home = () => {
                 A security consultant who performs security assessments across a wide variety of applications, platforms, and operating systems.
                 </p>
 
-                <p>Passionate Security Consultant and University graduate with IT BS and hundreds of classroom hours in Information Security and Penetration Testing. Experienced at leveraging automated and manual testing of web applications while utilizing industry-standard best practices and methodologies; such as OWASP WSTG, RFC BCP, and PTES. Enthusiastic about finding and fixing security vulnerabilities in web applications, performing responsible disclosure, and aligning security controls, processes, policies and procedures.
+                <p>Passionate Security Consultant and University graduate with IT BS in Information Security and Penetration Testing. Experienced at leveraging automated and manual testing of web applications while utilizing industry-standard best practices and methodologies; such as OWASP WSTG, RFC BCP, and PTES. Enthusiastic about finding and fixing security vulnerabilities in web and mobile applications, performing responsible disclosure, and aligning security controls, processes, policies and procedures.
 <br /><br />
                 Motivated to continue learning, participate in CTFs, and be active within the InfoSec community and local tech meetups, such as the CyberSecurity Non-Profit (volunteer), WISP, WoSec, and OWASP.
                 </p>
