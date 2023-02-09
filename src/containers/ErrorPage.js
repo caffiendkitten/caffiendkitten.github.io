@@ -1,7 +1,7 @@
 import React from 'react'
 // import Footer from "./Footer.js"
 import '../CSS/ErrorPage.css';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 // import '../Scripts/ErrorPage.js'
 
 
