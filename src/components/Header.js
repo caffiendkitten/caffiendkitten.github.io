@@ -9,6 +9,7 @@ import {
 import Home from '../containers/Home.js'
 // import Resume from './Resume.js'
 import Blog from '../containers/Blog.js'
+import Experience from '../containers/Experience.js'
 import CTF from '../containers/CTF.js'
 import Badges from './BadgesAndSkills.js'
 import Education from './Education.js'
@@ -77,6 +78,7 @@ class Header extends Component {
                     <div  id="sidenav" className="sidenav" onClick={this.handleNav}>
                         <ul>
                             <li><Link to="/">Home</Link></li>
+                            <li><Link to="/experience">Work Experience</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/ctf">CTFs & Writeups</Link></li>
                             {/* <li><Link to="/resume">Resume</Link></li> */}
@@ -90,6 +92,7 @@ class Header extends Component {
                     </div>
                 <Switch>
                     <Route  exact path ="/"  render={() => <Home  />} ></Route>
+                    <Route path ="/Experience" exact render={() => <Experience  />} ></Route>
                     <Route path ="/Projects" exact render={() => <Projects  />} ></Route>
                     <Route path ="/TableauProject" exact render={() => <TableauProject  />} ></Route>
                     <Route path ="/ctf" exact render={() => <CTF  />} ></Route>

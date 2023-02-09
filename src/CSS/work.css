@@ -1,0 +1,24 @@
+.Company {
+  /* color: #a30000; */
+  font-weight: 600;
+  text-align: left;
+  /* display: inline-block; */
+  /* margin-left: 5px; */  
+  padding-top: 15px;
+  /* font-family: "Roboto", monospace; */
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+.work li {
+  text-align: left;
+  font-weight: 100;
+
+  vertical-align: top;
+  color: #0018a3;
+  margin-left: 50px;
+  /* font-family: "Roboto", monospace; */
+    font-family: Arial;
+
+}
