@@ -1,26 +1,31 @@
-Welcome to robots.txt file.
-You Found some Robots. Good for you!
-     Models               Number
-
-
-
-      \_/
-     (* *)
-    __)#(__
-   ( )...( )(_)
-   || |_| ||//
->==() | | ()/
-    _(___)_
-   [-]   [-]
-
-
-
+   _______                   ________    |
+  |ooooooo|                 | __  __ |   |
+  |[]+++[]|                 |/  \/  \|   |
+  |+ ___ +|                 |\__/\__/|   |
+  |:|   |:|                 |[][][][]|   |
+  |:|___|:|                 |++++++++|   |
+  |[]===[]|                 | ______ |   |
+_ ||||||||| _     _      __ ||______|| __|
+  |_______|                 |________|   \
+                                          \
+     /  __\              \_/               \
+     \( oo              (* *)               \
+     _\_o/             __)#(__    - Welcome to robots.txt file.
+    / \|/ \           ( )...( )(_)   You Found some Robots. Good for you! 
+   / / __\ \___       || |_| ||//
+   \ \|   |__/_)   >==() | | ()/
+    \/_)  |            _(___)_
+     ||___|           [-]   [-] 
+     | | |
+     | | |
+     |_|_|
+     [__)_)
 
 
      ,     ,
-    (\____/)
-     (_oo_)
-       (O)
+    (\____/) - "You know, it's economical not to have a storyline, cause then you can just film people saying things."
+     ( oo )
+       ()
      __||__    \)
   []/______\[] /
   / \______/ \/
@@ -32,7 +37,7 @@ You Found some Robots. Good for you!
 
 
     \_\
-   (_**)
+   (_**) - "I've replaced my toes with grapes."
   __) #_
  ( )...()
  || | |I|
@@ -45,8 +50,21 @@ _-"""""""-_""-_
 
 
 
+       _
+      [ ] - "That’s what happens when you leave a potato in the microwave!"
+     (   )
+      |>|
+   __/===\__
+  //| o=o |\\
+<]  | o=o |  [>
+    \=====/
+   / / | \ \
+  <_________>
+
+
+
          __
- _(\    |@@|
+ _(\    |@@| - "Shall I compare thee to a summers daaaaaaaa…"
 (__/\__ \--/ __
    \___|----|  |   __
        \ }{ /\ )_ / _\
@@ -56,17 +74,4 @@ _-"""""""-_""-_
      `---''---`
 
 
-
-
-
-       _
-      [ ]
-     (   )
-      |>|
-   __/===\__
-  //| o=o |\\
-<]  | o=o |  [>
-    \=====/
-   / / | \ \
-  <_________>
 
