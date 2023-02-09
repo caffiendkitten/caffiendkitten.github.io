@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49bb5036.css",
+    "main.js": "/static/js/main.52c3e85b.js",
+    "static/media/certs.csv": "/static/media/certs.2adf538f4f44426fbb52.csv",
+    "static/media/badges.csv": "/static/media/badges.fffb8e20a4ef49bcf6d7.csv",
+    "static/media/degrees.csv": "/static/media/degrees.e651a00d88206e0c50ed.csv",
+    "index.html": "/index.html",
+    "main.49bb5036.css.map": "/static/css/main.49bb5036.css.map",
+    "main.52c3e85b.js.map": "/static/js/main.52c3e85b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49bb5036.css",
+    "static/js/main.52c3e85b.js"
+  ]
+}
