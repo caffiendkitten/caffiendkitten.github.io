@@ -88,3 +88,6 @@ p.htb_line .htb_respect{
     opacity: 0.8;
 }
   
+.badgetable td{
+    width: 50%;
+}

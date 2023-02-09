@@ -79,13 +79,14 @@ class Header extends Component {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/experience">Work Experience</Link></li>
+                            <li><Link to="/Badges">Skills | Certs | Badges</Link></li>
+                            <li><Link to="/education">Ongoing Education</Link></li>
+                            {/* <li><Link to="/sideProjects">Side Projects</Link></li> */}
                             <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/ctf">CTFs & Writeups</Link></li>
                             {/* <li><Link to="/resume">Resume</Link></li> */}
                             <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/Badges">Skills | Certs | Badges</Link></li>
-                            <li><Link to="/education">Ongoing Education</Link></li>
-                            {/* <li><Link to="/sideProjects">Side Projects</Link></li> */}
+
                             <li><Link to="/consAndMeetups">Cons & Meetups</Link></li>
                             {/* <li><Link to="/resources">Information Resources</Link></li> */}
                         </ul>
@@ -93,6 +94,9 @@ class Header extends Component {
                 <Switch>
                     <Route  exact path ="/"  render={() => <Home  />} ></Route>
                     <Route path ="/Experience" exact render={() => <Experience  />} ></Route>
+                    <Route path ="/Badges" exact render={() => <Badges  />} ></Route>
+                    <Route path ="/education" exact render={() => <Education  />} ></Route>
+                    {/* <Route path ="/sideProjects" exact render={() => <SideProjects  />} ></Route> */}
                     <Route path ="/Projects" exact render={() => <Projects  />} ></Route>
                     <Route path ="/TableauProject" exact render={() => <TableauProject  />} ></Route>
                     <Route path ="/ctf" exact render={() => <CTF  />} ></Route>
@@ -104,9 +108,7 @@ class Header extends Component {
                                                             profile_image_90={this.props.profile_image_90}
                                                             done={this.props.done}
                                                              />} ></Route>
-                    <Route path ="/Badges" exact render={() => <Badges  />} ></Route>
-                    <Route path ="/education" exact render={() => <Education  />} ></Route>
-                    {/* <Route path ="/sideProjects" exact render={() => <SideProjects  />} ></Route> */}
+
                     <Route path ="/consAndMeetups" exact render={() => <ConsAndMeetups  />} ></Route>
                     {/* <Route path ="/resources" exact render={() => <Resources  />} ></Route> */}
                     <Route path='*' component={ErrorPage} />

@@ -95,81 +95,105 @@ class Education extends React.Component {
                 <Loading />
                 :
                 <div className="eduCol">
-
-                    <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
-                    <div className="technicalSkills">
-                    <ul>
-                        <li>Accountability</li>
-                        <li>Attention to Detail</li>
-                        <li>Collaboration & Teamwork</li>
-                        <li>Interpersonal Skills</li>
-                        <li>Learns New Skills Quickly</li>
-                        <li>Strong Organization Skills</li>
-                        <li>Works Well Under Pressure</li>
-                    </ul>
-                    </div>
-                    <h4><i className="icon">{<IconPicker iconName={"computer2Icon"} />}</i> Technical Skills</h4>
-                    <div className="technicalSkills">
-                        <p>Working knowledge of:
+                    <table className="badgetable">
+                    <tr>
+                        <td>
+                            <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
+                            <div className="technicalSkills">
                             <ul>
-                                <li>Security tools such as Burp Suite, Nessus, Nmap, WireShark, etc.</li>
-                                <li>Building and accessing databases with NoSQL and Node.js</li>
-                                <li>Common Developer Tools</li>
-                                <li>Git Version Control</li>
-                                <li>Web Application Architecture</li>
+                                <li>Accountability</li>
+                                <li>Adaptable</li>
+                                <li>Attention to Detail</li>
+                                <li>Collaboration & Teamwork</li>
+                                <li>Interpersonal Skills</li>
+                                <li>Mentoring of New Consultants</li>
+                                <li>Strong Organization Skills</li>
+                                <li>Works Well Under Pressure</li>
                             </ul>
-                        </p>
+                            </div>
+                        </td>
+             
+                        <td>
+                            <h4><i className="icon">{<IconPicker iconName={"computer2Icon"} />}</i> Technical Skills</h4>
+                            <div className="technicalSkills">
+                                {/* <p>Working knowledge of:
+                                    <ul>
+                                        <li>Common Security tools such as Burp Suite, Nessus, Nmap, SQLMap, WireShark, ZAProxy, etc.</li>
+                                        <li>Building and accessing databases with NoSQL and Node.js</li>
+                                        <li>Common Developer Tools</li>
+                                        <li>Git Version Control</li>
+                                        <li>Web Application Architecture</li>
+                                    </ul>
+                                </p>
 
-                        <p>Knowledge of:
+                                <p>Knowledge of:
+                                    <ul>
+                                        <li>Security Vulnerabilities and Remediation as Listed in OWASP</li>
+                                        <li>Cybersecurity Compliance Regulations such as Cybersecurity Maturity Model Certification (CMMC), GDPR,  NIST Risk Management Framework (RMF), Sarbanes-Oxley Act (SOX)</li>
+                                        <li>HTTP Protocols</li>
+                                        <li>SSL Certificates</li>
+                                    </ul>
+                                </p> */}
+        {
+
+        // Penetration Testing (Burp Suite, ZAP, WireShark, Hydra, SQLMap, Kali), HTML5/CSS3, JavaScript, PHP, Python, React, Ruby, SQL, Apache HTTP Server, Common Operating Systems (Windows, Ubuntu, Mac OSx, Linux), Knowledge of Security Vulnerabilities and Remediation as Listed in OWASP, Secure Software Development, and Automation.
+
+        /* 
+        <p>
+                        HTML/CSS        █████████████████▓░░░░░░░   70.29 % <br />
+                        Java          ███████▓░░░░░░░░░░░░░░░░░   45.1  % <br />
+                        JavaScript/React █████████████████▓░░░░░░░   70.29 % <br />
+                        PHP              █████████████████▓░░░░░░░   70.29 % <br />
+                        Python           █████████████████▓░░░░░░░   70.29 % <br />
+                        Markdown         ██████████████▓░░░░░░░░░░   65.0  % <br />
+                        Shell Scripting  ████████████▓░░░░░░░░░░░░   40.2  % <br /> 
+                        Ruby on Rails    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.61 %  <br />
+                        SQL              ██░░░░░░░░░░░░░░░░░░░░░░░   07.63 %  <br />
+                        C#               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %  <br />
+            
+                        </p> */}
+
+
+
+                                <p>
+                                    <b>Languages:</b> HTML5/CSS3, JavaScript/React, PHP, Python, Ruby on Rails, Java, SQL <br />
+                                    <b>Scripting:</b> Python, Bash <br />
+                                    <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
+                                    <b>Security Tools and Solutions:</b> Apache HTTP Server, Automation, Burp Suite, Content Filtering, Git, Github, Hydra, IPS/IDS, John the Ripper, MongoDB, OS Hardening, PKI, Proxies, Secure Software Development, Security Analysis, SQLMap, VPN, VSCode, WireShark, ZAP<br />
+                                    <b>Operating Systems:</b> Windows, Ubuntu, Mac OSx, Linux<br />
+                                    <b>Database:</b> PostgreSQL, MongoDB<br />
+                                    <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
+                                </p>
+                                
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4><i className="icon">{<IconPicker iconName={"certificateIcon"} />}</i> Certifications</h4>
+                            <div className="technicalSkills">
                             <ul>
-                                <li>Security Vulnerabilities and Remediation as Listed in OWASP</li>
-                                <li>Cybersecurity Compliance Regulations such as Cybersecurity Maturity Model Certification (CMMC), GDPR,  NIST Risk Management Framework (RMF), Sarbanes-Oxley Act (SOX)</li>
-                                <li>HTTP Protocols</li>
-                                <li>SSL Certificates</li>
+                                {/* <li><img src="http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-C2BEVSLY58.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</li>
+                                <li><img src="http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EWAZ16KOPS.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</li> */}
+                                <li><a href="https://certification.w3schools.com/w3certified.asp?email=1615177">
+                                <img src="Images/w3certified_logo.png" alt="W3Schools Certified"/><p>The HTML Developer Certificate, December 17, 2009</p></a></li>
                             </ul>
-                        </p>
-{/* 
-<p>
-                HTML/CSS        █████████████████▓░░░░░░░   70.29 % <br />
-                Java          ███████▓░░░░░░░░░░░░░░░░░   45.1  % <br />
-                JavaScript/React █████████████████▓░░░░░░░   70.29 % <br />
-                PHP              █████████████████▓░░░░░░░   70.29 % <br />
-                Python           █████████████████▓░░░░░░░   70.29 % <br />
-                Markdown         ██████████████▓░░░░░░░░░░   65.0  % <br />
-                Shell Scripting  ████████████▓░░░░░░░░░░░░   40.2  % <br /> 
-                Ruby on Rails    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.61 %  <br />
-                SQL              ██░░░░░░░░░░░░░░░░░░░░░░░   07.63 %  <br />
-                C#               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %  <br />
-      
-                </p> */}
+                                
+                            </div>
+                        </td>
+                        <td>
+                            <h4><i className="icon">{<IconPicker iconName={"computer3Icon"} />}</i> GitHub Top Used Languages</h4>
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten" />
+                        </td>
+                    </tr>
+                    </table>
+                    
+                    
 
 
 
-                        <p>
-                            <b>Languages:</b> HTML5/CSS3, JavaScript/React, PHP, Python, Ruby on Rails, Java, SQL <br />
-                            <b>Scripting:</b> Python, Bash <br />
-                            <b>Libraries/Frameworks:</b> React.js, Rails, jQuery, Bootstrap, JWT<br />
-                            <b>Security Tools and Solutions:</b> Apache HTTP Server, Automation, Burp Suite, Content Filtering, Git, Github, Hydra, IPS/IDS, John the Ripper, MongoDB, OS Hardening, PKI, Proxies, Secure Software Development, Security Analysis, SQLMap, VPN, VSCode, WireShark, ZAP<br />
-                            <b>Operating Systems:</b> Windows, Ubuntu, Mac OSx, Linux<br />
-                            <b>Database:</b> PostgreSQL, MongoDB<br />
-                            <b>Methodologies:</b> OWASP, PTES, OSSTMM (Open Source Security Testing Methodology Manual)<br />
-                        </p>
-                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten" />
-
-                    </div>
-
-
-
-                    <h4><i className="icon">{<IconPicker iconName={"certificateIcon"} />}</i> Certifications</h4>
-                    <div className="technicalSkills">
-                    <ul>
-                        {/* <li><img src="http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-C2BEVSLY58.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</li>
-                        <li><img src="http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EWAZ16KOPS.png" alt="W3Schools Certified"/>The HTML Developer Certificate, December 17, 2009</li> */}
-                        <li><a href="https://certification.w3schools.com/w3certified.asp?email=1615177">
-                        <img src="Images/w3certified_logo.png" alt="W3Schools Certified"/><p>The HTML Developer Certificate, December 17, 2009</p></a></li>
-                    </ul>
-                        
-                    </div>                                      
+                                                          
 
 
                     <h4><i className="icon">{<IconPicker iconName={"badgeIcon"} />}</i> Badges</h4>
