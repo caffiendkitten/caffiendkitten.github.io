@@ -1,13 +1,13 @@
 # My Github Pages Profile
 
-<p>
-    My name is DaNeil. I am a quality-driven security researcher and full stack software/security engineer with a passion for performing responsible disclosure, aligning security controls, processes, policies and procedures.<br />
-    I take pride in my passion for Information Security and am enthusiastic about finding security vulnerabilities.<br />
 
-    I am active within the CTF community and local tech meetup groups such as the CyberSecurity Non-Profit, WISP, WoSec, and OWASP.<br />
+My name is DaNeil. I am a quality-driven security researcher and full stack software/security engineer with a passion for performing responsible disclosure, aligning security controls, processes, policies and procedures.<br />    
+I take pride in my passion for Information Security and am enthusiastic about finding security vulnerabilities.
 
-    This site will be built around my progress and my process of getting into Info Sec. See it at <a href="https://caffiendkitten.github.io">caffiendkitten.github.io</a> 
-</p>
+I am active within the CTF community and local tech meetup groups such as the CyberSecurity Non-Profit, WISP, WoSec, and OWASP.<br />
+
+This site will be built around my progress and my process of getting into Info Sec. See it at <a href="https://caffiendkitten.github.io">caffiendkitten.github.io</a> 
+
 
 
 
