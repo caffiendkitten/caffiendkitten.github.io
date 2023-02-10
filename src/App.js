@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './CSS/App.css';
 import './CSS/Loading.css';
-import './CSS/work.css';
+import './CSS/WorkExperience.css';
 import './CSS/Nav.css';
 import './CSS/Social.css';
 import './CSS/Glitch.css';

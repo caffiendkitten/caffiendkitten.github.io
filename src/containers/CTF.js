@@ -13,7 +13,7 @@ const CTF = () => {
             
             <div className="column middle projects">
             <table>
-                <tr>
+            <tbody><tr>
                     <td><h4><i className="icon">{<IconPicker iconName={"computerBugIcon"} />}</i> CTF Participation</h4></td>
                     <td><h4><i className="icon">{<IconPicker iconName={"writeupIcon"} />}</i> CTF Writeups</h4></td>
                 </tr>
@@ -121,7 +121,7 @@ const CTF = () => {
                             <a href="https://dev.to/caffiendkitten/0x00sec-ctf-exercise-1-5dgd" target="_blank" rel="noopener noreferrer" >Exercise #1</a><br />
                         </p>                       
                     </td>
-                </tr>
+                </tr></tbody>
             </table>
 
 

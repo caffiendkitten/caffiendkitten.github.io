@@ -95,7 +95,7 @@ class Education extends React.Component {
                 <Loading />
                 :
                 <div className="eduCol">
-                    <table className="badgetable">
+                    <table className="badgetable"><tbody>
                     <tr>
                         <td>
                             <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
@@ -187,6 +187,7 @@ class Education extends React.Component {
                             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten" />
                         </td>
                     </tr>
+                    </tbody>
                     </table>
                     
                     

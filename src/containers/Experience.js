@@ -11,7 +11,7 @@ function Experience(props) {
                 <p className="resourcesSide"></p>
             </div>
         
-            <div className="column middle">
+            <div className="column middle workz">
             <ul>
                 <li className="Company">NCC Group: Security Consultant — April 2021 - Feb 2023</li>
                     <ul className="work">
@@ -22,7 +22,7 @@ function Experience(props) {
                     </ul>
                 <li className="Company">Independent Security Engineer / Penetration Tester — 2020 - April 2021
                     <ul className="work">
-                        <li> Researched and built a home server for isolated testing, and documented the process. (See Portfolio)</li>
+                        <li> Researched and built a home server for isolated testing, and documented the process. (See <a href="https://caffiendkitten.github.io/#/projects">Projects Page</a>)</li>
                         <li> Completed CompTIA Sec+ and Network+ training course and Udemy training courses on Python, Ethical Hacking.</li>
                         <li> Participated in various bug bounty programs to find web application vulnerabilities affecting companies and performing responsible vulnerability disclosure.</li>
                         <li> Participated in CTF competitions and Conferences.</li>

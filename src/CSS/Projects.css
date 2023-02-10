@@ -195,3 +195,19 @@ div.vertical-timeline .vertical-timeline-element--fun .vertical-timeline-element
     height: 827px; 
     margin-right: 0;
 } 
+
+
+/* edits to fix formatting */
+.projectList{
+    /* font-size: 20px; */
+    /* padding-left: 15px; */
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1rem;
+}
+.projectList2 {
+    font-weight: bold;
+}
+.projectList ul{
+    padding-left: 27px;;
+}

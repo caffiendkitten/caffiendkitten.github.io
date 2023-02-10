@@ -51,8 +51,9 @@ const ConsAndMeetups = () => {
                                     <li className="hum">BSides Seattle | February 23, 2019</li>
                                     <li className="hum">Women in Cloud Summit | January 26, 2019</li>
                                 </ul>
-                                <table>
+                                <table><tbody>
                                     <tr><td><ul><li className="hum">Human</li></ul></td><td><ul><li className="vul">Volunteer</li></ul></td></tr>
+                                    </tbody>
                                 </table>                        
                             </div>                            
                         </td>

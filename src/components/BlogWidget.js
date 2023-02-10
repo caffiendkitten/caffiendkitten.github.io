@@ -4,7 +4,7 @@ import Loading from '../containers/Loading'
 let SingleArticle = ""
 let articleGroup = []
 let articleList = document.getElementsByClassName("cardzContent")
-const avgWordsPerMin = 250;
+// const avgWordsPerMin = 250;
 
 
 class DevCard extends React.Component {
@@ -53,7 +53,7 @@ class DevCard extends React.Component {
          let comments_count = dataz[i].comments_count;
          let published_timestamp = dataz[i].published_timestamp;
          let tag_list = dataz[i].tag_list;
-         let wordz = dataz[i].word_count;
+         let wordz = dataz[i].reading_time_minutes;
 
 
          SingleArticle = <a href={articleURL} target="_blank"  rel="noopener noreferrer"  className="article-card">
@@ -87,8 +87,8 @@ class DevCard extends React.Component {
 
    
    setReadingTime(count){
-      let time = Math.ceil(count / avgWordsPerMin);
-      return <div className="reading_time">{time} min read</div>
+      // let time = Math.ceil(count / avgWordsPerMin);
+      return <div className="reading_time">{count} min read</div>
       
       // <div className="reading_time">
       //    <details>

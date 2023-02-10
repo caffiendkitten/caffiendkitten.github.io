@@ -20,14 +20,14 @@ const Home = () => {
                 </p>
 
 
-                <p>
-                    <center>
+                <span><center>
+                    
 
                     {/* ![DaNeil's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaNeil&count_private=true&theme=tokyonight&hide=contribs,prs) */}
                      <img src="https://github-readme-stats.vercel.app/api?username=Caffiendkitten&custom_title=DaNeil's GitHub Stats&show_icons=true&count_private=true&title_color=0096b4&icon_color=0096b4&hide=contribs&border_color=000000" />
 
-                    </center>
-                </p>
+                    
+                </center></span>
 
 
 

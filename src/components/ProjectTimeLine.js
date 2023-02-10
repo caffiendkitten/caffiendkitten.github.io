@@ -79,8 +79,8 @@ class ProjectTimeLine extends Component {
             <p>
                 Full-stack web application allowing users to create individual groups of credentials, create unique and secure passwords, and save passwords for later use.
             </p>
-            <p>
-                Utilizes:
+            <div className="projectList">
+                <span className="projectList2">Utilizes:</span>
                 <ul>
                     <li>HTML, CSS, and React for frontend desgin</li>
                     <li>Cryptr AES-256-CTR encryption/decryption of user credential group data</li>
@@ -89,7 +89,7 @@ class ProjectTimeLine extends Component {
                     <li>JWT HS256 signatures for user state</li>
                     <li>Ruby on Rails and Postgres for the backend database and database validation</li>
                 </ul> 
-            </p> 
+            </div> 
             <div className="projectsBlock-links">
                 <a href="https://flatiron-passwordmanager.netlify.app/" className="projectsBlock-linksItem" target="_blank" rel="noopener noreferrer" >https://flatiron-passwordmanager.netlify.app/</a><br />
                 <a href="https://github.com/caffiendkitten/Final-Project-Backend" className="projectsBlock-linksItem" target="_blank" rel="noopener noreferrer" >Backend Repository</a><br />
@@ -107,8 +107,8 @@ class ProjectTimeLine extends Component {
             <p>
                 A full-stack web application that allows users to search for artists by name or location and allows users to create and save favorite songs to their own account.
             </p>
-            <p>
-                Utilizes:
+            <div className="projectList">
+                <span className="projectList2">Utilizes:</span>
                 <ul>
                     <li>HTML, CSS, BoostStrap, and React for frontend design</li>
                     <li>JavaScript and HTML for basic user validation</li>
@@ -117,7 +117,7 @@ class ProjectTimeLine extends Component {
                     <li>JWT HS256 signatures for user state</li>
                     <li>Ruby on Rails and Postgres for the backend database and database validation</li>
                 </ul> 
-            </p>
+            </div>
             <div className="projectsBlock-links">
                 <a href="https://the-final-fm.herokuapp.com" className="projectsBlock-linksItem" target="_blank" rel="noopener noreferrer" >https://the-final-fm.herokuapp.com</a><br />
             </div>
