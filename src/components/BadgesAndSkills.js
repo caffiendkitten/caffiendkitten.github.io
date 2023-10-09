@@ -97,23 +97,7 @@ class Education extends React.Component {
                 <div className="eduCol">
                     <table className="badgetable"><tbody>
                     <tr>
-                        <td>
-                            <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
-                            <div className="technicalSkills">
-                            <ul>
-                                <li>Accountability</li>
-                                <li>Adaptable</li>
-                                <li>Attention to Detail</li>
-                                <li>Collaboration & Teamwork</li>
-                                <li>Interpersonal Skills</li>
-                                <li>Mentoring of New Consultants</li>
-                                <li>Strong Organization Skills</li>
-                                <li>Works Well Under Pressure</li>
-                            </ul>
-                            </div>
-                        </td>
-             
-                        <td>
+                    <td>
                             <h4><i className="icon">{<IconPicker iconName={"computer2Icon"} />}</i> Technical Skills</h4>
                             <div className="technicalSkills">
                                 {/* <p>Working knowledge of:
@@ -134,24 +118,7 @@ class Education extends React.Component {
                                         <li>SSL Certificates</li>
                                     </ul>
                                 </p> */}
-        {
-
-        // Penetration Testing (Burp Suite, ZAP, WireShark, Hydra, SQLMap, Kali), HTML5/CSS3, JavaScript, PHP, Python, React, Ruby, SQL, Apache HTTP Server, Common Operating Systems (Windows, Ubuntu, Mac OSx, Linux), Knowledge of Security Vulnerabilities and Remediation as Listed in OWASP, Secure Software Development, and Automation.
-
-        /* 
-        <p>
-                        HTML/CSS        █████████████████▓░░░░░░░   70.29 % <br />
-                        Java          ███████▓░░░░░░░░░░░░░░░░░   45.1  % <br />
-                        JavaScript/React █████████████████▓░░░░░░░   70.29 % <br />
-                        PHP              █████████████████▓░░░░░░░   70.29 % <br />
-                        Python           █████████████████▓░░░░░░░   70.29 % <br />
-                        Markdown         ██████████████▓░░░░░░░░░░   65.0  % <br />
-                        Shell Scripting  ████████████▓░░░░░░░░░░░░   40.2  % <br /> 
-                        Ruby on Rails    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.61 %  <br />
-                        SQL              ██░░░░░░░░░░░░░░░░░░░░░░░   07.63 %  <br />
-                        C#               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %  <br />
-            
-                        </p> */}
+         {/* // Penetration Testing (Burp Suite, ZAP, WireShark, Hydra, SQLMap, Kali), HTML5/CSS3, JavaScript, PHP, Python, React, Ruby, SQL, Apache HTTP Server, Common Operating Systems (Windows, Ubuntu, Mac OSx, Linux), Knowledge of Security Vulnerabilities and Remediation as Listed in OWASP, Secure Software Development, and Automation. */}
 
 
 
@@ -168,6 +135,23 @@ class Education extends React.Component {
 
                             </div>
                         </td>
+                        <td>
+                            <h4><i className="icon">{<IconPicker iconName={"handShakeIcon"} />}</i> Soft Skills</h4>
+                            <div className="technicalSkills">
+                            <ul>
+                                <li>Accountability</li>
+                                <li>Adaptable</li>
+                                <li>Attention to Detail</li>
+                                <li>Collaboration & Teamwork</li>
+                                <li>Interpersonal Skills</li>
+                                <li>Mentoring of New Consultants</li>
+                                <li>Strong Organization Skills</li>
+                                <li>Works Well Under Pressure</li>
+                            </ul>
+                            </div>
+                        </td>
+             
+                       
                     </tr>
                     <tr>
                         <td>
@@ -184,7 +168,7 @@ class Education extends React.Component {
                         </td>
                         <td>
                             <h4><i className="icon">{<IconPicker iconName={"computer3Icon"} />}</i> GitHub Top Used Languages</h4>
-                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten" />
+                            <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten&size_weight=0.5&count_weight=0.5&title_color=0096b4&icon_color=0096b4&hide=contribs&border_color=000000&langs_count=20&layout=compact&card_width=320" />
                         </td>
                     </tr>
                     </tbody>

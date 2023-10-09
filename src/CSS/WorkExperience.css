@@ -3,7 +3,7 @@
   /* color: #a30000; */
   text-align: left;
   font-size: 18px; 
-  font-weight: 600;
+  font-weight: bold;
   margin-left: 10px;  
   padding-top: 15px;
   padding-bottom: 2px;
@@ -11,17 +11,26 @@
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-.work li {
-  /* color: #0018a3; */
+.work li, .title .work li {
+  color: #000000;
   text-align: left;
-  font-weight: 100;
+  font-weight: normal;
   font-size: 18px; 
 
   vertical-align: top;
   margin-left: 40px;
   font-family: Arial;
 }
+.title{
+  /* color: red; */
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px; 
 
+  vertical-align: top;
+  margin-left: 40px;
+  font-family: Arial;
+}
 .workz{
   background-color: rgba(102, 102, 102, 0.247);
 }
