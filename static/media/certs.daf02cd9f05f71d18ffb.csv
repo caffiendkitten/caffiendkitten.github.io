@@ -1,28 +1,28 @@
 CertificationName,CertificationAuthority,LicenseNum,Compleated,Experation,HoursTowardsCPECEUs,img
 Web Fundamentals Path Certificate,Try Hack Me,THM-C2BEVSLY58,"Mar 11, 2021",X,37,http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-C2BEVSLY58.png
 Complete Beginner Path Certificate,Try Hack Me,THM-EWAZ16KOPS,"Mar 11, 2021",X,64,http://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-EWAZ16KOPS.png
-Windows Exploit Development Megaprimer,Stack Skills,,"Sept 14, 2020",X,4,
-Information Security Certification,FreeCodeCamp,,"Sept 14, 2020",X,300,
-ICSI | CNSS Certified Network Security Specialist,"ICSI, UK (International CyberSecurity Institute)",20485416,"July 10, 2020",X,,
-CompTIA Network+ Certification Course,NexGenT,,"June 23, 2020",X,50,
-Active Countermeasures Network CyberThreat Hunting Training Level 1,Active Countermeasures,,"January 22, 2020",X,1,
+Windows Exploit Development Megaprimer,Stack Skills,,"Sept 14, 2020",X,4,NA
+Information Security Certification,FreeCodeCamp,,"Sept 14, 2020",X,300,NA
+ICSI | CNSS Certified Network Security Specialist,"ICSI, UK (International CyberSecurity Institute)",20485416,"July 10, 2020",X,,NA
+CompTIA Network+ Certification Course,NexGenT,,"June 23, 2020",X,50,NA
+Active Countermeasures Network CyberThreat Hunting Training Level 1,Active Countermeasures,,"January 22, 2020",X,1,NA
 Phishing,Cyberary,CC-325ae9b2-2556-47d0-944b-40b20c2ced0a,"January 16, 2020",X,2,https://app.cybrary.it/courses/api/certificate/CC-325ae9b2-2556-47d0-944b-40b20c2ced0a/view
 How to Use hping3 (BSWJ),Cyberary,CC-3bf75646-dd58-489b-a0b2-d8ddd2a9edaf,"November 26, 2019",X,0,https://app.cybrary.it/courses/api/certificate/CC-3bf75646-dd58-489b-a0b2-d8ddd2a9edaf/view
-"Learn Burp Suite, the Nr. 1 Web Hacking Tool",Udemy,,"November 21, 2019",X,2,
+"Learn Burp Suite, the Nr. 1 Web Hacking Tool",Udemy,,"November 21, 2019",X,2,NA
 "Programming with Python : HandsOn Introduction for Beginners",Udemy,UC-GU37Z959,"November 20, 2019",X,3.5,https://udemy-certificate.s3.amazonaws.com/image/UC-GU37Z959.jpg?v=1574275398000
 PHP Programming Basics,Udemy,UC-RVDF3113,"November 15, 2019",X,2.5,https://udemy-certificate.s3.amazonaws.com/image/UC-RVDF3113.jpg?v=1573845549000
 Free CCNA Security 210-260 Course: All About VPNs,Udemy,UC-4QH4W1UG,"November 15, 2019",X,1,https://udemy-certificate.s3.amazonaws.com/image/UC-4QH4W1UG.jpg?v=1573843116000
-Responsive Web Design,FreeCodeCamp,,"November 11, 2019",X,300,
-The Complete Hacking Course: Go From Beginner to Advanced!,Stack Skills,,"November 11, 2019",X,25,
-Javascript,SoloLearn,1024-2178107,October 2019,X,,
-Cross Site Scripting(XSS) Attacks for Pentesters,Stack Skills,,March 2019,X,1.5,
-Pre Immersive SSP,Hack Reactor/Galvanize,,Jan 2019,X,15,
+Responsive Web Design,FreeCodeCamp,,"November 11, 2019",X,300,NA
+The Complete Hacking Course: Go From Beginner to Advanced!,Stack Skills,,"November 11, 2019",X,25,NA
+Javascript,SoloLearn,1024-2178107,October 2019,X,,NA
+Cross Site Scripting(XSS) Attacks for Pentesters,Stack Skills,,March 2019,X,1.5,NA
+Pre Immersive SSP,Hack Reactor/Galvanize,,Jan 2019,X,15,NA
 Mobile Cybersecurity Awareness,Udemy,UC-0NZEKNKY,Jan 2019,X,0.4,https://udemy-certificate.s3.amazonaws.com/image/UC-0NZEKNKY.jpg?v=1548292704000
-Practical JavaScript,Watch and Code,,Dec 2018,X,,
-Ultimate WiFi Hacking & Security Series,Stack Skills,,Dec 2018,X,3,
-Intro to Javascript,Udacity,,November 2018,X,3,
+Practical JavaScript,Watch and Code,,Dec 2018,X,,NA
+Ultimate WiFi Hacking & Security Series,Stack Skills,,Dec 2018,X,3,NA
+Intro to Javascript,Udacity,,November 2018,X,3,NA
 Hacking Academy: How to Monitor & Intercept Transmitted Data,Udemy,UC-7U6WE2BH,Oct 2018,X,1.5,https://udemy-certificate.s3.amazonaws.com/image/UC-7U6WE2BH.jpg?v=1539580225000
-SQL Bootcamp,General Assembly Seattle,,March 2018,X,4,
-Intro to Data Analytics,General Assembly Seattle,,March 2018,X,2,
+SQL Bootcamp,General Assembly Seattle,,March 2018,X,4,NA
+Intro to Data Analytics,General Assembly Seattle,,March 2018,X,2,NA
 Introduction to Python Programming,Udemy,UC-709455HQ,March 2018,X,4.5,https://udemy-certificate.s3.amazonaws.com/image/UC-709455HQ.jpg?v=1520570132000
-Python for Data 1,General Assembly Seattle,,January 2018,X,1,
+Python for Data 1,General Assembly Seattle,,January 2018,X,1,NA
