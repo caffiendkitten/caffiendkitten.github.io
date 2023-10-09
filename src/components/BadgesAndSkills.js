@@ -168,7 +168,7 @@ class Education extends React.Component {
                         </td>
                         <td>
                             <h4><i className="icon">{<IconPicker iconName={"computer3Icon"} />}</i> GitHub Top Used Languages</h4>
-                            <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten&size_weight=0.5&count_weight=0.5&title_color=0096b4&icon_color=0096b4&hide=contribs&border_color=000000&langs_count=20&layout=compact&card_width=320" />
+                            <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caffiendkitten&size_weight=0.5&count_weight=0.5&title_color=0096b4&icon_color=0096b4&hide=contribs&border_color=000000&langs_count=20&layout=compact&card_width=320" alt="githug languages" />
                         </td>
                     </tr>
                     </tbody>

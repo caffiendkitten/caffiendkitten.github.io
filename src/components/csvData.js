@@ -25,7 +25,7 @@ class CSVtable extends React.Component {
           const { CertificationName, CertificationAuthority, LicenseNum, Compleated, Experation, HoursTowardsCPECEUs,img } = cert //destructuring
           return (
              <tr key={index}>
-                <td><img src={img}/>
+                <td>{img === "NA" ? '' : <img src={img} alt={CertificationName} />}
                 <p>{CertificationName}</p></td>
                 <td>{CertificationAuthority}</td>
                 <td>{LicenseNum}</td>

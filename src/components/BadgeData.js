@@ -24,7 +24,7 @@ class BADGEtable extends React.Component {
          const { BadgeName,BadgeAuthority,BadgeNum,Compleated,Image} = edus //destructuring
          return (
             <tr key={index}>
-               <td><img src={Image}/><br />{BadgeName}</td>
+               <td><img src={Image} alt={BadgeName}/><br />{BadgeName}</td>
                <td>{BadgeAuthority}</td>
                <td>{BadgeNum}</td>
                <td>{Compleated}</td>
