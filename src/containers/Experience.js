@@ -12,7 +12,7 @@ function Experience(props) {
             <div className="column middle workz">
             <ul>
                 <li className="Company">ISE (Independent Security Evaluators): March 2023 — current</li>
-                <li className="title">Title: Security Analyst/Consultant</li>
+                <li className="title">Title: Mid Level Security Analyst I</li>
                 <li className="title">Role:
                     <ul className="work">
                         <li>Performed and led security assessments for small and larger Fortune 500 companies to identify vulnerabilities, audit for regulatory compliance, and improve security posture based on client needs.</li>
